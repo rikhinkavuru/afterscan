@@ -4,7 +4,9 @@ import { ExtractionWire, toContext, toFinding, type ExtractionWireT } from "./sc
 import { EXTRACT_SYSTEM, extractUserPrompt } from "./prompt";
 import type { Finding, ReportContext } from "@/lib/engine/types";
 
-export const EXTRACT_MODEL = process.env.EXTRACT_MODEL ?? "claude-sonnet-5-5";
+export const EXTRACT_MODEL = process.env.EXTRACT_MODEL ?? "claude-opus-5-5";
+/** Thinking is always on for the 5.5 models; effort is the cost/latency lever. */
+export const EXTRACT_EFFORT = (process.env.EXTRACT_EFFORT ?? "medium") as "low" | "medium" | "high" | "xhigh" | "max";
 
 /** Below this, a finding is shown but flagged "needs a human check". */
 export const CONFIDENCE_GATE = 0.6;
@@ -70,7 +72,7 @@ export function postProcess(report: string, raw: ExtractionWireT, model: string,
   return { isRadiologyReport: raw.isRadiologyReport, context: toContext(raw.context), findings, excluded: raw.excluded, model, ms, usage };
 }
 
-export async function extractReport(report: string, opts: { model?: string } = {}): Promise<ExtractResult> {
+export async function extractReport(report: string, opts: { model?: string; effort?: typeof EXTRACT_EFFORT } = {}): Promise<ExtractResult> {
   const model = opts.model ?? EXTRACT_MODEL;
   const t0 = Date.now();
   const { output, usage } = await generateText({
@@ -78,8 +80,9 @@ export async function extractReport(report: string, opts: { model?: string } = {
     system: EXTRACT_SYSTEM,
     prompt: extractUserPrompt(report),
     output: Output.object({ schema: ExtractionWire }),
-    temperature: 0,
-    maxOutputTokens: 4000,
+    // Thinking counts toward the output limit even though it is not returned.
+    maxOutputTokens: 16000,
+    providerOptions: { anthropic: { effort: opts.effort ?? EXTRACT_EFFORT } },
   });
   return postProcess(report, output, model, Date.now() - t0, {
     inputTokens: usage?.inputTokens,

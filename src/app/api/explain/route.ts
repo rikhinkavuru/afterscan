@@ -15,8 +15,10 @@ export async function POST(req: Request) {
     model: anthropic(process.env.EXPLAIN_MODEL ?? "claude-sonnet-5-5"),
     system: EXPLAIN_SYSTEM,
     prompt: `REPORT START\n${parsed.data.report}\nREPORT END\n\nExplain this report to the patient.`,
-    temperature: 0.2,
-    maxOutputTokens: 700,
+    // Adaptive thinking is always on and counts toward the limit; low effort keeps the stream snappy.
+    maxOutputTokens: 8000,
+    providerOptions: { anthropic: { effort: "low" } },
+    onError: ({ error }) => console.error("explain stream error", error),
   });
   return result.toTextStreamResponse();
 }
