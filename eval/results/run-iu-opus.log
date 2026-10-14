@@ -1,0 +1,24 @@
+......................................................................
+{
+ "split": "iu",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "n": 70,
+ "errors": 0,
+ "latencyMsMean": 5100,
+ "latencyMsP90": 8077,
+ "outputTokensMean": 576,
+ "positiveMention": {
+  "tp": 36,
+  "fp": 1,
+  "fn": 2,
+  "tn": 31,
+  "precision": 0.973,
+  "recall": 0.947
+ },
+ "benignHandled": {
+  "n": 16,
+  "noPlanIssued": 16
+ },
+ "anyFollowUpOnRealXray": []
+}

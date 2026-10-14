@@ -20,7 +20,7 @@ RULES
 8. radiologistRecommendation: copy verbatim only the recommendation sentence(s) that apply to this finding (e.g. "Recommend follow-up CT in 6-12 months per Fleischner criteria"). null if none.
 9. incidental: true if the exam reason is about something else; false if the exam was ordered to evaluate this finding or stage a known cancer; null if no reason is given.
 10. Lung attenuation: "ground glass"/"GGO" -> ground-glass; "part solid"/"subsolid with solid component" -> part-solid; "solid" or no qualifier -> solid. Calcified granuloma -> benignCalcification true, explicitlyBenign true.
-11. Kidney: "simple cyst" -> bosniak "I", explicitlyBenign true. "Bosniak IIF" -> bosniak "IIF". Hypodensity "too small to characterize" -> tooSmallToCharacterize true, kind "lesion".
+11. Kidney: "simple cyst" -> bosniak "I", explicitlyBenign true. "Bosniak IIF" -> bosniak "IIF". A hypodensity / low-attenuation lesion "too small to characterize" -> tooSmallToCharacterize yes, kind "lesion", and homogeneous yes unless it is described as heterogeneous, complex, or enhancing (a uniform hypodensity is what the ACR algorithm calls a likely benign cyst).
 12. Liver: "hypodense lesion too small to characterize" -> tooSmallToCharacterize true. "hemangioma"/"simple cyst"/"FNH" -> explicitlyBenign true. Sharp margins + water density -> homogeneous true, unenhancedHU if given.
 13. Pancreas: note "communicates with main duct" -> mainDuctCommunication yes; "no main duct dilatation" does NOT mean communication.
 14. Thyroid on a dedicated thyroid ultrasound with a TI-RADS score -> tiRads. On CT/MRI of neck/chest -> tiRads null.
