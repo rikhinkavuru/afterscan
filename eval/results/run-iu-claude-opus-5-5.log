@@ -5,16 +5,16 @@
  "effort": "medium",
  "n": 70,
  "errors": 0,
- "latencyMsMean": 5211,
- "latencyMsP90": 7938,
- "outputTokensMean": 559,
+ "latencyMsMean": 4958,
+ "latencyMsP90": 7390,
+ "outputTokensMean": 574,
  "positiveMention": {
-  "tp": 37,
+  "tp": 38,
   "fp": 0,
-  "fn": 2,
+  "fn": 1,
   "tn": 31,
   "precision": 1,
-  "recall": 0.949
+  "recall": 0.974
  },
  "benignHandled": {
   "n": 17,

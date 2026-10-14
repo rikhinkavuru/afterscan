@@ -5,9 +5,9 @@
  "effort": "medium",
  "n": 123,
  "errors": 0,
- "latencyMsMean": 4208,
- "latencyMsP90": 5683,
- "outputTokensMean": 727,
+ "latencyMsMean": 4272,
+ "latencyMsP90": 5314,
+ "outputTokensMean": 726,
  "findingRecall": 1,
  "findingPrecision": 1,
  "quoteVerifiedRate": 1,
@@ -32,11 +32,11 @@
   "n": 26
  },
  "planStatusAgreement": {
-  "acc": 0.992,
+  "acc": 1,
   "n": 119
  },
  "planFirstStepAgreement": {
-  "acc": 0.992,
+  "acc": 1,
   "n": 119
  },
  "negatives": {
@@ -132,15 +132,9 @@
   },
   "multi": {
    "n": 8,
-   "planOk": 17,
+   "planOk": 18,
    "planN": 18
   }
  },
- "disagreements": [
-  {
-   "id": "syn-109",
-   "expected": "no-follow-up",
-   "got": "follow-up"
-  }
- ]
+ "disagreements": []
 }

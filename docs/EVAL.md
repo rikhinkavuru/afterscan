@@ -12,10 +12,10 @@ Generated 2026-10-14 by `npx tsx eval/report.mts`. Raw per-case records are in `
 
 | split | model | effort | recall | precision | quote verified | size | attenuation | Bosniak | benign flag | multiplicity | plan status agreement | first-step agreement | false alarms on negatives | non-reports flagged | mean latency | p90 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| synthetic-paraphrased | claude-opus-5-5 | medium | 100.0% | 100.0% | 100.0% | 100.0% (n=119) | 100.0% (n=41) | 100.0% (n=19) | 100.0% (n=31) | 100.0% (n=26) | 99.2% (n=119) | 99.2% (n=119) | 0/12 | 0/2 | 6.3 s | 8.8 s |
-| synthetic-paraphrased | claude-sonnet-5-5 | medium | 100.0% | 100.0% | 100.0% | 100.0% (n=119) | 100.0% (n=41) | 100.0% (n=19) | 100.0% (n=31) | 100.0% (n=26) | 98.3% (n=119) | 98.3% (n=119) | 0/12 | 0/2 | 4.5 s | 6.2 s |
-| synthetic | claude-opus-5-5 | medium | 100.0% | 100.0% | 100.0% | 100.0% (n=119) | 100.0% (n=41) | 100.0% (n=19) | 100.0% (n=31) | 100.0% (n=26) | 99.2% (n=119) | 99.2% (n=119) | 0/14 | 2/2 | 6.2 s | 8.8 s |
-| synthetic | claude-sonnet-5-5 | medium | 100.0% | 100.0% | 100.0% | 100.0% (n=119) | 100.0% (n=41) | 100.0% (n=19) | 100.0% (n=31) | 100.0% (n=26) | 99.2% (n=119) | 99.2% (n=119) | 0/14 | 2/2 | 4.2 s | 5.7 s |
+| synthetic-paraphrased | claude-opus-5-5 | medium | 100.0% | 100.0% | 100.0% | 100.0% (n=119) | 100.0% (n=41) | 100.0% (n=19) | 100.0% (n=31) | 100.0% (n=26) | 100.0% (n=119) | 100.0% (n=119) | 0/12 | 0/2 | 6.3 s | 9.0 s |
+| synthetic-paraphrased | claude-sonnet-5-5 | medium | 100.0% | 100.0% | 100.0% | 100.0% (n=119) | 100.0% (n=41) | 100.0% (n=19) | 100.0% (n=31) | 100.0% (n=26) | 100.0% (n=119) | 100.0% (n=119) | 0/12 | 0/2 | 4.5 s | 5.8 s |
+| synthetic | claude-opus-5-5 | medium | 100.0% | 100.0% | 100.0% | 100.0% (n=119) | 100.0% (n=41) | 100.0% (n=19) | 100.0% (n=31) | 100.0% (n=26) | 100.0% (n=119) | 100.0% (n=119) | 0/14 | 2/2 | 6.0 s | 8.5 s |
+| synthetic | claude-sonnet-5-5 | medium | 100.0% | 100.0% | 100.0% | 100.0% (n=119) | 100.0% (n=41) | 100.0% (n=19) | 100.0% (n=31) | 100.0% (n=26) | 100.0% (n=119) | 100.0% (n=119) | 0/14 | 2/2 | 4.3 s | 5.3 s |
 
 ## Real chest X-ray reports (iu)
 
@@ -23,23 +23,23 @@ The task on real reports is narrower, because chest X-rays cannot size nodules f
 
 | model | effort | positive-mention precision | recall | tp/fp/fn/tn | benign granulomas: no plan issued | X-ray reports given a follow-up plan | mean latency |
 |---|---|---|---|---|---|---|---|
-| claude-opus-5-5 | medium | 100.0% | 94.9% | 37/0/2/31 | 17/17 | 0 | 5.2 s |
-| claude-sonnet-5-5 | medium | 97.4% | 97.4% | 38/1/1/30 | 17/17 | 0 | 3.5 s |
+| claude-opus-5-5 | medium | 100.0% | 97.4% | 38/0/1/31 | 17/17 | 0 | 5.0 s |
+| claude-sonnet-5-5 | medium | 97.4% | 97.4% | 38/1/1/30 | 17/17 | 0 | 4.2 s |
 
 ## Disagreements
 
 Every case where the plan computed from the reader's output differs from the plan computed from ground truth:
 
-- **synthetic-paraphrased / claude-opus-5-5 / medium**: par-109 (expected no-follow-up, got follow-up)
-- **synthetic-paraphrased / claude-sonnet-5-5 / medium**: par-041 (expected follow-up, got further-evaluation); par-109 (expected no-follow-up, got follow-up)
-- **synthetic / claude-opus-5-5 / medium**: syn-109 (expected no-follow-up, got follow-up)
-- **synthetic / claude-sonnet-5-5 / medium**: syn-109 (expected no-follow-up, got follow-up)
+- **synthetic-paraphrased / claude-opus-5-5 / medium**: none
+- **synthetic-paraphrased / claude-sonnet-5-5 / medium**: none
+- **synthetic / claude-opus-5-5 / medium**: none
+- **synthetic / claude-sonnet-5-5 / medium**: none
 
 ## Per-family plan agreement (synthetic, by model)
 
 | family | synthetic-paraphrased/opus-5-5 | synthetic-paraphrased/sonnet-5-5 | synthetic/opus-5-5 | synthetic/sonnet-5-5 |
 |---|---|---|---|---|
-| adrenal | 14/14 | 13/14 | 14/14 | 14/14 |
+| adrenal | 14/14 | 14/14 | 14/14 | 14/14 |
 | kidney-IIF | 2/2 | 2/2 | 2/2 | 2/2 |
 | kidney-simple | 9/9 | 9/9 | 9/9 | 9/9 |
 | kidney-solid | 2/2 | 2/2 | 2/2 | 2/2 |
@@ -54,7 +54,7 @@ Every case where the plan computed from the reader's output differs from the pla
 | lung-benign | 6/6 | 6/6 | 6/6 | 6/6 |
 | lung-cancer-hx | 3/3 | 3/3 | 3/3 | 3/3 |
 | lung-screening | 4/4 | 4/4 | 4/4 | 4/4 |
-| multi | 17/18 | 17/18 | 17/18 | 17/18 |
+| multi | 18/18 | 18/18 | 18/18 | 18/18 |
 | pancreas | 12/12 | 12/12 | 12/12 | 12/12 |
 | thyroid | 8/8 | 8/8 | 8/8 | 8/8 |
 

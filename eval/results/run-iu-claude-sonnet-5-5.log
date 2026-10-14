@@ -5,9 +5,9 @@
  "effort": "medium",
  "n": 70,
  "errors": 0,
- "latencyMsMean": 3482,
- "latencyMsP90": 5039,
- "outputTokensMean": 532,
+ "latencyMsMean": 4159,
+ "latencyMsP90": 5505,
+ "outputTokensMean": 540,
  "positiveMention": {
   "tp": 38,
   "fp": 1,

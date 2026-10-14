@@ -1,0 +1,1446 @@
+{
+ "split": "iu",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "summary": {
+  "split": "iu",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "n": 70,
+  "errors": 0,
+  "latencyMsMean": 4958,
+  "latencyMsP90": 7390,
+  "outputTokensMean": 574,
+  "positiveMention": {
+   "tp": 38,
+   "fp": 0,
+   "fn": 1,
+   "tn": 31,
+   "precision": 1,
+   "recall": 0.974
+  },
+  "benignHandled": {
+   "n": 17,
+   "noPlanIssued": 17
+  },
+  "anyFollowUpOnRealXray": []
+ },
+ "perCase": {
+  "iu-003": {
+   "id": "iu-003",
+   "ms": 3475,
+   "usage": {
+    "inputTokens": 6322,
+    "outputTokens": 286
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-002": {
+   "id": "iu-002",
+   "ms": 5374,
+   "usage": {
+    "inputTokens": 6259,
+    "outputTokens": 639
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "no-follow-up"
+   ]
+  },
+  "iu-001": {
+   "id": "iu-001",
+   "ms": 5560,
+   "usage": {
+    "inputTokens": 6296,
+    "outputTokens": 666
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "no-follow-up"
+   ]
+  },
+  "iu-005": {
+   "id": "iu-005",
+   "ms": 4915,
+   "usage": {
+    "inputTokens": 6277,
+    "outputTokens": 263
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-007": {
+   "id": "iu-007",
+   "ms": 3873,
+   "usage": {
+    "inputTokens": 6283,
+    "outputTokens": 265
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-004": {
+   "id": "iu-004",
+   "ms": 9474,
+   "usage": {
+    "inputTokens": 6362,
+    "outputTokens": 715
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "no-follow-up"
+   ]
+  },
+  "iu-008": {
+   "id": "iu-008",
+   "ms": 2879,
+   "usage": {
+    "inputTokens": 6347,
+    "outputTokens": 283
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-009": {
+   "id": "iu-009",
+   "ms": 3033,
+   "usage": {
+    "inputTokens": 6350,
+    "outputTokens": 320
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-006": {
+   "id": "iu-006",
+   "ms": 7743,
+   "usage": {
+    "inputTokens": 6331,
+    "outputTokens": 968
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-012": {
+   "id": "iu-012",
+   "ms": 2554,
+   "usage": {
+    "inputTokens": 6288,
+    "outputTokens": 269
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-010": {
+   "id": "iu-010",
+   "ms": 5981,
+   "usage": {
+    "inputTokens": 6417,
+    "outputTokens": 774
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-013": {
+   "id": "iu-013",
+   "ms": 2586,
+   "usage": {
+    "inputTokens": 6301,
+    "outputTokens": 271
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-011": {
+   "id": "iu-011",
+   "ms": 5663,
+   "usage": {
+    "inputTokens": 6375,
+    "outputTokens": 733
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "no-follow-up"
+   ]
+  },
+  "iu-014": {
+   "id": "iu-014",
+   "ms": 2702,
+   "usage": {
+    "inputTokens": 6308,
+    "outputTokens": 270
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-016": {
+   "id": "iu-016",
+   "ms": 2939,
+   "usage": {
+    "inputTokens": 6374,
+    "outputTokens": 324
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-017": {
+   "id": "iu-017",
+   "ms": 3505,
+   "usage": {
+    "inputTokens": 6419,
+    "outputTokens": 369
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-019": {
+   "id": "iu-019",
+   "ms": 2849,
+   "usage": {
+    "inputTokens": 6300,
+    "outputTokens": 252
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-020": {
+   "id": "iu-020",
+   "ms": 2778,
+   "usage": {
+    "inputTokens": 6289,
+    "outputTokens": 225
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-015": {
+   "id": "iu-015",
+   "ms": 6045,
+   "usage": {
+    "inputTokens": 6364,
+    "outputTokens": 720
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-024": {
+   "id": "iu-024",
+   "ms": 2417,
+   "usage": {
+    "inputTokens": 6289,
+    "outputTokens": 225
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-022": {
+   "id": "iu-022",
+   "ms": 5071,
+   "usage": {
+    "inputTokens": 6297,
+    "outputTokens": 666
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "no-follow-up"
+   ]
+  },
+  "iu-021": {
+   "id": "iu-021",
+   "ms": 5363,
+   "usage": {
+    "inputTokens": 6381,
+    "outputTokens": 702
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "no-follow-up"
+   ]
+  },
+  "iu-023": {
+   "id": "iu-023",
+   "ms": 5879,
+   "usage": {
+    "inputTokens": 6362,
+    "outputTokens": 750
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "no-follow-up"
+   ]
+  },
+  "iu-026": {
+   "id": "iu-026",
+   "ms": 3514,
+   "usage": {
+    "inputTokens": 6341,
+    "outputTokens": 308
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-027": {
+   "id": "iu-027",
+   "ms": 5796,
+   "usage": {
+    "inputTokens": 6395,
+    "outputTokens": 742
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true,
+    "note": "bilateral calcified granulomas; the nodular diaphragm contour is a hernia, not a nodule (label corrected after review)"
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "no-follow-up"
+   ]
+  },
+  "iu-025": {
+   "id": "iu-025",
+   "ms": 9425,
+   "usage": {
+    "inputTokens": 6359,
+    "outputTokens": 1218
+   },
+   "isReport": true,
+   "nPred": 2,
+   "quoteVerified": 2,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false,
+    "note": "opacities, mass not excluded: treated as positive"
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope",
+    "out-of-scope"
+   ]
+  },
+  "iu-028": {
+   "id": "iu-028",
+   "ms": 6657,
+   "usage": {
+    "inputTokens": 6570,
+    "outputTokens": 854
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-030": {
+   "id": "iu-030",
+   "ms": 2666,
+   "usage": {
+    "inputTokens": 6355,
+    "outputTokens": 283
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-029": {
+   "id": "iu-029",
+   "ms": 5931,
+   "usage": {
+    "inputTokens": 6399,
+    "outputTokens": 780
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-034": {
+   "id": "iu-034",
+   "ms": 2835,
+   "usage": {
+    "inputTokens": 6474,
+    "outputTokens": 306
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-031": {
+   "id": "iu-031",
+   "ms": 5058,
+   "usage": {
+    "inputTokens": 6342,
+    "outputTokens": 676
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false,
+    "note": "'likely granuloma' but 8 mm, not stated calcified"
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-032": {
+   "id": "iu-032",
+   "ms": 5515,
+   "usage": {
+    "inputTokens": 6309,
+    "outputTokens": 708
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "no-follow-up"
+   ]
+  },
+  "iu-037": {
+   "id": "iu-037",
+   "ms": 2399,
+   "usage": {
+    "inputTokens": 6261,
+    "outputTokens": 227
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-036": {
+   "id": "iu-036",
+   "ms": 3952,
+   "usage": {
+    "inputTokens": 6382,
+    "outputTokens": 404
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-035": {
+   "id": "iu-035",
+   "ms": 5308,
+   "usage": {
+    "inputTokens": 6313,
+    "outputTokens": 683
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "no-follow-up"
+   ]
+  },
+  "iu-033": {
+   "id": "iu-033",
+   "ms": 9313,
+   "usage": {
+    "inputTokens": 6427,
+    "outputTokens": 1156
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": false,
+   "statuses": [
+    "insufficient-data"
+   ]
+  },
+  "iu-038": {
+   "id": "iu-038",
+   "ms": 5530,
+   "usage": {
+    "inputTokens": 6341,
+    "outputTokens": 767
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-039": {
+   "id": "iu-039",
+   "ms": 5287,
+   "usage": {
+    "inputTokens": 6332,
+    "outputTokens": 691
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-041": {
+   "id": "iu-041",
+   "ms": 4219,
+   "usage": {
+    "inputTokens": 6380,
+    "outputTokens": 438
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false,
+    "note": "known breast carcinoma: out-of-scope expected"
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-040": {
+   "id": "iu-040",
+   "ms": 6314,
+   "usage": {
+    "inputTokens": 6422,
+    "outputTokens": 841
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-044": {
+   "id": "iu-044",
+   "ms": 4131,
+   "usage": {
+    "inputTokens": 6347,
+    "outputTokens": 433
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false,
+    "note": "hilar prominence, not a nodule"
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-045": {
+   "id": "iu-045",
+   "ms": 2528,
+   "usage": {
+    "inputTokens": 6289,
+    "outputTokens": 225
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-042": {
+   "id": "iu-042",
+   "ms": 5978,
+   "usage": {
+    "inputTokens": 6424,
+    "outputTokens": 679
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false,
+    "note": "impression calls the nodular density an artifact"
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-043": {
+   "id": "iu-043",
+   "ms": 6026,
+   "usage": {
+    "inputTokens": 6354,
+    "outputTokens": 772
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-049": {
+   "id": "iu-049",
+   "ms": 3022,
+   "usage": {
+    "inputTokens": 6371,
+    "outputTokens": 329
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-050": {
+   "id": "iu-050",
+   "ms": 2631,
+   "usage": {
+    "inputTokens": 6299,
+    "outputTokens": 277
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-046": {
+   "id": "iu-046",
+   "ms": 7390,
+   "usage": {
+    "inputTokens": 6467,
+    "outputTokens": 884
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-048": {
+   "id": "iu-048",
+   "ms": 6399,
+   "usage": {
+    "inputTokens": 6419,
+    "outputTokens": 824
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-047": {
+   "id": "iu-047",
+   "ms": 9264,
+   "usage": {
+    "inputTokens": 6357,
+    "outputTokens": 1097
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 1,
+   "label": {
+    "positive": true,
+    "benign": false,
+    "note": "known metastatic nodules decreasing"
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-053": {
+   "id": "iu-053",
+   "ms": 2541,
+   "usage": {
+    "inputTokens": 6306,
+    "outputTokens": 238
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-054": {
+   "id": "iu-054",
+   "ms": 3086,
+   "usage": {
+    "inputTokens": 6371,
+    "outputTokens": 329
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-056": {
+   "id": "iu-056",
+   "ms": 3150,
+   "usage": {
+    "inputTokens": 6331,
+    "outputTokens": 347
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false,
+    "note": "'sequelae of old granulomatous disease' without a described nodule"
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-051": {
+   "id": "iu-051",
+   "ms": 7342,
+   "usage": {
+    "inputTokens": 6546,
+    "outputTokens": 906
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-055": {
+   "id": "iu-055",
+   "ms": 6057,
+   "usage": {
+    "inputTokens": 6344,
+    "outputTokens": 773
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 1,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-057": {
+   "id": "iu-057",
+   "ms": 5652,
+   "usage": {
+    "inputTokens": 6344,
+    "outputTokens": 749
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-060": {
+   "id": "iu-060",
+   "ms": 3122,
+   "usage": {
+    "inputTokens": 6360,
+    "outputTokens": 352
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-058": {
+   "id": "iu-058",
+   "ms": 5557,
+   "usage": {
+    "inputTokens": 6367,
+    "outputTokens": 728
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "no-follow-up"
+   ]
+  },
+  "iu-059": {
+   "id": "iu-059",
+   "ms": 4381,
+   "usage": {
+    "inputTokens": 6301,
+    "outputTokens": 278
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-061": {
+   "id": "iu-061",
+   "ms": 5574,
+   "usage": {
+    "inputTokens": 6333,
+    "outputTokens": 719
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-063": {
+   "id": "iu-063",
+   "ms": 5669,
+   "usage": {
+    "inputTokens": 6423,
+    "outputTokens": 802
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-065": {
+   "id": "iu-065",
+   "ms": 2870,
+   "usage": {
+    "inputTokens": 6300,
+    "outputTokens": 251
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-062": {
+   "id": "iu-062",
+   "ms": 6872,
+   "usage": {
+    "inputTokens": 6435,
+    "outputTokens": 807
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 1,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-067": {
+   "id": "iu-067",
+   "ms": 2863,
+   "usage": {
+    "inputTokens": 6289,
+    "outputTokens": 225
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-064": {
+   "id": "iu-064",
+   "ms": 8996,
+   "usage": {
+    "inputTokens": 6299,
+    "outputTokens": 1092
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "no-follow-up"
+   ]
+  },
+  "iu-068": {
+   "id": "iu-068",
+   "ms": 3369,
+   "usage": {
+    "inputTokens": 6347,
+    "outputTokens": 320
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "label": {
+    "positive": false,
+    "benign": false
+   },
+   "predPositive": false,
+   "predBenign": false,
+   "statuses": []
+  },
+  "iu-066": {
+   "id": "iu-066",
+   "ms": 5942,
+   "usage": {
+    "inputTokens": 6325,
+    "outputTokens": 716
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-071": {
+   "id": "iu-071",
+   "ms": 5342,
+   "usage": {
+    "inputTokens": 6296,
+    "outputTokens": 674
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": true
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "no-follow-up"
+   ]
+  },
+  "iu-070": {
+   "id": "iu-070",
+   "ms": 6123,
+   "usage": {
+    "inputTokens": 6393,
+    "outputTokens": 802
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false,
+    "note": "progressing metastatic nodules"
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-069": {
+   "id": "iu-069",
+   "ms": 7167,
+   "usage": {
+    "inputTokens": 6313,
+    "outputTokens": 729
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  },
+  "iu-072": {
+   "id": "iu-072",
+   "ms": 5605,
+   "usage": {
+    "inputTokens": 6397,
+    "outputTokens": 772
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "label": {
+    "positive": true,
+    "benign": false
+   },
+   "predPositive": true,
+   "predBenign": true,
+   "statuses": [
+    "out-of-scope"
+   ]
+  }
+ }
+}

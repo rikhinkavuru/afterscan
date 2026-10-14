@@ -2,6 +2,145 @@
  "split": "synthetic",
  "model": "claude-opus-5-5",
  "effort": "medium",
+ "summary": {
+  "split": "synthetic",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "n": 123,
+  "errors": 0,
+  "latencyMsMean": 6023,
+  "latencyMsP90": 8542,
+  "outputTokensMean": 746,
+  "findingRecall": 1,
+  "findingPrecision": 1,
+  "quoteVerifiedRate": 1,
+  "size": {
+   "acc": 1,
+   "n": 119
+  },
+  "attenuation": {
+   "acc": 1,
+   "n": 41
+  },
+  "bosniak": {
+   "acc": 1,
+   "n": 19
+  },
+  "explicitlyBenign": {
+   "acc": 1,
+   "n": 31
+  },
+  "multiplicity": {
+   "acc": 1,
+   "n": 26
+  },
+  "planStatusAgreement": {
+   "acc": 1,
+   "n": 119
+  },
+  "planFirstStepAgreement": {
+   "acc": 1,
+   "n": 119
+  },
+  "negatives": {
+   "n": 14,
+   "falseAlarms": 0,
+   "notReportFlagged": 2
+  },
+  "byFamily": {
+   "lung": {
+    "n": 26,
+    "planOk": 26,
+    "planN": 26
+   },
+   "lung-benign": {
+    "n": 6,
+    "planOk": 6,
+    "planN": 6
+   },
+   "lung-screening": {
+    "n": 4,
+    "planOk": 4,
+    "planN": 4
+   },
+   "lung-cancer-hx": {
+    "n": 3,
+    "planOk": 3,
+    "planN": 3
+   },
+   "adrenal": {
+    "n": 14,
+    "planOk": 14,
+    "planN": 14
+   },
+   "kidney-simple": {
+    "n": 9,
+    "planOk": 9,
+    "planN": 9
+   },
+   "kidney-tstc": {
+    "n": 1,
+    "planOk": 1,
+    "planN": 1
+   },
+   "kidney-solid-small": {
+    "n": 2,
+    "planOk": 2,
+    "planN": 2
+   },
+   "kidney-IIF": {
+    "n": 2,
+    "planOk": 2,
+    "planN": 2
+   },
+   "kidney-solid": {
+    "n": 2,
+    "planOk": 2,
+    "planN": 2
+   },
+   "liver-indeterminate-large": {
+    "n": 2,
+    "planOk": 2,
+    "planN": 2
+   },
+   "liver-tstc": {
+    "n": 3,
+    "planOk": 3,
+    "planN": 3
+   },
+   "liver-indeterminate": {
+    "n": 3,
+    "planOk": 3,
+    "planN": 3
+   },
+   "liver-hemangioma": {
+    "n": 2,
+    "planOk": 2,
+    "planN": 2
+   },
+   "liver-cyst": {
+    "n": 2,
+    "planOk": 2,
+    "planN": 2
+   },
+   "pancreas": {
+    "n": 12,
+    "planOk": 12,
+    "planN": 12
+   },
+   "thyroid": {
+    "n": 8,
+    "planOk": 8,
+    "planN": 8
+   },
+   "multi": {
+    "n": 8,
+    "planOk": 18,
+    "planN": 18
+   }
+  },
+  "disagreements": []
+ },
  "perCase": {
   "syn-001": {
    "id": "syn-001",
@@ -122,6 +261,3518 @@
    ],
    "negative": false,
    "family": "lung"
+  },
+  "syn-005": {
+   "id": "syn-005",
+   "ms": 5572,
+   "usage": {
+    "inputTokens": 6436,
+    "outputTokens": 736
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-007": {
+   "id": "syn-007",
+   "ms": 5368,
+   "usage": {
+    "inputTokens": 6391,
+    "outputTokens": 708
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-006": {
+   "id": "syn-006",
+   "ms": 5473,
+   "usage": {
+    "inputTokens": 6422,
+    "outputTokens": 775
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-008": {
+   "id": "syn-008",
+   "ms": 6220,
+   "usage": {
+    "inputTokens": 6454,
+    "outputTokens": 838
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-011": {
+   "id": "syn-011",
+   "ms": 5980,
+   "usage": {
+    "inputTokens": 6430,
+    "outputTokens": 805
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-009": {
+   "id": "syn-009",
+   "ms": 6845,
+   "usage": {
+    "inputTokens": 6404,
+    "outputTokens": 739
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-012": {
+   "id": "syn-012",
+   "ms": 6460,
+   "usage": {
+    "inputTokens": 6415,
+    "outputTokens": 790
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-010": {
+   "id": "syn-010",
+   "ms": 7606,
+   "usage": {
+    "inputTokens": 6458,
+    "outputTokens": 1035
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-013": {
+   "id": "syn-013",
+   "ms": 5929,
+   "usage": {
+    "inputTokens": 6450,
+    "outputTokens": 804
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-016": {
+   "id": "syn-016",
+   "ms": 5698,
+   "usage": {
+    "inputTokens": 6402,
+    "outputTokens": 763
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-014": {
+   "id": "syn-014",
+   "ms": 7426,
+   "usage": {
+    "inputTokens": 6416,
+    "outputTokens": 764
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-015": {
+   "id": "syn-015",
+   "ms": 7151,
+   "usage": {
+    "inputTokens": 6421,
+    "outputTokens": 777
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-017": {
+   "id": "syn-017",
+   "ms": 6172,
+   "usage": {
+    "inputTokens": 6431,
+    "outputTokens": 794
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-019": {
+   "id": "syn-019",
+   "ms": 5512,
+   "usage": {
+    "inputTokens": 6397,
+    "outputTokens": 728
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-018": {
+   "id": "syn-018",
+   "ms": 6879,
+   "usage": {
+    "inputTokens": 6438,
+    "outputTokens": 799
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-020": {
+   "id": "syn-020",
+   "ms": 5676,
+   "usage": {
+    "inputTokens": 6394,
+    "outputTokens": 761
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-021": {
+   "id": "syn-021",
+   "ms": 5798,
+   "usage": {
+    "inputTokens": 6435,
+    "outputTokens": 763
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-022": {
+   "id": "syn-022",
+   "ms": 5929,
+   "usage": {
+    "inputTokens": 6435,
+    "outputTokens": 804
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-023": {
+   "id": "syn-023",
+   "ms": 5331,
+   "usage": {
+    "inputTokens": 6393,
+    "outputTokens": 722
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-024": {
+   "id": "syn-024",
+   "ms": 5801,
+   "usage": {
+    "inputTokens": 6410,
+    "outputTokens": 790
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-025": {
+   "id": "syn-025",
+   "ms": 6570,
+   "usage": {
+    "inputTokens": 6401,
+    "outputTokens": 754
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-026": {
+   "id": "syn-026",
+   "ms": 5474,
+   "usage": {
+    "inputTokens": 6396,
+    "outputTokens": 761
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "syn-027": {
+   "id": "syn-027",
+   "ms": 5384,
+   "usage": {
+    "inputTokens": 6370,
+    "outputTokens": 752
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung-benign"
+  },
+  "syn-028": {
+   "id": "syn-028",
+   "ms": 5573,
+   "usage": {
+    "inputTokens": 6390,
+    "outputTokens": 768
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung-benign"
+  },
+  "syn-029": {
+   "id": "syn-029",
+   "ms": 5730,
+   "usage": {
+    "inputTokens": 6384,
+    "outputTokens": 765
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung-benign"
+  },
+  "syn-030": {
+   "id": "syn-030",
+   "ms": 5616,
+   "usage": {
+    "inputTokens": 6374,
+    "outputTokens": 752
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung-benign"
+  },
+  "syn-031": {
+   "id": "syn-031",
+   "ms": 5804,
+   "usage": {
+    "inputTokens": 6389,
+    "outputTokens": 725
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung-benign"
+  },
+  "syn-032": {
+   "id": "syn-032",
+   "ms": 6004,
+   "usage": {
+    "inputTokens": 6390,
+    "outputTokens": 747
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung-benign"
+  },
+  "syn-034": {
+   "id": "syn-034",
+   "ms": 5638,
+   "usage": {
+    "inputTokens": 6387,
+    "outputTokens": 750
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "out-of-scope",
+     "gotStatus": "out-of-scope"
+    }
+   ],
+   "negative": false,
+   "family": "lung-screening"
+  },
+  "syn-036": {
+   "id": "syn-036",
+   "ms": 5474,
+   "usage": {
+    "inputTokens": 6385,
+    "outputTokens": 713
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "out-of-scope",
+     "gotStatus": "out-of-scope"
+    }
+   ],
+   "negative": false,
+   "family": "lung-screening"
+  },
+  "syn-033": {
+   "id": "syn-033",
+   "ms": 7677,
+   "usage": {
+    "inputTokens": 6389,
+    "outputTokens": 717
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "out-of-scope",
+     "gotStatus": "out-of-scope"
+    }
+   ],
+   "negative": false,
+   "family": "lung-screening"
+  },
+  "syn-035": {
+   "id": "syn-035",
+   "ms": 7298,
+   "usage": {
+    "inputTokens": 6380,
+    "outputTokens": 713
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "out-of-scope",
+     "gotStatus": "out-of-scope"
+    }
+   ],
+   "negative": false,
+   "family": "lung-screening"
+  },
+  "syn-037": {
+   "id": "syn-037",
+   "ms": 5918,
+   "usage": {
+    "inputTokens": 6381,
+    "outputTokens": 730
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "out-of-scope",
+     "gotStatus": "out-of-scope"
+    }
+   ],
+   "negative": false,
+   "family": "lung-cancer-hx"
+  },
+  "syn-038": {
+   "id": "syn-038",
+   "ms": 5592,
+   "usage": {
+    "inputTokens": 6386,
+    "outputTokens": 736
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "out-of-scope",
+     "gotStatus": "out-of-scope"
+    }
+   ],
+   "negative": false,
+   "family": "lung-cancer-hx"
+  },
+  "syn-040": {
+   "id": "syn-040",
+   "ms": 5630,
+   "usage": {
+    "inputTokens": 6434,
+    "outputTokens": 750
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "syn-039": {
+   "id": "syn-039",
+   "ms": 5740,
+   "usage": {
+    "inputTokens": 6368,
+    "outputTokens": 726
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "out-of-scope",
+     "gotStatus": "out-of-scope"
+    }
+   ],
+   "negative": false,
+   "family": "lung-cancer-hx"
+  },
+  "syn-042": {
+   "id": "syn-042",
+   "ms": 5994,
+   "usage": {
+    "inputTokens": 6415,
+    "outputTokens": 737
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "syn-041": {
+   "id": "syn-041",
+   "ms": 6749,
+   "usage": {
+    "inputTokens": 6401,
+    "outputTokens": 767
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "syn-044": {
+   "id": "syn-044",
+   "ms": 6643,
+   "usage": {
+    "inputTokens": 6398,
+    "outputTokens": 754
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "syn-043": {
+   "id": "syn-043",
+   "ms": 6827,
+   "usage": {
+    "inputTokens": 6406,
+    "outputTokens": 755
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "syn-047": {
+   "id": "syn-047",
+   "ms": 5842,
+   "usage": {
+    "inputTokens": 6412,
+    "outputTokens": 774
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "syn-046": {
+   "id": "syn-046",
+   "ms": 8604,
+   "usage": {
+    "inputTokens": 6450,
+    "outputTokens": 827
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "syn-045": {
+   "id": "syn-045",
+   "ms": 8773,
+   "usage": {
+    "inputTokens": 6411,
+    "outputTokens": 798
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "refer",
+     "gotStatus": "refer"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "syn-048": {
+   "id": "syn-048",
+   "ms": 10233,
+   "usage": {
+    "inputTokens": 6406,
+    "outputTokens": 723
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "syn-049": {
+   "id": "syn-049",
+   "ms": 6418,
+   "usage": {
+    "inputTokens": 6410,
+    "outputTokens": 763
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "syn-051": {
+   "id": "syn-051",
+   "ms": 5765,
+   "usage": {
+    "inputTokens": 6394,
+    "outputTokens": 760
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "syn-050": {
+   "id": "syn-050",
+   "ms": 5921,
+   "usage": {
+    "inputTokens": 6414,
+    "outputTokens": 740
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "syn-052": {
+   "id": "syn-052",
+   "ms": 5998,
+   "usage": {
+    "inputTokens": 6445,
+    "outputTokens": 791
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "syn-053": {
+   "id": "syn-053",
+   "ms": 5462,
+   "usage": {
+    "inputTokens": 6390,
+    "outputTokens": 714
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "syn-054": {
+   "id": "syn-054",
+   "ms": 5983,
+   "usage": {
+    "inputTokens": 6394,
+    "outputTokens": 782
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "syn-055": {
+   "id": "syn-055",
+   "ms": 6168,
+   "usage": {
+    "inputTokens": 6378,
+    "outputTokens": 746
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "syn-056": {
+   "id": "syn-056",
+   "ms": 5907,
+   "usage": {
+    "inputTokens": 6382,
+    "outputTokens": 733
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "syn-057": {
+   "id": "syn-057",
+   "ms": 5450,
+   "usage": {
+    "inputTokens": 6359,
+    "outputTokens": 710
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-tstc"
+  },
+  "syn-058": {
+   "id": "syn-058",
+   "ms": 5375,
+   "usage": {
+    "inputTokens": 6361,
+    "outputTokens": 709
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-solid-small"
+  },
+  "syn-059": {
+   "id": "syn-059",
+   "ms": 6623,
+   "usage": {
+    "inputTokens": 6414,
+    "outputTokens": 801
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-IIF"
+  },
+  "syn-061": {
+   "id": "syn-061",
+   "ms": 5214,
+   "usage": {
+    "inputTokens": 6358,
+    "outputTokens": 668
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "syn-060": {
+   "id": "syn-060",
+   "ms": 6201,
+   "usage": {
+    "inputTokens": 6383,
+    "outputTokens": 742
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "syn-062": {
+   "id": "syn-062",
+   "ms": 6270,
+   "usage": {
+    "inputTokens": 6398,
+    "outputTokens": 748
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "syn-063": {
+   "id": "syn-063",
+   "ms": 6102,
+   "usage": {
+    "inputTokens": 6379,
+    "outputTokens": 725
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-solid-small"
+  },
+  "syn-064": {
+   "id": "syn-064",
+   "ms": 5338,
+   "usage": {
+    "inputTokens": 6377,
+    "outputTokens": 741
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "syn-065": {
+   "id": "syn-065",
+   "ms": 6014,
+   "usage": {
+    "inputTokens": 6400,
+    "outputTokens": 813
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-IIF"
+  },
+  "syn-067": {
+   "id": "syn-067",
+   "ms": 5412,
+   "usage": {
+    "inputTokens": 6388,
+    "outputTokens": 710
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "refer",
+     "gotStatus": "refer"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-solid"
+  },
+  "syn-066": {
+   "id": "syn-066",
+   "ms": 7333,
+   "usage": {
+    "inputTokens": 6409,
+    "outputTokens": 749
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "syn-068": {
+   "id": "syn-068",
+   "ms": 5256,
+   "usage": {
+    "inputTokens": 6375,
+    "outputTokens": 731
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "refer",
+     "gotStatus": "refer"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-solid"
+  },
+  "syn-069": {
+   "id": "syn-069",
+   "ms": 5734,
+   "usage": {
+    "inputTokens": 6379,
+    "outputTokens": 732
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "syn-070": {
+   "id": "syn-070",
+   "ms": 5749,
+   "usage": {
+    "inputTokens": 6394,
+    "outputTokens": 760
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "liver-indeterminate-large"
+  },
+  "syn-071": {
+   "id": "syn-071",
+   "ms": 5309,
+   "usage": {
+    "inputTokens": 6397,
+    "outputTokens": 737
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "liver-tstc"
+  },
+  "syn-072": {
+   "id": "syn-072",
+   "ms": 5554,
+   "usage": {
+    "inputTokens": 6396,
+    "outputTokens": 736
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "liver-indeterminate"
+  },
+  "syn-073": {
+   "id": "syn-073",
+   "ms": 5643,
+   "usage": {
+    "inputTokens": 6388,
+    "outputTokens": 714
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "liver-indeterminate-large"
+  },
+  "syn-075": {
+   "id": "syn-075",
+   "ms": 5134,
+   "usage": {
+    "inputTokens": 6358,
+    "outputTokens": 675
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "liver-tstc"
+  },
+  "syn-074": {
+   "id": "syn-074",
+   "ms": 5771,
+   "usage": {
+    "inputTokens": 6379,
+    "outputTokens": 774
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "liver-tstc"
+  },
+  "syn-077": {
+   "id": "syn-077",
+   "ms": 6187,
+   "usage": {
+    "inputTokens": 6400,
+    "outputTokens": 753
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "liver-indeterminate"
+  },
+  "syn-076": {
+   "id": "syn-076",
+   "ms": 8505,
+   "usage": {
+    "inputTokens": 6446,
+    "outputTokens": 868
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "liver-hemangioma"
+  },
+  "syn-078": {
+   "id": "syn-078",
+   "ms": 5528,
+   "usage": {
+    "inputTokens": 6393,
+    "outputTokens": 736
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "liver-hemangioma"
+  },
+  "syn-079": {
+   "id": "syn-079",
+   "ms": 5457,
+   "usage": {
+    "inputTokens": 6401,
+    "outputTokens": 749
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "liver-indeterminate"
+  },
+  "syn-080": {
+   "id": "syn-080",
+   "ms": 6218,
+   "usage": {
+    "inputTokens": 6387,
+    "outputTokens": 759
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "liver-cyst"
+  },
+  "syn-081": {
+   "id": "syn-081",
+   "ms": 5353,
+   "usage": {
+    "inputTokens": 6385,
+    "outputTokens": 736
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "liver-cyst"
+  },
+  "syn-082": {
+   "id": "syn-082",
+   "ms": 6556,
+   "usage": {
+    "inputTokens": 6433,
+    "outputTokens": 751
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "syn-083": {
+   "id": "syn-083",
+   "ms": 6425,
+   "usage": {
+    "inputTokens": 6433,
+    "outputTokens": 791
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "syn-085": {
+   "id": "syn-085",
+   "ms": 5633,
+   "usage": {
+    "inputTokens": 6430,
+    "outputTokens": 731
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "syn-084": {
+   "id": "syn-084",
+   "ms": 6217,
+   "usage": {
+    "inputTokens": 6442,
+    "outputTokens": 788
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "syn-086": {
+   "id": "syn-086",
+   "ms": 5544,
+   "usage": {
+    "inputTokens": 6421,
+    "outputTokens": 711
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "syn-088": {
+   "id": "syn-088",
+   "ms": 5433,
+   "usage": {
+    "inputTokens": 6439,
+    "outputTokens": 705
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "syn-089": {
+   "id": "syn-089",
+   "ms": 5527,
+   "usage": {
+    "inputTokens": 6424,
+    "outputTokens": 719
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "syn-087": {
+   "id": "syn-087",
+   "ms": 9592,
+   "usage": {
+    "inputTokens": 6456,
+    "outputTokens": 1214
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "refer",
+     "gotStatus": "refer"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "syn-090": {
+   "id": "syn-090",
+   "ms": 5909,
+   "usage": {
+    "inputTokens": 6444,
+    "outputTokens": 786
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "refer",
+     "gotStatus": "refer"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "syn-092": {
+   "id": "syn-092",
+   "ms": 5567,
+   "usage": {
+    "inputTokens": 6422,
+    "outputTokens": 704
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "refer",
+     "gotStatus": "refer"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "syn-093": {
+   "id": "syn-093",
+   "ms": 5459,
+   "usage": {
+    "inputTokens": 6418,
+    "outputTokens": 717
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "syn-094": {
+   "id": "syn-094",
+   "ms": 5447,
+   "usage": {
+    "inputTokens": 6362,
+    "outputTokens": 730
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "syn-091": {
+   "id": "syn-091",
+   "ms": 10101,
+   "usage": {
+    "inputTokens": 6435,
+    "outputTokens": 1186
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "refer",
+     "gotStatus": "refer"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "syn-095": {
+   "id": "syn-095",
+   "ms": 5760,
+   "usage": {
+    "inputTokens": 6362,
+    "outputTokens": 761
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "syn-096": {
+   "id": "syn-096",
+   "ms": 5614,
+   "usage": {
+    "inputTokens": 6393,
+    "outputTokens": 730
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "syn-097": {
+   "id": "syn-097",
+   "ms": 5435,
+   "usage": {
+    "inputTokens": 6387,
+    "outputTokens": 738
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "syn-098": {
+   "id": "syn-098",
+   "ms": 5582,
+   "usage": {
+    "inputTokens": 6366,
+    "outputTokens": 746
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "syn-099": {
+   "id": "syn-099",
+   "ms": 5670,
+   "usage": {
+    "inputTokens": 6366,
+    "outputTokens": 714
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "syn-100": {
+   "id": "syn-100",
+   "ms": 5778,
+   "usage": {
+    "inputTokens": 6381,
+    "outputTokens": 753
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "syn-101": {
+   "id": "syn-101",
+   "ms": 5365,
+   "usage": {
+    "inputTokens": 6354,
+    "outputTokens": 706
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "syn-104": {
+   "id": "syn-104",
+   "ms": 8857,
+   "usage": {
+    "inputTokens": 6456,
+    "outputTokens": 1248
+   },
+   "isReport": true,
+   "nPred": 2,
+   "quoteVerified": 2,
+   "flagged": 0,
+   "nTruth": 2,
+   "matched": 2,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "syn-103": {
+   "id": "syn-103",
+   "ms": 9034,
+   "usage": {
+    "inputTokens": 6471,
+    "outputTokens": 1294
+   },
+   "isReport": true,
+   "nPred": 2,
+   "quoteVerified": 2,
+   "flagged": 0,
+   "nTruth": 2,
+   "matched": 2,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "syn-102": {
+   "id": "syn-102",
+   "ms": 11649,
+   "usage": {
+    "inputTokens": 6508,
+    "outputTokens": 1650
+   },
+   "isReport": true,
+   "nPred": 3,
+   "quoteVerified": 3,
+   "flagged": 0,
+   "nTruth": 3,
+   "matched": 3,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "syn-105": {
+   "id": "syn-105",
+   "ms": 11632,
+   "usage": {
+    "inputTokens": 6512,
+    "outputTokens": 1734
+   },
+   "isReport": true,
+   "nPred": 3,
+   "quoteVerified": 3,
+   "flagged": 0,
+   "nTruth": 3,
+   "matched": 3,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "syn-106": {
+   "id": "syn-106",
+   "ms": 8622,
+   "usage": {
+    "inputTokens": 6481,
+    "outputTokens": 1258
+   },
+   "isReport": true,
+   "nPred": 2,
+   "quoteVerified": 2,
+   "flagged": 0,
+   "nTruth": 2,
+   "matched": 2,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "syn-108": {
+   "id": "syn-108",
+   "ms": 8542,
+   "usage": {
+    "inputTokens": 6457,
+    "outputTokens": 1251
+   },
+   "isReport": true,
+   "nPred": 2,
+   "quoteVerified": 2,
+   "flagged": 0,
+   "nTruth": 2,
+   "matched": 2,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "syn-107": {
+   "id": "syn-107",
+   "ms": 9305,
+   "usage": {
+    "inputTokens": 6463,
+    "outputTokens": 1258
+   },
+   "isReport": true,
+   "nPred": 2,
+   "quoteVerified": 2,
+   "flagged": 0,
+   "nTruth": 2,
+   "matched": 2,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "syn-110": {
+   "id": "syn-110",
+   "ms": 2871,
+   "usage": {
+    "inputTokens": 6342,
+    "outputTokens": 223
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "syn-112": {
+   "id": "syn-112",
+   "ms": 2149,
+   "usage": {
+    "inputTokens": 6312,
+    "outputTokens": 228
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "syn-111": {
+   "id": "syn-111",
+   "ms": 2719,
+   "usage": {
+    "inputTokens": 6416,
+    "outputTokens": 299
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "syn-114": {
+   "id": "syn-114",
+   "ms": 2711,
+   "usage": {
+    "inputTokens": 6344,
+    "outputTokens": 246
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "syn-113": {
+   "id": "syn-113",
+   "ms": 3194,
+   "usage": {
+    "inputTokens": 6387,
+    "outputTokens": 346
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "syn-109": {
+   "id": "syn-109",
+   "ms": 11400,
+   "usage": {
+    "inputTokens": 6473,
+    "outputTokens": 1203
+   },
+   "isReport": true,
+   "nPred": 2,
+   "quoteVerified": 2,
+   "flagged": 0,
+   "nTruth": 2,
+   "matched": 2,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "syn-115": {
+   "id": "syn-115",
+   "ms": 3223,
+   "usage": {
+    "inputTokens": 6396,
+    "outputTokens": 369
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "syn-116": {
+   "id": "syn-116",
+   "ms": 2881,
+   "usage": {
+    "inputTokens": 6355,
+    "outputTokens": 310
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "syn-117": {
+   "id": "syn-117",
+   "ms": 2775,
+   "usage": {
+    "inputTokens": 6371,
+    "outputTokens": 264
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "syn-118": {
+   "id": "syn-118",
+   "ms": 2268,
+   "usage": {
+    "inputTokens": 6312,
+    "outputTokens": 228
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "syn-119": {
+   "id": "syn-119",
+   "ms": 4141,
+   "usage": {
+    "inputTokens": 6383,
+    "outputTokens": 331
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "syn-122": {
+   "id": "syn-122",
+   "ms": 2501,
+   "usage": {
+    "inputTokens": 6268,
+    "outputTokens": 176
+   },
+   "isReport": false,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "not-report"
+  },
+  "syn-120": {
+   "id": "syn-120",
+   "ms": 3132,
+   "usage": {
+    "inputTokens": 6348,
+    "outputTokens": 246
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "syn-123": {
+   "id": "syn-123",
+   "ms": 1955,
+   "usage": {
+    "inputTokens": 6301,
+    "outputTokens": 176
+   },
+   "isReport": false,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "not-report"
+  },
+  "syn-121": {
+   "id": "syn-121",
+   "ms": 7084,
+   "usage": {
+    "inputTokens": 6397,
+    "outputTokens": 355
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
   }
  }
 }

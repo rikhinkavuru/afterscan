@@ -1,0 +1,3742 @@
+{
+ "split": "synthetic-paraphrased",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "summary": {
+  "split": "synthetic-paraphrased",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+  "n": 121,
+  "errors": 0,
+  "latencyMsMean": 4501,
+  "latencyMsP90": 5836,
+  "outputTokensMean": 749,
+  "findingRecall": 1,
+  "findingPrecision": 1,
+  "quoteVerifiedRate": 1,
+  "size": {
+   "acc": 1,
+   "n": 119
+  },
+  "attenuation": {
+   "acc": 1,
+   "n": 41
+  },
+  "bosniak": {
+   "acc": 1,
+   "n": 19
+  },
+  "explicitlyBenign": {
+   "acc": 1,
+   "n": 31
+  },
+  "multiplicity": {
+   "acc": 1,
+   "n": 26
+  },
+  "planStatusAgreement": {
+   "acc": 1,
+   "n": 119
+  },
+  "planFirstStepAgreement": {
+   "acc": 1,
+   "n": 119
+  },
+  "negatives": {
+   "n": 12,
+   "falseAlarms": 0,
+   "notReportFlagged": 0
+  },
+  "byFamily": {
+   "lung": {
+    "n": 26,
+    "planOk": 26,
+    "planN": 26
+   },
+   "lung-benign": {
+    "n": 6,
+    "planOk": 6,
+    "planN": 6
+   },
+   "lung-screening": {
+    "n": 4,
+    "planOk": 4,
+    "planN": 4
+   },
+   "lung-cancer-hx": {
+    "n": 3,
+    "planOk": 3,
+    "planN": 3
+   },
+   "adrenal": {
+    "n": 14,
+    "planOk": 14,
+    "planN": 14
+   },
+   "kidney-simple": {
+    "n": 9,
+    "planOk": 9,
+    "planN": 9
+   },
+   "kidney-tstc": {
+    "n": 1,
+    "planOk": 1,
+    "planN": 1
+   },
+   "kidney-solid-small": {
+    "n": 2,
+    "planOk": 2,
+    "planN": 2
+   },
+   "kidney-IIF": {
+    "n": 2,
+    "planOk": 2,
+    "planN": 2
+   },
+   "kidney-solid": {
+    "n": 2,
+    "planOk": 2,
+    "planN": 2
+   },
+   "liver-indeterminate-large": {
+    "n": 2,
+    "planOk": 2,
+    "planN": 2
+   },
+   "liver-tstc": {
+    "n": 3,
+    "planOk": 3,
+    "planN": 3
+   },
+   "liver-indeterminate": {
+    "n": 3,
+    "planOk": 3,
+    "planN": 3
+   },
+   "liver-hemangioma": {
+    "n": 2,
+    "planOk": 2,
+    "planN": 2
+   },
+   "liver-cyst": {
+    "n": 2,
+    "planOk": 2,
+    "planN": 2
+   },
+   "pancreas": {
+    "n": 12,
+    "planOk": 12,
+    "planN": 12
+   },
+   "thyroid": {
+    "n": 8,
+    "planOk": 8,
+    "planN": 8
+   },
+   "multi": {
+    "n": 8,
+    "planOk": 18,
+    "planN": 18
+   }
+  },
+  "disagreements": []
+ },
+ "perCase": {
+  "par-001": {
+   "id": "par-001",
+   "ms": 4069,
+   "usage": {
+    "inputTokens": 6392,
+    "outputTokens": 667
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-003": {
+   "id": "par-003",
+   "ms": 4328,
+   "usage": {
+    "inputTokens": 6474,
+    "outputTokens": 736
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-004": {
+   "id": "par-004",
+   "ms": 4496,
+   "usage": {
+    "inputTokens": 6456,
+    "outputTokens": 769
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-002": {
+   "id": "par-002",
+   "ms": 5146,
+   "usage": {
+    "inputTokens": 6556,
+    "outputTokens": 885
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-005": {
+   "id": "par-005",
+   "ms": 3778,
+   "usage": {
+    "inputTokens": 6408,
+    "outputTokens": 684
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-007": {
+   "id": "par-007",
+   "ms": 3750,
+   "usage": {
+    "inputTokens": 6518,
+    "outputTokens": 681
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-008": {
+   "id": "par-008",
+   "ms": 4797,
+   "usage": {
+    "inputTokens": 6458,
+    "outputTokens": 797
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-006": {
+   "id": "par-006",
+   "ms": 5792,
+   "usage": {
+    "inputTokens": 6528,
+    "outputTokens": 769
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-009": {
+   "id": "par-009",
+   "ms": 3825,
+   "usage": {
+    "inputTokens": 6399,
+    "outputTokens": 696
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-010": {
+   "id": "par-010",
+   "ms": 4671,
+   "usage": {
+    "inputTokens": 6559,
+    "outputTokens": 877
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-011": {
+   "id": "par-011",
+   "ms": 4001,
+   "usage": {
+    "inputTokens": 6608,
+    "outputTokens": 748
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-012": {
+   "id": "par-012",
+   "ms": 4075,
+   "usage": {
+    "inputTokens": 6422,
+    "outputTokens": 772
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-013": {
+   "id": "par-013",
+   "ms": 3987,
+   "usage": {
+    "inputTokens": 6428,
+    "outputTokens": 738
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-014": {
+   "id": "par-014",
+   "ms": 4651,
+   "usage": {
+    "inputTokens": 6542,
+    "outputTokens": 797
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-015": {
+   "id": "par-015",
+   "ms": 4166,
+   "usage": {
+    "inputTokens": 6553,
+    "outputTokens": 760
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-016": {
+   "id": "par-016",
+   "ms": 5171,
+   "usage": {
+    "inputTokens": 6409,
+    "outputTokens": 775
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-017": {
+   "id": "par-017",
+   "ms": 6039,
+   "usage": {
+    "inputTokens": 6401,
+    "outputTokens": 744
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-019": {
+   "id": "par-019",
+   "ms": 3715,
+   "usage": {
+    "inputTokens": 6404,
+    "outputTokens": 695
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-018": {
+   "id": "par-018",
+   "ms": 4520,
+   "usage": {
+    "inputTokens": 6533,
+    "outputTokens": 852
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-020": {
+   "id": "par-020",
+   "ms": 4717,
+   "usage": {
+    "inputTokens": 6392,
+    "outputTokens": 743
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-021": {
+   "id": "par-021",
+   "ms": 3900,
+   "usage": {
+    "inputTokens": 6423,
+    "outputTokens": 697
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-023": {
+   "id": "par-023",
+   "ms": 4051,
+   "usage": {
+    "inputTokens": 6407,
+    "outputTokens": 725
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-022": {
+   "id": "par-022",
+   "ms": 4550,
+   "usage": {
+    "inputTokens": 6564,
+    "outputTokens": 818
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-024": {
+   "id": "par-024",
+   "ms": 4288,
+   "usage": {
+    "inputTokens": 6420,
+    "outputTokens": 801
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-025": {
+   "id": "par-025",
+   "ms": 3823,
+   "usage": {
+    "inputTokens": 6367,
+    "outputTokens": 707
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-027": {
+   "id": "par-027",
+   "ms": 4334,
+   "usage": {
+    "inputTokens": 6459,
+    "outputTokens": 722
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung-benign"
+  },
+  "par-026": {
+   "id": "par-026",
+   "ms": 6047,
+   "usage": {
+    "inputTokens": 6562,
+    "outputTokens": 881
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": true,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung"
+  },
+  "par-028": {
+   "id": "par-028",
+   "ms": 4306,
+   "usage": {
+    "inputTokens": 6400,
+    "outputTokens": 726
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung-benign"
+  },
+  "par-029": {
+   "id": "par-029",
+   "ms": 3982,
+   "usage": {
+    "inputTokens": 6380,
+    "outputTokens": 737
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung-benign"
+  },
+  "par-030": {
+   "id": "par-030",
+   "ms": 4819,
+   "usage": {
+    "inputTokens": 6571,
+    "outputTokens": 816
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung-benign"
+  },
+  "par-031": {
+   "id": "par-031",
+   "ms": 4052,
+   "usage": {
+    "inputTokens": 6407,
+    "outputTokens": 707
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung-benign"
+  },
+  "par-032": {
+   "id": "par-032",
+   "ms": 4282,
+   "usage": {
+    "inputTokens": 6408,
+    "outputTokens": 782
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "lung-benign"
+  },
+  "par-033": {
+   "id": "par-033",
+   "ms": 3924,
+   "usage": {
+    "inputTokens": 6405,
+    "outputTokens": 715
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "out-of-scope",
+     "gotStatus": "out-of-scope"
+    }
+   ],
+   "negative": false,
+   "family": "lung-screening"
+  },
+  "par-035": {
+   "id": "par-035",
+   "ms": 3847,
+   "usage": {
+    "inputTokens": 6396,
+    "outputTokens": 716
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "out-of-scope",
+     "gotStatus": "out-of-scope"
+    }
+   ],
+   "negative": false,
+   "family": "lung-screening"
+  },
+  "par-034": {
+   "id": "par-034",
+   "ms": 4649,
+   "usage": {
+    "inputTokens": 6569,
+    "outputTokens": 801
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "out-of-scope",
+     "gotStatus": "out-of-scope"
+    }
+   ],
+   "negative": false,
+   "family": "lung-screening"
+  },
+  "par-037": {
+   "id": "par-037",
+   "ms": 3941,
+   "usage": {
+    "inputTokens": 6380,
+    "outputTokens": 670
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "out-of-scope",
+     "gotStatus": "out-of-scope"
+    }
+   ],
+   "negative": false,
+   "family": "lung-cancer-hx"
+  },
+  "par-036": {
+   "id": "par-036",
+   "ms": 4353,
+   "usage": {
+    "inputTokens": 6398,
+    "outputTokens": 736
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "out-of-scope",
+     "gotStatus": "out-of-scope"
+    }
+   ],
+   "negative": false,
+   "family": "lung-screening"
+  },
+  "par-039": {
+   "id": "par-039",
+   "ms": 4139,
+   "usage": {
+    "inputTokens": 6391,
+    "outputTokens": 667
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "out-of-scope",
+     "gotStatus": "out-of-scope"
+    }
+   ],
+   "negative": false,
+   "family": "lung-cancer-hx"
+  },
+  "par-038": {
+   "id": "par-038",
+   "ms": 4269,
+   "usage": {
+    "inputTokens": 6528,
+    "outputTokens": 745
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "out-of-scope",
+     "gotStatus": "out-of-scope"
+    }
+   ],
+   "negative": false,
+   "family": "lung-cancer-hx"
+  },
+  "par-041": {
+   "id": "par-041",
+   "ms": 4240,
+   "usage": {
+    "inputTokens": 6396,
+    "outputTokens": 772
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "par-040": {
+   "id": "par-040",
+   "ms": 4708,
+   "usage": {
+    "inputTokens": 6441,
+    "outputTokens": 767
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "par-043": {
+   "id": "par-043",
+   "ms": 3920,
+   "usage": {
+    "inputTokens": 6421,
+    "outputTokens": 728
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "par-042": {
+   "id": "par-042",
+   "ms": 4562,
+   "usage": {
+    "inputTokens": 6558,
+    "outputTokens": 835
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "par-044": {
+   "id": "par-044",
+   "ms": 4217,
+   "usage": {
+    "inputTokens": 6402,
+    "outputTokens": 757
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "par-045": {
+   "id": "par-045",
+   "ms": 4762,
+   "usage": {
+    "inputTokens": 6398,
+    "outputTokens": 749
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "refer",
+     "gotStatus": "refer"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "par-046": {
+   "id": "par-046",
+   "ms": 4450,
+   "usage": {
+    "inputTokens": 6600,
+    "outputTokens": 836
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "par-047": {
+   "id": "par-047",
+   "ms": 4040,
+   "usage": {
+    "inputTokens": 6501,
+    "outputTokens": 749
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "par-048": {
+   "id": "par-048",
+   "ms": 4133,
+   "usage": {
+    "inputTokens": 6411,
+    "outputTokens": 739
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "par-049": {
+   "id": "par-049",
+   "ms": 4143,
+   "usage": {
+    "inputTokens": 6430,
+    "outputTokens": 775
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "par-051": {
+   "id": "par-051",
+   "ms": 3897,
+   "usage": {
+    "inputTokens": 6518,
+    "outputTokens": 721
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "par-050": {
+   "id": "par-050",
+   "ms": 4249,
+   "usage": {
+    "inputTokens": 6524,
+    "outputTokens": 806
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "par-053": {
+   "id": "par-053",
+   "ms": 4193,
+   "usage": {
+    "inputTokens": 6391,
+    "outputTokens": 717
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "par-055": {
+   "id": "par-055",
+   "ms": 3828,
+   "usage": {
+    "inputTokens": 6513,
+    "outputTokens": 687
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "par-054": {
+   "id": "par-054",
+   "ms": 4712,
+   "usage": {
+    "inputTokens": 6518,
+    "outputTokens": 834
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "par-056": {
+   "id": "par-056",
+   "ms": 4320,
+   "usage": {
+    "inputTokens": 6398,
+    "outputTokens": 751
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "par-057": {
+   "id": "par-057",
+   "ms": 4003,
+   "usage": {
+    "inputTokens": 6367,
+    "outputTokens": 708
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-tstc"
+  },
+  "par-052": {
+   "id": "par-052",
+   "ms": 11938,
+   "usage": {
+    "inputTokens": 6511,
+    "outputTokens": 814
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "adrenal"
+  },
+  "par-058": {
+   "id": "par-058",
+   "ms": 4766,
+   "usage": {
+    "inputTokens": 6486,
+    "outputTokens": 804
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-solid-small"
+  },
+  "par-059": {
+   "id": "par-059",
+   "ms": 4546,
+   "usage": {
+    "inputTokens": 6512,
+    "outputTokens": 826
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-IIF"
+  },
+  "par-060": {
+   "id": "par-060",
+   "ms": 4197,
+   "usage": {
+    "inputTokens": 6394,
+    "outputTokens": 748
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "par-061": {
+   "id": "par-061",
+   "ms": 4298,
+   "usage": {
+    "inputTokens": 6365,
+    "outputTokens": 690
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "par-062": {
+   "id": "par-062",
+   "ms": 4857,
+   "usage": {
+    "inputTokens": 6526,
+    "outputTokens": 842
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "par-063": {
+   "id": "par-063",
+   "ms": 5093,
+   "usage": {
+    "inputTokens": 6595,
+    "outputTokens": 718
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-solid-small"
+  },
+  "par-064": {
+   "id": "par-064",
+   "ms": 4148,
+   "usage": {
+    "inputTokens": 6391,
+    "outputTokens": 756
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "par-065": {
+   "id": "par-065",
+   "ms": 4225,
+   "usage": {
+    "inputTokens": 6415,
+    "outputTokens": 766
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-IIF"
+  },
+  "par-066": {
+   "id": "par-066",
+   "ms": 4379,
+   "usage": {
+    "inputTokens": 6510,
+    "outputTokens": 819
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "par-067": {
+   "id": "par-067",
+   "ms": 4180,
+   "usage": {
+    "inputTokens": 6430,
+    "outputTokens": 707
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "refer",
+     "gotStatus": "refer"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-solid"
+  },
+  "par-068": {
+   "id": "par-068",
+   "ms": 4147,
+   "usage": {
+    "inputTokens": 6381,
+    "outputTokens": 744
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "refer",
+     "gotStatus": "refer"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-solid"
+  },
+  "par-069": {
+   "id": "par-069",
+   "ms": 4162,
+   "usage": {
+    "inputTokens": 6388,
+    "outputTokens": 724
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "kidney-simple"
+  },
+  "par-070": {
+   "id": "par-070",
+   "ms": 4016,
+   "usage": {
+    "inputTokens": 6544,
+    "outputTokens": 739
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "liver-indeterminate-large"
+  },
+  "par-071": {
+   "id": "par-071",
+   "ms": 4582,
+   "usage": {
+    "inputTokens": 6412,
+    "outputTokens": 709
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "liver-tstc"
+  },
+  "par-073": {
+   "id": "par-073",
+   "ms": 4616,
+   "usage": {
+    "inputTokens": 6391,
+    "outputTokens": 718
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "liver-indeterminate-large"
+  },
+  "par-074": {
+   "id": "par-074",
+   "ms": 4657,
+   "usage": {
+    "inputTokens": 6486,
+    "outputTokens": 825
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "liver-tstc"
+  },
+  "par-072": {
+   "id": "par-072",
+   "ms": 7279,
+   "usage": {
+    "inputTokens": 6407,
+    "outputTokens": 772
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "liver-indeterminate"
+  },
+  "par-075": {
+   "id": "par-075",
+   "ms": 4055,
+   "usage": {
+    "inputTokens": 6369,
+    "outputTokens": 695
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "liver-tstc"
+  },
+  "par-076": {
+   "id": "par-076",
+   "ms": 4597,
+   "usage": {
+    "inputTokens": 6453,
+    "outputTokens": 836
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "liver-hemangioma"
+  },
+  "par-077": {
+   "id": "par-077",
+   "ms": 3952,
+   "usage": {
+    "inputTokens": 6410,
+    "outputTokens": 748
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "liver-indeterminate"
+  },
+  "par-078": {
+   "id": "par-078",
+   "ms": 4458,
+   "usage": {
+    "inputTokens": 6544,
+    "outputTokens": 850
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "liver-hemangioma"
+  },
+  "par-079": {
+   "id": "par-079",
+   "ms": 4117,
+   "usage": {
+    "inputTokens": 6406,
+    "outputTokens": 737
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "liver-indeterminate"
+  },
+  "par-080": {
+   "id": "par-080",
+   "ms": 4083,
+   "usage": {
+    "inputTokens": 6399,
+    "outputTokens": 729
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "liver-cyst"
+  },
+  "par-081": {
+   "id": "par-081",
+   "ms": 4351,
+   "usage": {
+    "inputTokens": 6390,
+    "outputTokens": 724
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "liver-cyst"
+  },
+  "par-082": {
+   "id": "par-082",
+   "ms": 4498,
+   "usage": {
+    "inputTokens": 6548,
+    "outputTokens": 808
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "par-083": {
+   "id": "par-083",
+   "ms": 4405,
+   "usage": {
+    "inputTokens": 6458,
+    "outputTokens": 766
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "par-084": {
+   "id": "par-084",
+   "ms": 4825,
+   "usage": {
+    "inputTokens": 6448,
+    "outputTokens": 758
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "par-085": {
+   "id": "par-085",
+   "ms": 4158,
+   "usage": {
+    "inputTokens": 6416,
+    "outputTokens": 725
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "par-086": {
+   "id": "par-086",
+   "ms": 4651,
+   "usage": {
+    "inputTokens": 6534,
+    "outputTokens": 874
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "par-088": {
+   "id": "par-088",
+   "ms": 3948,
+   "usage": {
+    "inputTokens": 6455,
+    "outputTokens": 736
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "par-089": {
+   "id": "par-089",
+   "ms": 4373,
+   "usage": {
+    "inputTokens": 6411,
+    "outputTokens": 727
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "par-090": {
+   "id": "par-090",
+   "ms": 4609,
+   "usage": {
+    "inputTokens": 6567,
+    "outputTokens": 835
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "refer",
+     "gotStatus": "refer"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "par-091": {
+   "id": "par-091",
+   "ms": 4446,
+   "usage": {
+    "inputTokens": 6447,
+    "outputTokens": 771
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "refer",
+     "gotStatus": "refer"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "par-092": {
+   "id": "par-092",
+   "ms": 4120,
+   "usage": {
+    "inputTokens": 6429,
+    "outputTokens": 760
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "refer",
+     "gotStatus": "refer"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "par-093": {
+   "id": "par-093",
+   "ms": 4191,
+   "usage": {
+    "inputTokens": 6413,
+    "outputTokens": 723
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "par-087": {
+   "id": "par-087",
+   "ms": 13547,
+   "usage": {
+    "inputTokens": 6477,
+    "outputTokens": 771
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "refer",
+     "gotStatus": "refer"
+    }
+   ],
+   "negative": false,
+   "family": "pancreas"
+  },
+  "par-095": {
+   "id": "par-095",
+   "ms": 3801,
+   "usage": {
+    "inputTokens": 6393,
+    "outputTokens": 695
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "par-094": {
+   "id": "par-094",
+   "ms": 4587,
+   "usage": {
+    "inputTokens": 6467,
+    "outputTokens": 772
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "par-096": {
+   "id": "par-096",
+   "ms": 4510,
+   "usage": {
+    "inputTokens": 6401,
+    "outputTokens": 749
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "par-097": {
+   "id": "par-097",
+   "ms": 4105,
+   "usage": {
+    "inputTokens": 6378,
+    "outputTokens": 731
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "par-099": {
+   "id": "par-099",
+   "ms": 3985,
+   "usage": {
+    "inputTokens": 6409,
+    "outputTokens": 685
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "par-098": {
+   "id": "par-098",
+   "ms": 4903,
+   "usage": {
+    "inputTokens": 6446,
+    "outputTokens": 826
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "par-100": {
+   "id": "par-100",
+   "ms": 4085,
+   "usage": {
+    "inputTokens": 6394,
+    "outputTokens": 736
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "par-101": {
+   "id": "par-101",
+   "ms": 4392,
+   "usage": {
+    "inputTokens": 6346,
+    "outputTokens": 707
+   },
+   "isReport": true,
+   "nPred": 1,
+   "quoteVerified": 1,
+   "flagged": 0,
+   "nTruth": 1,
+   "matched": 1,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "thyroid"
+  },
+  "par-103": {
+   "id": "par-103",
+   "ms": 6328,
+   "usage": {
+    "inputTokens": 6478,
+    "outputTokens": 1217
+   },
+   "isReport": true,
+   "nPred": 2,
+   "quoteVerified": 2,
+   "flagged": 0,
+   "nTruth": 2,
+   "matched": 2,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "par-102": {
+   "id": "par-102",
+   "ms": 9012,
+   "usage": {
+    "inputTokens": 6750,
+    "outputTokens": 1748
+   },
+   "isReport": true,
+   "nPred": 3,
+   "quoteVerified": 3,
+   "flagged": 0,
+   "nTruth": 3,
+   "matched": 3,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "further-evaluation",
+     "gotStatus": "further-evaluation"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "par-104": {
+   "id": "par-104",
+   "ms": 7608,
+   "usage": {
+    "inputTokens": 6460,
+    "outputTokens": 1277
+   },
+   "isReport": true,
+   "nPred": 2,
+   "quoteVerified": 2,
+   "flagged": 0,
+   "nTruth": 2,
+   "matched": 2,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "par-105": {
+   "id": "par-105",
+   "ms": 8091,
+   "usage": {
+    "inputTokens": 6492,
+    "outputTokens": 1654
+   },
+   "isReport": true,
+   "nPred": 3,
+   "quoteVerified": 3,
+   "flagged": 0,
+   "nTruth": 3,
+   "matched": 3,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "par-106": {
+   "id": "par-106",
+   "ms": 6661,
+   "usage": {
+    "inputTokens": 6658,
+    "outputTokens": 1262
+   },
+   "isReport": true,
+   "nPred": 2,
+   "quoteVerified": 2,
+   "flagged": 0,
+   "nTruth": 2,
+   "matched": 2,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "par-107": {
+   "id": "par-107",
+   "ms": 6058,
+   "usage": {
+    "inputTokens": 6476,
+    "outputTokens": 1172
+   },
+   "isReport": true,
+   "nPred": 2,
+   "quoteVerified": 2,
+   "flagged": 0,
+   "nTruth": 2,
+   "matched": 2,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "par-108": {
+   "id": "par-108",
+   "ms": 6328,
+   "usage": {
+    "inputTokens": 6460,
+    "outputTokens": 1141
+   },
+   "isReport": true,
+   "nPred": 2,
+   "quoteVerified": 2,
+   "flagged": 0,
+   "nTruth": 2,
+   "matched": 2,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "par-110": {
+   "id": "par-110",
+   "ms": 2808,
+   "usage": {
+    "inputTokens": 6478,
+    "outputTokens": 271
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "par-109": {
+   "id": "par-109",
+   "ms": 5836,
+   "usage": {
+    "inputTokens": 6466,
+    "outputTokens": 1135
+   },
+   "isReport": true,
+   "nPred": 2,
+   "quoteVerified": 2,
+   "flagged": 0,
+   "nTruth": 2,
+   "matched": 2,
+   "spurious": 0,
+   "fields": [
+    {
+     "size": true,
+     "attenuation": true,
+     "bosniak": null,
+     "benign": null,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "follow-up",
+     "gotStatus": "follow-up"
+    },
+    {
+     "size": true,
+     "attenuation": null,
+     "bosniak": true,
+     "benign": true,
+     "multiplicity": null,
+     "planStatus": true,
+     "planFirstStep": true,
+     "expectedStatus": "no-follow-up",
+     "gotStatus": "no-follow-up"
+    }
+   ],
+   "negative": false,
+   "family": "multi"
+  },
+  "par-111": {
+   "id": "par-111",
+   "ms": 2259,
+   "usage": {
+    "inputTokens": 6441,
+    "outputTokens": 310
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "par-112": {
+   "id": "par-112",
+   "ms": 2354,
+   "usage": {
+    "inputTokens": 6314,
+    "outputTokens": 236
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "par-113": {
+   "id": "par-113",
+   "ms": 2253,
+   "usage": {
+    "inputTokens": 6395,
+    "outputTokens": 336
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "par-114": {
+   "id": "par-114",
+   "ms": 2135,
+   "usage": {
+    "inputTokens": 6420,
+    "outputTokens": 281
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "par-117": {
+   "id": "par-117",
+   "ms": 1875,
+   "usage": {
+    "inputTokens": 6378,
+    "outputTokens": 257
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "par-115": {
+   "id": "par-115",
+   "ms": 3164,
+   "usage": {
+    "inputTokens": 6472,
+    "outputTokens": 370
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "par-116": {
+   "id": "par-116",
+   "ms": 2762,
+   "usage": {
+    "inputTokens": 6364,
+    "outputTokens": 296
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "par-118": {
+   "id": "par-118",
+   "ms": 2880,
+   "usage": {
+    "inputTokens": 6448,
+    "outputTokens": 270
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "par-120": {
+   "id": "par-120",
+   "ms": 1840,
+   "usage": {
+    "inputTokens": 6352,
+    "outputTokens": 257
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "par-119": {
+   "id": "par-119",
+   "ms": 2214,
+   "usage": {
+    "inputTokens": 6410,
+    "outputTokens": 319
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  },
+  "par-121": {
+   "id": "par-121",
+   "ms": 2662,
+   "usage": {
+    "inputTokens": 6390,
+    "outputTokens": 355
+   },
+   "isReport": true,
+   "nPred": 0,
+   "quoteVerified": 0,
+   "flagged": 0,
+   "nTruth": 0,
+   "matched": 0,
+   "spurious": 0,
+   "fields": [],
+   "negative": true,
+   "family": "negative"
+  }
+ }
+}

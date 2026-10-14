@@ -5,9 +5,9 @@
  "effort": "medium",
  "n": 121,
  "errors": 0,
- "latencyMsMean": 4548,
- "latencyMsP90": 6245,
- "outputTokensMean": 750,
+ "latencyMsMean": 4501,
+ "latencyMsP90": 5836,
+ "outputTokensMean": 749,
  "findingRecall": 1,
  "findingPrecision": 1,
  "quoteVerifiedRate": 1,
@@ -32,11 +32,11 @@
   "n": 26
  },
  "planStatusAgreement": {
-  "acc": 0.983,
+  "acc": 1,
   "n": 119
  },
  "planFirstStepAgreement": {
-  "acc": 0.983,
+  "acc": 1,
   "n": 119
  },
  "negatives": {
@@ -67,7 +67,7 @@
   },
   "adrenal": {
    "n": 14,
-   "planOk": 13,
+   "planOk": 14,
    "planN": 14
   },
   "kidney-simple": {
@@ -132,20 +132,9 @@
   },
   "multi": {
    "n": 8,
-   "planOk": 17,
+   "planOk": 18,
    "planN": 18
   }
  },
- "disagreements": [
-  {
-   "id": "par-041",
-   "expected": "follow-up",
-   "got": "further-evaluation"
-  },
-  {
-   "id": "par-109",
-   "expected": "no-follow-up",
-   "got": "follow-up"
-  }
- ]
+ "disagreements": []
 }
