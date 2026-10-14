@@ -239,8 +239,9 @@ for (let i = 0; i < 8; i++) {
   const cystSize = pick([15, 22, 30]);
   const adr = chance(0.5);
   const adrSize = pick([12, 18, 25]);
-  const where = lobe();
-  const report = header("CT ABDOMEN AND PELVIS WITHOUT CONTRAST", "Flank pain, evaluate for stone.", age, pick(["male", "female"])) +
+  const hdr = header("CT ABDOMEN AND PELVIS WITHOUT CONTRAST", "Flank pain, evaluate for stone.", age, pick(["male", "female"]));
+  const where = lobe(); // drawn after the header, matching the original draw order
+  const report = hdr +
     `Lung bases: ${lungSize} mm solid nodule in the ${where}. No effusion.\nLiver: No focal lesion.\nAdrenals: ${adr ? `${fmtSize(adrSize)} left adrenal nodule measuring ${pick([5, 20])} HU.` : "Normal."}\nKidneys: ${fmtSize(cystSize)} simple cyst in the ${pick(["left", "right"])} kidney. No calculus or hydronephrosis.\n${filler(2)}\n\nIMPRESSION:\n1. No urolithiasis.\n2. ${lungSize} mm pulmonary nodule.\n3. Simple renal cyst.${adr ? `\n4. ${fmtSize(adrSize)} adrenal nodule.` : ""}`;
   const truth: TruthFinding[] = [
     { organ: "lung", kind: "nodule", sizeMm: lungSize, attenuation: "solid", upperLobe: where.includes("upper") ? true : null },

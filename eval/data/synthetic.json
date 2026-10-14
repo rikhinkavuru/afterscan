@@ -3064,7 +3064,7 @@
  {
   "id": "syn-102",
   "family": "multi",
-  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nREASON FOR EXAM: 65-year-old male. Flank pain, evaluate for stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases: 9 mm solid nodule in the left upper lobe. No effusion.\nLiver: No focal lesion.\nAdrenals: 1.8 x 1.7 cm left adrenal nodule measuring 20 HU.\nKidneys: 22 mm simple cyst in the right kidney. No calculus or hydronephrosis.\nAdrenal glands are normal. Heart size is normal. Coronary artery calcifications.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 9 mm pulmonary nodule.\n3. Simple renal cyst.\n4. 1.8 cm adrenal nodule.",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nCLINICAL INDICATION: 65-year-old female. Flank pain, evaluate for stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases: 9 mm solid nodule in the lingula. No effusion.\nLiver: No focal lesion.\nAdrenals: 1.8 x 1.7 cm left adrenal nodule measuring 20 HU.\nKidneys: 22 mm simple cyst in the right kidney. No calculus or hydronephrosis.\nAdrenal glands are normal. Heart size is normal. Coronary artery calcifications.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 9 mm pulmonary nodule.\n3. Simple renal cyst.\n4. 1.8 cm adrenal nodule.",
   "patient": {
    "ageYears": 65,
    "smoking": "never",
@@ -3076,7 +3076,7 @@
     "kind": "nodule",
     "sizeMm": 9,
     "attenuation": "solid",
-    "upperLobe": true
+    "upperLobe": null
    },
    {
     "organ": "kidney",
@@ -3116,7 +3116,7 @@
  {
   "id": "syn-103",
   "family": "multi",
-  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nREASON FOR EXAM: 69-year-old male. Flank pain, evaluate for stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases: 6 mm solid nodule in the right middle lobe. No effusion.\nLiver: No focal lesion.\nAdrenals: Normal.\nKidneys: 1.5 x 1.4 cm simple cyst in the right kidney. No calculus or hydronephrosis.\nSigmoid diverticulosis without evidence of diverticulitis. No focal hepatic lesion.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 6 mm pulmonary nodule.\n3. Simple renal cyst.",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nINDICATION: 69-year-old male. Flank pain, evaluate for stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases: 6 mm solid nodule in the lingula. No effusion.\nLiver: No focal lesion.\nAdrenals: Normal.\nKidneys: 1.5 x 1.4 cm simple cyst in the right kidney. No calculus or hydronephrosis.\nSigmoid diverticulosis without evidence of diverticulitis. No focal hepatic lesion.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 6 mm pulmonary nodule.\n3. Simple renal cyst.",
   "patient": {
    "ageYears": 69,
    "smoking": "current",
@@ -3158,7 +3158,7 @@
  {
   "id": "syn-104",
   "family": "multi",
-  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nCLINICAL INDICATION: 75-year-old male. Flank pain, evaluate for stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases: 7 mm solid nodule in the left lower lobe. No effusion.\nLiver: No focal lesion.\nAdrenals: Normal.\nKidneys: 2.2 cm simple cyst in the left kidney. No calculus or hydronephrosis.\nNo hydronephrosis. No pleural effusion or pneumothorax.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 7 mm pulmonary nodule.\n3. Simple renal cyst.",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nCLINICAL INDICATION: 75-year-old female. Flank pain, evaluate for stone.\n\nCOMPARISON: None.\n\nFINDINGS:\nLung bases: 7 mm solid nodule in the lingula. No effusion.\nLiver: No focal lesion.\nAdrenals: Normal.\nKidneys: 2.2 cm simple cyst in the left kidney. No calculus or hydronephrosis.\nNo hydronephrosis. No pleural effusion or pneumothorax.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 7 mm pulmonary nodule.\n3. Simple renal cyst.",
   "patient": {
    "ageYears": 75,
    "smoking": "current",
@@ -3200,7 +3200,7 @@
  {
   "id": "syn-105",
   "family": "multi",
-  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nHISTORY: 47-year-old male. Flank pain, evaluate for stone.\n\nCOMPARISON: None.\n\nFINDINGS:\nLung bases: 7 mm solid nodule in the right upper lobe. No effusion.\nLiver: No focal lesion.\nAdrenals: 1.8 x 1.7 cm left adrenal nodule measuring 20 HU.\nKidneys: 22 mm simple cyst in the right kidney. No calculus or hydronephrosis.\nNo hydronephrosis. Sigmoid diverticulosis without evidence of diverticulitis.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 7 mm pulmonary nodule.\n3. Simple renal cyst.\n4. 18 mm adrenal nodule.",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nCLINICAL INDICATION: 47-year-old male. Flank pain, evaluate for stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases: 7 mm solid nodule in the right middle lobe. No effusion.\nLiver: No focal lesion.\nAdrenals: 1.8 x 1.7 cm left adrenal nodule measuring 20 HU.\nKidneys: 22 mm simple cyst in the right kidney. No calculus or hydronephrosis.\nNo hydronephrosis. Sigmoid diverticulosis without evidence of diverticulitis.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 7 mm pulmonary nodule.\n3. Simple renal cyst.\n4. 18 mm adrenal nodule.",
   "patient": {
    "ageYears": 47,
    "smoking": "never",
@@ -3212,7 +3212,7 @@
     "kind": "nodule",
     "sizeMm": 7,
     "attenuation": "solid",
-    "upperLobe": true
+    "upperLobe": null
    },
    {
     "organ": "kidney",
@@ -3252,7 +3252,7 @@
  {
   "id": "syn-106",
   "family": "multi",
-  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nREASON FOR EXAM: 77-year-old female. Flank pain, evaluate for stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases: 7 mm solid nodule in the right middle lobe. No effusion.\nLiver: No focal lesion.\nAdrenals: Normal.\nKidneys: 2.2 cm simple cyst in the right kidney. No calculus or hydronephrosis.\nMild dependent atelectasis at the lung bases. The gallbladder is unremarkable. No biliary ductal dilatation.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 7 mm pulmonary nodule.\n3. Simple renal cyst.",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nREASON FOR EXAM: 77-year-old male. Flank pain, evaluate for stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases: 7 mm solid nodule in the left lower lobe. No effusion.\nLiver: No focal lesion.\nAdrenals: Normal.\nKidneys: 2.2 cm simple cyst in the right kidney. No calculus or hydronephrosis.\nMild dependent atelectasis at the lung bases. The gallbladder is unremarkable. No biliary ductal dilatation.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 7 mm pulmonary nodule.\n3. Simple renal cyst.",
   "patient": {
    "ageYears": 77,
    "smoking": "current",
@@ -3294,7 +3294,7 @@
  {
   "id": "syn-107",
   "family": "multi",
-  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nINDICATION: 59-year-old male. Flank pain, evaluate for stone.\n\nCOMPARISON: None.\n\nFINDINGS:\nLung bases: 6 mm solid nodule in the right middle lobe. No effusion.\nLiver: No focal lesion.\nAdrenals: Normal.\nKidneys: 3.0 cm simple cyst in the right kidney. No calculus or hydronephrosis.\nNo pleural effusion or pneumothorax. Heart size is normal. Coronary artery calcifications.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 6 mm pulmonary nodule.\n3. Simple renal cyst.",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nINDICATION: 59-year-old male. Flank pain, evaluate for stone.\n\nCOMPARISON: None.\n\nFINDINGS:\nLung bases: 6 mm solid nodule in the right lower lobe. No effusion.\nLiver: No focal lesion.\nAdrenals: Normal.\nKidneys: 3.0 cm simple cyst in the right kidney. No calculus or hydronephrosis.\nNo pleural effusion or pneumothorax. Heart size is normal. Coronary artery calcifications.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 6 mm pulmonary nodule.\n3. Simple renal cyst.",
   "patient": {
    "ageYears": 59,
    "smoking": "current",
@@ -3336,7 +3336,7 @@
  {
   "id": "syn-108",
   "family": "multi",
-  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nREASON FOR EXAM: 48-year-old female. Flank pain, evaluate for stone.\n\nCOMPARISON: None.\n\nFINDINGS:\nLung bases: 7 mm solid nodule in the lingula. No effusion.\nLiver: No focal lesion.\nAdrenals: Normal.\nKidneys: 1.5 cm simple cyst in the right kidney. No calculus or hydronephrosis.\nNo hydronephrosis. No pleural effusion or pneumothorax.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 7 mm pulmonary nodule.\n3. Simple renal cyst.",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nHISTORY: 48-year-old female. Flank pain, evaluate for stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases: 7 mm solid nodule in the right middle lobe. No effusion.\nLiver: No focal lesion.\nAdrenals: Normal.\nKidneys: 1.5 cm simple cyst in the right kidney. No calculus or hydronephrosis.\nNo hydronephrosis. No pleural effusion or pneumothorax.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 7 mm pulmonary nodule.\n3. Simple renal cyst.",
   "patient": {
    "ageYears": 48,
    "smoking": "never",
@@ -3378,7 +3378,7 @@
  {
   "id": "syn-109",
   "family": "multi",
-  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nHISTORY: 57-year-old female. Flank pain, evaluate for stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases: 4 mm solid nodule in the right middle lobe. No effusion.\nLiver: No focal lesion.\nAdrenals: Normal.\nKidneys: 3.0 cm simple cyst in the right kidney. No calculus or hydronephrosis.\nSpleen is normal in size. The gallbladder is unremarkable. No biliary ductal dilatation.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 4 mm pulmonary nodule.\n3. Simple renal cyst.",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nREASON FOR EXAM: 57-year-old male. Flank pain, evaluate for stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases: 4 mm solid nodule in the left upper lobe. No effusion.\nLiver: No focal lesion.\nAdrenals: Normal.\nKidneys: 3.0 cm simple cyst in the right kidney. No calculus or hydronephrosis.\nSpleen is normal in size. The gallbladder is unremarkable. No biliary ductal dilatation.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 4 mm pulmonary nodule.\n3. Simple renal cyst.",
   "patient": {
    "ageYears": 57,
    "smoking": "never",
@@ -3390,7 +3390,7 @@
     "kind": "nodule",
     "sizeMm": 4,
     "attenuation": "solid",
-    "upperLobe": null
+    "upperLobe": true
    },
    {
     "organ": "kidney",
@@ -3408,8 +3408,8 @@
   },
   "expected": [
    {
-    "status": "no-follow-up",
-    "firstStepMonths": null
+    "status": "follow-up",
+    "firstStepMonths": 12
    },
    {
     "status": "no-follow-up",

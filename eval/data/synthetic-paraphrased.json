@@ -3076,7 +3076,7 @@
     "kind": "nodule",
     "sizeMm": 9,
     "attenuation": "solid",
-    "upperLobe": true
+    "upperLobe": null
    },
    {
     "organ": "kidney",
@@ -3212,7 +3212,7 @@
     "kind": "nodule",
     "sizeMm": 7,
     "attenuation": "solid",
-    "upperLobe": true
+    "upperLobe": null
    },
    {
     "organ": "kidney",
@@ -3390,7 +3390,7 @@
     "kind": "nodule",
     "sizeMm": 4,
     "attenuation": "solid",
-    "upperLobe": null
+    "upperLobe": true
    },
    {
     "organ": "kidney",
@@ -3408,8 +3408,8 @@
   },
   "expected": [
    {
-    "status": "no-follow-up",
-    "firstStepMonths": null
+    "status": "follow-up",
+    "firstStepMonths": 12
    },
    {
     "status": "no-follow-up",
