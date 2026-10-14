@@ -1,0 +1,747 @@
+[
+ {
+  "id": "iu-001",
+  "report": "FINDINGS: The heart and lungs have XXXX XXXX in the interval. Both lungs are clear and expanded. No change in the small calcified right upper lobe nodule. Heart and mediastinum normal.. IMPRESSION: No active disease.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-002",
+  "report": "FINDINGS: . IMPRESSION: Heart size normal. Lungs clear. Stable 5 mm calcified right midlung nodule",
+  "suggested": {
+   "positive": true,
+   "benign": true,
+   "sentences": [
+    "Stable 5 mm calcified right midlung nodule"
+   ]
+  }
+ },
+ {
+  "id": "iu-003",
+  "report": "FINDINGS: There is a stable closure device projected over the heart. The heart and mediastinum are otherwise normal. There is stable XXXX scarring of left mid lung. The lungs are otherwise clear. There is no infiltrate, effusion, mass or pneumothorax.. IMPRESSION: Stable appearance of the chest",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-004",
+  "report": "FINDINGS: The heart size is normal and cardiomediastinal silhouette has normal contour. The left hilar calcified lymph XXXX appear stable. There is persistence of a left lower lobe calcified nodule XXXX representing a granuloma. The lungs are hyperinflated but otherwise clear bilaterally.. IMPRESSION: 1. Severe hyperinflation. 2. Stable left calcified hilar lymph XXXX.",
+  "suggested": {
+   "positive": true,
+   "benign": true,
+   "sentences": [
+    "There is persistence of a left lower lobe calcified nodule XXXX representing a granuloma."
+   ]
+  }
+ },
+ {
+  "id": "iu-005",
+  "report": "FINDINGS: Lungs are hyperexpanded. No infiltrates or masses in the lungs. Heart size normal.. IMPRESSION: XXXX change COPD. No acute findings.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-006",
+  "report": "FINDINGS: . IMPRESSION: Ill-defined opacity projecting over midthoracic spine on lateral view corresponding with residual mass/nodularity seen XXXX scan from XXXX. Well-expanded lungs with no acute airspace disease. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "IMPRESSION: Ill-defined opacity projecting over midthoracic spine on lateral view corresponding with residual mass/nodularity seen XXXX scan from XXXX."
+   ]
+  }
+ },
+ {
+  "id": "iu-007",
+  "report": "FINDINGS: . IMPRESSION: Heart size is normal. Stable dilated slightly tortuous aorta. Lungs are clear. No edema or effusions. No nodules, masses, or adenopathy.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-008",
+  "report": "FINDINGS: The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.. IMPRESSION: No acute radiographic cardiopulmonary process.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-009",
+  "report": "FINDINGS: The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.. IMPRESSION: 1. No acute radiographic cardiopulmonary process.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-010",
+  "report": "FINDINGS: Lungs are clear bilaterally, with no focal consolidation, pleural effusion, or pneumothoraces. Cardiomediastinal silhouette is within normal limits. Calcified densities within the right paratracheal region and left perihilar region, may represent calcified granulomas. There is a round opacity measuring 2 cm in diameter within the posterior mediastinum. XXXX are unremarkable.. IMPRESSION: 1. Round opacity measuring 2 cm in diameter within the posterior mediastinum. Recommend further evaluation of this nodule with chest CT with IV contrast.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "Recommend further evaluation of this nodule with chest CT with IV contrast."
+   ]
+  }
+ },
+ {
+  "id": "iu-011",
+  "report": "FINDINGS: The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There is redemonstration of a calcified granuloma within the left upper lobe. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.. IMPRESSION: 1. No acute radiographic cardiopulmonary process.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-012",
+  "report": "FINDINGS: Lungs are hyperexpanded. Bullae are present in the upper lobes. No focal infiltrates or masses in the lungs. Heart size normal.. IMPRESSION: COPD. No acute disease.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-013",
+  "report": "FINDINGS: . IMPRESSION: No suspicious appearing lung nodules identified. Well-expanded and clear lungs. Mediastinal contour within normal limits. Right middle lobe scarring as before. No acute cardiopulmonary abnormality identified.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-014",
+  "report": "FINDINGS: No change in the appearance of the left upper lobectomy. Left parahilar scar is unchanged. No XXXX infiltrates or masses in the lungs. Heart size remains normal.. IMPRESSION: Stable chest. No evidence for recurrence or metastasis.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-015",
+  "report": "FINDINGS: Lateral view, over the lingula, there is a 7mm diameter uncalcified nodule of uncertain origin. The trachea is midline. Negative for pneumothorax, pleural effusion or focal airspace consolidation. The heart size is normal. Mild tortuosity aorta is redemonstrated.. IMPRESSION: 1. 7mm non calcified nodule, XXXX in appearance, recommend CT chest without contrast.",
+  "suggested": {
+   "positive": true,
+   "benign": true,
+   "sentences": [
+    "FINDINGS: Lateral view, over the lingula, there is a 7mm diameter uncalcified nodule of uncertain origin.",
+    "7mm non calcified nodule, XXXX in appearance, recommend CT chest without contrast."
+   ]
+  }
+ },
+ {
+  "id": "iu-016",
+  "report": "FINDINGS: The heart size and pulmonary vascularity appear within normal limits. Right hemidiaphragm remains elevated. No pleural effusion is seen. No pneumothorax is identified. No discrete nodules or adenopathy are noted. Degenerative changes are present in the spine. Right XXXX-a-XXXX has been inserted since the previous study. The tip projects over the lower superior XXXX XXXX.. IMPRESSION: 1. No evidence of active disease.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-017",
+  "report": "FINDINGS: Heart size and pulmonary vascularity appear within normal limits. The ascending aorta is prominent and descending thoracic aorta is is tortuous. Aorta appears unchanged as compared to the study. Lungs are free of focal airspace disease. No pleural effusion or pneumothorax is seen. No discrete nodules are identified. There is an oblong density projecting over the anterior left 7th rib. Appearance suggests an old rib fracture.. IMPRESSION: This is XXXX since the previous study. 1. Clear lungs. 2. Apparent old rib fractures in the left anterior chest.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-018",
+  "report": "FINDINGS: There is widening of the mediastinum. There is moderate cardiomegaly identified. The central pulmonary XXXX appear enlarged. Correlate for pulmonary vascular congestion. No focal infiltrate. No large effusion or pneumothorax.. IMPRESSION: 1. Moderate increase in size of the cardiac silhouette. Unclear whether this is secondary to cardiomegaly or pericardial effusion. 2. Pulmonary vascular congestion. 3. Widened mediastinum. Maybe secondary to prominent mediastinal fat or tortuous XXXX. However, adenopathy, or mass is not excluded. CT of the chest with contrast is recommended for further evaluation of these findings.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "However, adenopathy, or mass is not excluded."
+   ]
+  }
+ },
+ {
+  "id": "iu-019",
+  "report": "FINDINGS: Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses.. IMPRESSION: Normal chest No evidence of tuberculosis",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-020",
+  "report": "FINDINGS: Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses.. IMPRESSION: Normal chest",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-021",
+  "report": "FINDINGS: The XXXX examination consists of frontal and lateral radiographs of the chest. The cardiomediastinal contours are unchanged. Pulmonary vascularity is within normal limits. Calcified right upper lobe nodule with a granuloma is again seen but unchanged. No focal consolidation, pleural effusion, or pneumothorax identified. The visualized osseous structures and upper abdomen are unremarkable.. IMPRESSION: No evidence of acute cardiopulmonary process.",
+  "suggested": {
+   "positive": true,
+   "benign": true,
+   "sentences": [
+    "Calcified right upper lobe nodule with a granuloma is again seen but unchanged."
+   ]
+  }
+ },
+ {
+  "id": "iu-022",
+  "report": "FINDINGS: . IMPRESSION: Calcified granulomas. No suspicious appearing lung nodules identified. Well-expanded and clear lungs. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-023",
+  "report": "FINDINGS: The heart size is normal and cardiomediastinal silhouette has normal contour. The left hilar calcified lymph XXXX appear stable. There is persistence of a left lower lobe calcified nodule XXXX representing a granuloma. The lungs are hyperinflated but otherwise clear bilaterally.. IMPRESSION: 1. Severe hyperinflation. 2. Stable left calcified hilar lymph XXXX.",
+  "suggested": {
+   "positive": true,
+   "benign": true,
+   "sentences": [
+    "There is persistence of a left lower lobe calcified nodule XXXX representing a granuloma."
+   ]
+  }
+ },
+ {
+  "id": "iu-024",
+  "report": "FINDINGS: Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses.. IMPRESSION: Normal chest",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-025",
+  "report": "FINDINGS: There is an irregular opacity projecting over the left apex. Additionally there is a more inferior left upper lobe opacity measuring approximately 6 mm in diameter. No pneumothorax. No pleural effusions. Heart size is normal limits. Degenerative changes thoracic spine.. IMPRESSION: Left upper lobe opacities, cannot exclude mass lesions. Recommend CT chest for further evaluation.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "IMPRESSION: Left upper lobe opacities, cannot exclude mass lesions."
+   ]
+  }
+ },
+ {
+  "id": "iu-026",
+  "report": "FINDINGS: Lungs are hyperexpanded. There is no focal airspace consolidation. No suspicious pulmonary mass or nodule is seen. No pleural effusion or pneumothorax. Normal heart size and mediastinal contour.. IMPRESSION: 1. No focal air space consolidation. 2. Hyperexpanded lungs, suggestive of emphysema.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-027",
+  "report": "FINDINGS: No airspace disease, effusion or noncalcified nodule. Calcified granuloma seen bilaterally. Normal heart size. Elevated right hemidiaphragm, with a nodular soft tissue contour, containing liver. Degenerative changes demonstrated within the visualized thoracic spine. There is neurostimulator, overlying the mid and lower thoracic spine.. IMPRESSION: 1. No acute cardiopulmonary abnormality. 2. Elevation of the right XXXX diaphragm, containing liver.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "Elevated right hemidiaphragm, with a nodular soft tissue contour, containing liver."
+   ]
+  }
+ },
+ {
+  "id": "iu-028",
+  "report": "FINDINGS: There are no focal airspace opacities within the lungs. There is a 1 cm nodular density projecting in the right midlung between the third and fourth right anterior ribs which does not appear to be present on the prior XXXX. To the pulmonary interstitium is not clear, making it the vasculature somewhat indistinct in the mid and lower lungs. This may reflect XXXX parenchymal nodules. XXXX nodules were identified on the prior chest CT. Mediastinal contours appear grossly normal. There are small calcified left hilar lymph XXXX. The heart and pulmonary XXXX otherwise appear normal. Pleural spaces appear clear.. IMPRESSION: 1. XXXX 1 XXXX nodular density seen on the PA view only projecting in the right midlung. Recommend noncontrasted enhanced XXXX for evaluation of this nodule. Does this patient have known XXXX factors for malignancy? 2. Somewhat indistinct pulmonary interstitium possibly reflecting underlying pulmonary sarcoidosis",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "There is a 1 cm nodular density projecting in the right midlung between the third and fourth right anterior ribs which does not appear to be present on the prior XXXX.",
+    "This may reflect XXXX parenchymal nodules.",
+    "XXXX nodules were identified on the prior chest CT.",
+    "XXXX 1 XXXX nodular density seen on the PA view only projecting in the right midlung.",
+    "Recommend noncontrasted enhanced XXXX for evaluation of this nodule."
+   ]
+  }
+ },
+ {
+  "id": "iu-029",
+  "report": "FINDINGS: There is an ovoid opacity 3.5 cm in the retrocardiac area on AP view, not well-seen on the lateral view, a dedicated XXXX scan is recommended. No pneumothorax or pleural effusion present. The heart is normal in size. No hilar lymphadenopathy. No destructive bony lesions.. IMPRESSION: 1. No acute cardiopulmonary abnormalities. 2. An ovoid opacity in the left retrocardiac area, could be projectional or solid mass, further study XXXX is recommended. .",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "An ovoid opacity in the left retrocardiac area, could be projectional or solid mass, further study XXXX is recommended."
+   ]
+  }
+ },
+ {
+  "id": "iu-030",
+  "report": "FINDINGS: Heart size is upper limits of normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.. IMPRESSION: 1. No acute radiographic cardiopulmonary process.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-031",
+  "report": "FINDINGS: The heart size is within normal limits. Cardiomediastinal contour is normal. There is a right upper lobe nodule measuring 8 mm in diameter. Trachea is midline. The lungs otherwise clear. XXXX and soft tissues are unremarkable.. IMPRESSION: 1. Right upper lobe pulmonary nodule, XXXX granuloma.",
+  "suggested": {
+   "positive": true,
+   "benign": true,
+   "sentences": [
+    "There is a right upper lobe nodule measuring 8 mm in diameter.",
+    "Right upper lobe pulmonary nodule, XXXX granuloma."
+   ]
+  }
+ },
+ {
+  "id": "iu-032",
+  "report": "FINDINGS: Heart size near top normal limits for technique. No focal alveolar consolidation, no definite pleural effusion seen. No typical findings of pulmonary edema. Dense left lower lobe nodule suggests a previous granulomatous process.. IMPRESSION: No acute findings",
+  "suggested": {
+   "positive": true,
+   "benign": true,
+   "sentences": [
+    "Dense left lower lobe nodule suggests a previous granulomatous process.."
+   ]
+  }
+ },
+ {
+  "id": "iu-033",
+  "report": "FINDINGS: There is prominence of the superior mediastinum which may be partially due to patient's known thyroid mass. There is increased tortuosity of the descending thoracic aorta. Cardiac silhouette is within normal limits. Lungs are clear without focal opacification. No pneumothorax or pleural effusion. There is scoliotic curvature the thoracic spine. No acute bone abnormality.. IMPRESSION: Increasing prominence of the superior mediastinum may be secondary to enlarging thyroid mass. With increasing tortuosity of the thoracic aorta and concern for dissection, chest CT is recommended for further evaluation.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "FINDINGS: There is prominence of the superior mediastinum which may be partially due to patient's known thyroid mass.",
+    "IMPRESSION: Increasing prominence of the superior mediastinum may be secondary to enlarging thyroid mass."
+   ]
+  }
+ },
+ {
+  "id": "iu-034",
+  "report": "FINDINGS: Chest. Normal heart size. Mediastinal silhouette is unremarkable. No focal infiltrates or masses. No pneumothorax or visible pleural fluid. No free intraperitoneal air in the diaphragm. Osseous structures unremarkable. Abdomen: There are no dilated loops of bowel to suggest obstruction. No air-fluid levels or free intraperitoneal air. No suspicious calcifications. There is XXXX XXXX curvature of the thoracolumbar spine. Otherwise the osseous structures are grossly unremarkable.. IMPRESSION: 1. Chest. No radiographic evidence of acute cardiopulmonary abnormality. 2. Abdomen. Nonobstructive bowel XXXX pattern.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-035",
+  "report": "FINDINGS: . IMPRESSION: Well-expanded and clear lungs. Conspicuous for size 3-4 mm nodular opacity projecting in right lung is probably a small calcified granuloma. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified.",
+  "suggested": {
+   "positive": true,
+   "benign": true,
+   "sentences": [
+    "Conspicuous for size 3-4 mm nodular opacity projecting in right lung is probably a small calcified granuloma."
+   ]
+  }
+ },
+ {
+  "id": "iu-036",
+  "report": "FINDINGS: The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. There is no pneumothorax. There is no pleural effusion. There is redemonstration of right rib deformities XXXX from old XXXX. XXXX of mild dextroscoliosis of the thoracic spine. There is no free intraperitoneal air under the diaphragm.. IMPRESSION: No acute radiographic cardiopulmonary process.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-037",
+  "report": "FINDINGS: . IMPRESSION: Heart size is normal and lungs are clear. No pneumonia or effusion. No nodules or masses.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-038",
+  "report": "FINDINGS: The heart and mediastinum are unremarkable. There are two subcentimeter hyperdense nodular opacities are noted within the right lung. These may represent XXXX on end or alternatively, calcified granulomas. The lungs are clear without infiltrate. There is no effusion or pneumothorax.. IMPRESSION: 1. No acute cardiopulmonary disease.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "There are two subcentimeter hyperdense nodular opacities are noted within the right lung."
+   ]
+  }
+ },
+ {
+  "id": "iu-039",
+  "report": "FINDINGS: The lungs appear clear. There are calcified nodules projecting in the right upper lung. Mediastinal contours appear normal. The heart pulmonary XXXX appear normal. Pleural spaces are clear. Surgical clips are identified in the right neck and left mediastinum.. IMPRESSION: No acute cardiopulmonary disease.",
+  "suggested": {
+   "positive": true,
+   "benign": true,
+   "sentences": [
+    "There are calcified nodules projecting in the right upper lung."
+   ]
+  }
+ },
+ {
+  "id": "iu-040",
+  "report": "FINDINGS: The heart, pulmonary XXXX and mediastinum are within normal limits. There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia. There is a 1 cm focal opacity in the right lung apex incompletely evaluated by this exam. There is minimal left basilar XXXX opacity compatible with scarring or atelectasis. There are degenerative changes of the spine.. IMPRESSION: 1 cm of apical opacity, scarring versus nodule. A noncontrast XXXX is indicated for further characterization. Critical result notification documented through Primordial.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "IMPRESSION: 1 cm of apical opacity, scarring versus nodule."
+   ]
+  }
+ },
+ {
+  "id": "iu-041",
+  "report": "FINDINGS: The heart is normal in size. Atherosclerotic calcifications of the aorta. The mediastinum is stable. There is again soft tissue density projected over the right mid chest, XXXX patient's known large breast mass. The appearance is grossly stable to decreased from prior study. The lateral projection is suboptimal as patient could not raise XXXX. There is no pleural effusion.. IMPRESSION: Redemonstration of right chest wall mass compatible with patient's known breast carcinoma.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "There is again soft tissue density projected over the right mid chest, XXXX patient's known large breast mass.",
+    "IMPRESSION: Redemonstration of right chest wall mass compatible with patient's known breast carcinoma."
+   ]
+  }
+ },
+ {
+  "id": "iu-042",
+  "report": "FINDINGS: There are no airspace opacities to suggest pneumonia. There is a vague nodular like opacity in the right midlung measuring 1.2 cm projecting through the posterior 7th and 8th ribs. This may be artifact. Chest fluoroscopy would confirm this. Heart and pulmonary XXXX appear normal. There are calcified subcarinal and right hilar lymph XXXX. The pleural spaces are clear.. IMPRESSION: Nodular density noted on recent PA chest radiograph XXXX represents an artifact. No nodules noted within the lungs on a recent outside XXXX from XXXX.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "There is a vague nodular like opacity in the right midlung measuring 1.2 cm projecting through the posterior 7th and 8th ribs.",
+    "IMPRESSION: Nodular density noted on recent PA chest radiograph XXXX represents an artifact."
+   ]
+  }
+ },
+ {
+  "id": "iu-043",
+  "report": "FINDINGS: Heart size borderline enlarged. Stable cardiomediastinal silhouette. No pneumothorax or large pleural effusion. No focal airspace disease. Low lung volumes. Nodular densities consistent with chronic granulomatous disease. Bony structures appear intact. Mild degenerative disease of the thoracic spine.. IMPRESSION: Negative for acute cardiopulmonary disease.",
+  "suggested": {
+   "positive": true,
+   "benign": true,
+   "sentences": [
+    "Nodular densities consistent with chronic granulomatous disease."
+   ]
+  }
+ },
+ {
+  "id": "iu-044",
+  "report": "FINDINGS: PA and lateral views of the chest were obtained. The cardiomediastinal silhouette is normal in size and configuration. Mild nodular prominence of the right hilum, without significant change. Lung volumes are decreased, with crowding. There is no pneumothorax, pleural effusion, or focal air space consolidation.. IMPRESSION: 1. Low lung volumes with mild crowding.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "Mild nodular prominence of the right hilum, without significant change."
+   ]
+  }
+ },
+ {
+  "id": "iu-045",
+  "report": "FINDINGS: Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses.. IMPRESSION: Normal chest",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-046",
+  "report": "FINDINGS: The lungs and pleural spaces show no acute abnormality. There is a XXXX 10 XXXX nodule in the right apex projecting between the third and fourth posterior ribs. Lungs are hyperexpanded. Heart size and pulmonary vascularity within normal limits. Scattered XXXX densities throughout the chest from prior gunshot wound. Chronic blunting of the costophrenic XXXX. Healed right 10th and left 9th posterolateral rib fracture.. IMPRESSION: 1. No acute pulmonary abnormality. 2. XXXX right apical nodule. Further evaluation XXXX chest should be considered to exclude the possibility of pulmonary malignancy. 3.Chronic findings as discussed below.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "There is a XXXX 10 XXXX nodule in the right apex projecting between the third and fourth posterior ribs.",
+    "XXXX right apical nodule."
+   ]
+  }
+ },
+ {
+  "id": "iu-047",
+  "report": "FINDINGS: The pulmonary nodules and masses masses on previous exam are smaller and not definitely seen. The lungs are otherwise clear. Heart size normal. No pneumothorax. There is a right chest XXXX with tip projecting over the lower SVC.. IMPRESSION: Interval decrease in size of numerous pulmonary nodules and masses. No nodules or masses are definitely seen on XXXX radiograph. .",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "FINDINGS: The pulmonary nodules and masses masses on previous exam are smaller and not definitely seen.",
+    "IMPRESSION: Interval decrease in size of numerous pulmonary nodules and masses."
+   ]
+  }
+ },
+ {
+  "id": "iu-048",
+  "report": "FINDINGS: There are multiple bilateral pulmonary nodules. For example, there is a 12 mm left lower lobe nodule, XXXX seen on the frontal view. There is no pleural effusion or pneumothorax. Heart size is within normal limits. The left hilar contour is prominent. There are diffuse degenerative changes of the spine.. IMPRESSION: 1. Multiple bilateral pulmonary nodules, concerning for metastatic disease. 2. Prominent left hilum. After correlation with the XXXX scan performed today, findings XXXX reflect enlargement of the left pulmonary artery.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "FINDINGS: There are multiple bilateral pulmonary nodules.",
+    "For example, there is a 12 mm left lower lobe nodule, XXXX seen on the frontal view.",
+    "Multiple bilateral pulmonary nodules, concerning for metastatic disease."
+   ]
+  }
+ },
+ {
+  "id": "iu-049",
+  "report": "FINDINGS: Heart size is enlarged. The aorta is unfolded. Otherwise the mediastinal contour is normal. There are streaky bibasilar opacities. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.. IMPRESSION: Cardiomegaly with mild bibasilar infiltrates versus atelectasis.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-050",
+  "report": "FINDINGS: The lungs remain hyperexpanded. No masses or infiltrates in the lungs. No pleural or mediastinal air collections. Heart size normal.. IMPRESSION: Chronic obstructive pulmonary disease with no acute findings.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-051",
+  "report": "FINDINGS: The cardiac silhouette is mildly enlarged. A lobulated opacity is identified superior to the heart, in the anterior mediastinum on the lateral view, possibly consistent with a tortuous/ectatic thoracic aorta versus an anterior mediastinal mass. The thoracic aorta is tortuous and calcified. No focal areas of pulmonary consolidation. The lungs are hyperexpanded with flattening of the bilateral hemidiaphragms. No pneumothorax or pleural effusion. Severe degenerative changes of the thoracic spine.. IMPRESSION: 1. Lobulated anterior mediastinal opacity on the lateral view, possibly consistent with a tortuous/ectatic thoracic aorta versus an anterior mediastinal mass. Contrast-enhanced XXXX examination would XXXX to further evaluate if clinically indicated. 2. Mild cardiomegaly with findings of chronic obstructive pulmonary disease.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "A lobulated opacity is identified superior to the heart, in the anterior mediastinum on the lateral view, possibly consistent with a tortuous/ectatic thoracic aorta versus an anterior mediastinal mass.",
+    "Lobulated anterior mediastinal opacity on the lateral view, possibly consistent with a tortuous/ectatic thoracic aorta versus an anterior mediastinal mass."
+   ]
+  }
+ },
+ {
+  "id": "iu-052",
+  "report": "FINDINGS: The heart is normal in size. The mediastinum is unremarkable. Small nodular opacity left upper lobe may represent early infiltrate. The lungs are otherwise clear. There is no pleural effusion.. IMPRESSION: Small nodular opacity in left upper lung may be secondary to superimposed structures or early infiltrate. Followup evaluation in 2 weeks may be helpful.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "Small nodular opacity left upper lobe may represent early infiltrate.",
+    "IMPRESSION: Small nodular opacity in left upper lung may be secondary to superimposed structures or early infiltrate."
+   ]
+  }
+ },
+ {
+  "id": "iu-053",
+  "report": "FINDINGS: . IMPRESSION: Comparison XXXX, XXXX. No suspicious appearing lung nodules. Well-expanded and clear lungs. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified. Stable chest.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-054",
+  "report": "FINDINGS: Heart size is enlarged. The aorta is unfolded. Otherwise the mediastinal contour is normal. There are streaky bibasilar opacities. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.. IMPRESSION: Cardiomegaly with mild bibasilar infiltrates versus atelectasis.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-055",
+  "report": "FINDINGS: . IMPRESSION: Patchy alveolar infiltrates in the right midlung probably within the anterior segment of the right upper lobe. 7 mm nodular opacity overlying the left lung most XXXX represents patient's nipple recommend nipple XXXX films as it may represent a lung nodule as well. Patient being recalled from the XXXX room for the nipple XXXX film",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "7 mm nodular opacity overlying the left lung most XXXX represents patient's nipple recommend nipple XXXX films as it may represent a lung nodule as well."
+   ]
+  }
+ },
+ {
+  "id": "iu-056",
+  "report": "FINDINGS: Sequelae of old granulomatous disease. No suspicious pulmonary nodules or masses. No pleural effusions or pneumothoraces. Heart and mediastinum of normal size and contour. Degenerative changes in the thoracic spine.. IMPRESSION: Clear lungs without suspicious pulmonary nodules or masses.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-057",
+  "report": "FINDINGS: . IMPRESSION: Patchy alveolar infiltrates in the right midlung probably within the anterior segment of the right upper lobe. 7 mm nodular opacity overlying the left lung most XXXX represents patient's nipple recommend nipple XXXX films as it may represent a lung nodule as well. Patient being recalled from the XXXX room for the nipple XXXX film",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "7 mm nodular opacity overlying the left lung most XXXX represents patient's nipple recommend nipple XXXX films as it may represent a lung nodule as well."
+   ]
+  }
+ },
+ {
+  "id": "iu-058",
+  "report": "FINDINGS: The trachea is midline. The cardiomediastinal silhouette is normal. There are small round calcific density nodules consistent with prior granulomatous disease bilaterally. Otherwise, the lungs are clear without evidence of acute infiltrate or effusion. There are no masses seen. There is no pneumothorax. The visualized bony structures reveal no acute abnormalities.. IMPRESSION: No acute cardiopulmonary abnormalities.",
+  "suggested": {
+   "positive": true,
+   "benign": true,
+   "sentences": [
+    "There are small round calcific density nodules consistent with prior granulomatous disease bilaterally."
+   ]
+  }
+ },
+ {
+  "id": "iu-059",
+  "report": "FINDINGS: Heart size within normal limits. Negative for focal pulmonary consolidation, pleural effusion, or pneumothorax. No pulmonary nodules identified.. IMPRESSION: No acute abnormality. No pulmonary nodule identified. .",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-060",
+  "report": "FINDINGS: The heart, pulmonary XXXX and mediastinum are within normal limits. There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia. There is no pulmonary nodule identified. There is a left humerus prosthesis partly demonstrated.. IMPRESSION: No acute cardiopulmonary disease. No evidence for metastatic disease by radiographic evaluation.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-061",
+  "report": "FINDINGS: The cardiomediastinal silhouette is within normal limits for size and contour. The lungs are normally inflated without evidence of focal airspace disease, pleural effusion, or pneumothorax. Scattered bilateral calcified pulmonary nodules. No acute bone abnormality.. IMPRESSION: No acute cardiopulmonary process.",
+  "suggested": {
+   "positive": true,
+   "benign": true,
+   "sentences": [
+    "Scattered bilateral calcified pulmonary nodules."
+   ]
+  }
+ },
+ {
+  "id": "iu-062",
+  "report": "FINDINGS: Heart size and mediastinal contour within normal limits. Aortic atherosclerotic calcifications. Emphysematous changes. Nodular densities projecting over right anterior fifth and six ribs. No focal airspace consolidation, pneumothorax, or large pleural effusion. No acute osseous abnormality.. IMPRESSION: Nodular densities projecting over right 5th and 6th ribs may healing rib fracture; XXXX recommended to rule-out underlying pulmonary nodule. XXXX level Veriphy message was sent XXXX. XXXX regarding possible lung nodules at XXXX hours XXXX/XXXX.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "Nodular densities projecting over right anterior fifth and six ribs.",
+    "IMPRESSION: Nodular densities projecting over right 5th and 6th ribs may healing rib fracture; XXXX recommended to rule-out underlying pulmonary nodule.",
+    "XXXX regarding possible lung nodules at XXXX hours XXXX/XXXX."
+   ]
+  }
+ },
+ {
+  "id": "iu-063",
+  "report": "FINDINGS: Large medial right upper lobe mass lesion, measuring approximately 5.8 cm x 6.0 cm in diameter. No pneumothorax. No pleural effusions. Lungs clear. Heart size within normal limits. Degenerative changes thoracic spine.. IMPRESSION: Large medial right upper lobe mass highly concerning for primary lung cancer. XXXX chest with intravenous contrast for further evaluation. XXXX XXXX XXXX. XXXX's XXXX was notified of this result at XXXXPM XXXX/XXXX and accepted receipt. Results were faxed. .",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "FINDINGS: Large medial right upper lobe mass lesion, measuring approximately 5.8 cm x 6.0 cm in diameter.",
+    "IMPRESSION: Large medial right upper lobe mass highly concerning for primary lung cancer."
+   ]
+  }
+ },
+ {
+  "id": "iu-064",
+  "report": "FINDINGS: Lungs are hyperexpanded. No infiltrates or masses in the lungs. Heart size normal. No change calcified left hilar XXXX and left small granuloma.. IMPRESSION: XXXX change. COPD with no acute disease.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-065",
+  "report": "FINDINGS: Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses.. IMPRESSION: Normal chest No evidence of tuberculosis",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-066",
+  "report": "FINDINGS: Heart size within normal limits, stable mediastinal and hilar contours. No focal alveolar consolidation, no definite pleural effusion seen. No typical findings of pulmonary edema. Dense nodule again noted in the right lower lobe suggesting a previous granulomatous process.. IMPRESSION: No acute findings",
+  "suggested": {
+   "positive": true,
+   "benign": true,
+   "sentences": [
+    "Dense nodule again noted in the right lower lobe suggesting a previous granulomatous process.."
+   ]
+  }
+ },
+ {
+  "id": "iu-067",
+  "report": "FINDINGS: Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses.. IMPRESSION: Normal chest",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-068",
+  "report": "FINDINGS: The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm.. IMPRESSION: No acute radiographic cardiopulmonary process.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-069",
+  "report": "FINDINGS: . IMPRESSION: Vague 1.5 cm nodule left mid chest periphery overlying the posterior lateral left 7th rib. Further evaluation will require a chest CT. Remainder of the lungs are clear. There is no effusion or adenopathy. Heart size is normal.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "IMPRESSION: Vague 1.5 cm nodule left mid chest periphery overlying the posterior lateral left 7th rib."
+   ]
+  }
+ },
+ {
+  "id": "iu-070",
+  "report": "FINDINGS: The heart is normal in size. The mediastinum is stable. Left-sided chest XXXX is again visualized with tip at cavoatrial junction. There is no pneumothorax. Numerous bilateral pulmonary nodules have increased in size and number XXXX compared to prior study. The dominant nodule/mass in the left midlung is also mildly increased. There is no pleural effusion.. IMPRESSION: Interval increase in size and number of innumerable bilateral pulmonary nodules consistent with worsening metastatic disease.",
+  "suggested": {
+   "positive": true,
+   "benign": false,
+   "sentences": [
+    "Numerous bilateral pulmonary nodules have increased in size and number XXXX compared to prior study.",
+    "The dominant nodule/mass in the left midlung is also mildly increased.",
+    "IMPRESSION: Interval increase in size and number of innumerable bilateral pulmonary nodules consistent with worsening metastatic disease."
+   ]
+  }
+ },
+ {
+  "id": "iu-071",
+  "report": "FINDINGS: The heart and lungs have XXXX XXXX in the interval. Both lungs are clear and expanded. No change in the small calcified right upper lobe nodule. Heart and mediastinum normal.. IMPRESSION: No active disease.",
+  "suggested": {
+   "positive": false,
+   "benign": false,
+   "sentences": []
+  }
+ },
+ {
+  "id": "iu-072",
+  "report": "FINDINGS: Normal heart size and mediastinal contours. The lungs are free of any focal airspace disease. In the left lung base, there is a 9 mm nodule that not definitively calcified. No pneumothorax or pleural effusion. No acute bony abnormalities.. IMPRESSION: 1. No acute cardiopulmonary process. 2. 9 mm left lower lobe pulmonary nodule not definitively calcified. Recommend comparison with prior images to document stability. If none are available consider nonemergent XXXX chest for further characterization. .",
+  "suggested": {
+   "positive": true,
+   "benign": true,
+   "sentences": [
+    "In the left lung base, there is a 9 mm nodule that not definitively calcified.",
+    "9 mm left lower lobe pulmonary nodule not definitively calcified."
+   ]
+  }
+ }
+]

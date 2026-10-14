@@ -1,0 +1,21 @@
+node:internal/modules/run_main:105
+    triggerUncaughtException(
+    ^
+
+Error: Transform failed with 1 error:
+/Users/rikhinkavuru/codethecure/eval/run.ts:103:0: ERROR: Top-level await is currently not supported with the "cjs" output format
+    at failureErrorWithLog (/Users/rikhinkavuru/codethecure/node_modules/esbuild/lib/main.js:1752:15)
+    at /Users/rikhinkavuru/codethecure/node_modules/esbuild/lib/main.js:1019:50
+    at responseCallbacks.<computed> (/Users/rikhinkavuru/codethecure/node_modules/esbuild/lib/main.js:886:9)
+    at handleIncomingPacket (/Users/rikhinkavuru/codethecure/node_modules/esbuild/lib/main.js:941:12)
+    at Socket.readFromStdout (/Users/rikhinkavuru/codethecure/node_modules/esbuild/lib/main.js:864:7)
+    at Socket.emit (node:events:507:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError',
+  code: 'ERR_REQUIRE_ASYNC_MODULE'
+}
+
+Node.js v24.1.0

@@ -119,10 +119,12 @@ export function planThyroid(f: Finding, ctx: ReportContext, p: PatientInputs): P
     : noPlan(f, size, rationale, `Age ${ageLabel}, nodule < ${threshold / 10} cm: no further evaluation.`);
 }
 
+const an = (n: number) => (/^(8|11|18|8\d)$/.test(String(n)) ? "An" : "A");
+
 function usPlan(f: Finding, size: number, rationale: string[], q: string[], text: string): Plan {
   return makePlan(f, ACR_THYROID, {
     status: "further-evaluation",
-    headline: `A ${size} mm thyroid nodule found by chance is large enough that the guideline recommends a dedicated thyroid ultrasound to grade it.`,
+    headline: `${an(size)} ${size} mm thyroid nodule found by chance is large enough that the guideline recommends a dedicated thyroid ultrasound to grade it.`,
     guidelineText: text,
     steps: [step("Thyroid ultrasound", 0, 3)],
     rationale: [...rationale, text],
@@ -132,7 +134,7 @@ function usPlan(f: Finding, size: number, rationale: string[], q: string[], text
 function noPlan(f: Finding, size: number, rationale: string[], text: string): Plan {
   return makePlan(f, ACR_THYROID, {
     status: "no-follow-up",
-    headline: `A ${size} mm thyroid nodule found by chance, with no suspicious features, is below the size at which the guideline recommends any work-up.`,
+    headline: `${an(size)} ${size} mm thyroid nodule found by chance, with no suspicious features, is below the size at which the guideline recommends any work-up.`,
     guidelineText: text,
     rationale: [...rationale, text],
     questions: ["Can you confirm this small thyroid nodule needs no follow-up?"],

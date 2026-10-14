@@ -1,0 +1,1016 @@
+[
+ {
+  "id": "par-001",
+  "family": "lung",
+  "report": "CT ABDOMEN W/O CONTRAST\n\nCLINICAL INDICATION: 55F. RLQ pain.\n\nCOMPARISON: None.\n\nFINDINGS:\nLUNG BASES: 8 mm pure GGO nodule LUL. Otherwise clear lungs. No pleural effusion or PTX.\nADRENALS: Normal.\nKIDNEYS: No hydronephrosis.\n\nIMPRESSION:\n1. Findings as above.\n2. 8 mm pure GGO RLL nodule.",
+  "patient": {
+   "ageYears": 55,
+   "smoking": "current",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 8,
+    "attenuation": "ground-glass",
+    "multiplicity": "single",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   }
+  ]
+ },
+ {
+  "id": "par-002",
+  "family": "lung",
+  "report": "CT ABDOMEN AND PELVIS WITH CONTRAST\n\nCLINICAL INDICATION: The patient is a 69-year-old female in whom evaluation for pulmonary embolism was requested.\n\nPRIOR STUDIES: None are available for comparison.\n\nFINDINGS:\nLung bases: Within the visualized lung bases, there appear to be multiple ground-glass pulmonary nodules, the largest of which measures approximately 7 mm and is situated in the lingula (series 4, image 136). No other pulmonary nodules are identified.\n\nThe heart size is within normal limits. Coronary artery calcifications are present. There is no evidence of pleural effusion or pneumothorax. Mild dependent atelectasis is noted at the lung bases.\n\nIMPRESSION:\n1. The findings are as described above.\n2. Multiple 7 mm ground-glass right lower lobe nodules are reported, for which follow-up CT of the chest in 3-6 months is suggested.",
+  "patient": {
+   "ageYears": 69,
+   "smoking": "unknown",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 7,
+    "attenuation": "ground-glass",
+    "multiplicity": "multiple",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 3
+   }
+  ]
+ },
+ {
+  "id": "par-003",
+  "family": "lung",
+  "report": "CT ABDOMEN WITHOUT CONTRAST\n\nREASON FOR EXAM: 38-year-old female. Evaluate for pulmonary embolism.\n\nCOMPARISON: None.\n\nFINDINGS:\nLung bases: 1.4 cm part-solid nodule in the right upper lobe (series 2, image 76). The solid component measures 3 mm. No other pulmonary nodules.\nLiver: Not described.\nGallbladder/Biliary: Not described.\nPancreas: Unremarkable.\nSpleen: Not described.\nAdrenals: Not described.\nKidneys/Ureters: No hydronephrosis.\nBowel: Not described.\nBones: No suspicious osseous lesion.\n\nIMPRESSION:\n1. Findings as above.\n2. 14 mm part-solid right upper lobe nodule. Follow-up CT chest in 3-6 months is suggested.",
+  "patient": {
+   "ageYears": 38,
+   "smoking": "former",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 14,
+    "attenuation": "part-solid",
+    "multiplicity": "single",
+    "solidComponentMm": 3
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 3
+   }
+  ]
+ },
+ {
+  "id": "par-004",
+  "family": "lung",
+  "report": "CT ABDOMEN AND PELVIS WITH CONTRAST\n\nINDICATION: Forty-two-year-old male, evaluate for pulmonary embolism.\n\nCOMPARISON: None.\n\nFINDINGS:\nLung bases there is a 6 millimeter pulmonary nodule in the right middle lobe otherwise the lungs are clear. Sigmoid diverticulosis is present without evidence of diverticulitis and there are degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. No acute abnormality.\n2. 6 millimeter lingula nodule, recommend follow-up chest CT in 6 to 12 months per Fleischner Society guidelines.",
+  "patient": {
+   "ageYears": 42,
+   "smoking": "former",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 6,
+    "attenuation": "solid",
+    "multiplicity": "single",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   }
+  ]
+ },
+ {
+  "id": "par-005",
+  "family": "lung",
+  "report": "CT ABD/PELVIS W/ CONTRAST\n\nINDICATION: 42F. SOB.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLUNG BASES: 1.4 cm pulm nodule RUL (series 3, img 37). Lungs otherwise clear.\nSPLEEN: Normal size.\nLIVER: No focal lesion.\n\nIMPRESSION:\n1. No acute abnormality.\n2. 14 mm LUL nodule.",
+  "patient": {
+   "ageYears": 42,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 14,
+    "attenuation": "solid",
+    "multiplicity": "single",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "further-evaluation",
+    "firstStepMonths": 3
+   }
+  ]
+ },
+ {
+  "id": "par-006",
+  "family": "lung",
+  "report": "CT ABDOMEN WITHOUT CONTRAST\n\nHISTORY: The patient is a 63-year-old male who presents with flank pain, for which the clinical question is whether a urinary tract stone may be present.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases: Multiple pulmonary nodules are demonstrated at the included lung bases, the largest of which measures 4 mm and is located in the left upper lobe (series 5, image 129). No other pulmonary nodules are identified.\n\nLymph nodes: No lymphadenopathy is seen.\n\nGallbladder and biliary tree: The gallbladder appears unremarkable, and there is no evidence of biliary ductal dilatation.\n\nOsseous structures: No suspicious osseous lesion is identified.\n\nIMPRESSION:\n1. The findings are as described above.\n2. Multiple 4 mm left lower lobe nodules are noted, for which non-emergent CT chest follow-up is recommended.",
+  "patient": {
+   "ageYears": 63,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 4,
+    "attenuation": "solid",
+    "multiplicity": "multiple",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-007",
+  "family": "lung",
+  "report": "CT ABDOMEN AND PELVIS WITH CONTRAST\n\nINDICATION: 39-year-old female. Flank pain, rule out stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases: Multiple pulmonary nodules, the largest measuring 3 mm in the left lower lobe (series 5, image 129). No consolidation. Mild dependent atelectasis at the lung bases.\nHeart: Heart size is normal. Coronary artery calcifications.\nGallbladder: Unremarkable.\nBiliary tree: No biliary ductal dilatation.\n\nIMPRESSION:\n1. No acute abnormality.\n2. Multiple 3 mm left lower lobe nodules.",
+  "patient": {
+   "ageYears": 39,
+   "smoking": "former",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 3,
+    "attenuation": "solid",
+    "multiplicity": "multiple",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 12
+   }
+  ]
+ },
+ {
+  "id": "par-008",
+  "family": "lung",
+  "report": "CT ABDOMEN WITHOUT CONTRAST\n\nREASON FOR EXAM: 53-year-old male, flank pain, rule out stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases, there are multiple pulmonary nodules the largest measuring 14 mm in the lingula, series 3 image 67, no consolidation, no pleural effusion or pneumothorax, the spleen is normal in size, and there are degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. No acute abnormality.\n2. Multiple 1.4 x 1.3 cm lingula nodules, recommend follow-up chest CT in 6 to 12 months per Fleischner Society guidelines.",
+  "patient": {
+   "ageYears": 53,
+   "smoking": "unknown",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 14,
+    "attenuation": "solid",
+    "multiplicity": "multiple",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 3
+   }
+  ]
+ },
+ {
+  "id": "par-009",
+  "family": "lung",
+  "report": "CT ABD/PELVIS W/ CONTRAST\n\nREASON FOR EXAM: 51 yo M. Eval for PE.\n\nPRIOR STUDIES: NONE.\n\nFINDINGS:\nLUNG BASES: Multiple pulmonary nodules, largest 14 mm RML. No other pulm nodules.\nADRENALS: Normal.\nOSSEOUS: No suspicious osseous lesion.\nBOWEL: Sigmoid diverticulosis w/o diverticulitis.\n\nIMPRESSION:\n1. No acute abnormality.\n2. Multiple 1.4 x 1.3 cm LLL nodules.",
+  "patient": {
+   "ageYears": 51,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 14,
+    "attenuation": "solid",
+    "multiplicity": "multiple",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 3
+   }
+  ]
+ },
+ {
+  "id": "par-010",
+  "family": "lung",
+  "report": "CT ABDOMEN AND PELVIS WITH INTRAVENOUS CONTRAST\n\nCLINICAL HISTORY: The patient is a 55-year-old man who presents with abdominal pain.\n\nCOMPARISON: No prior examinations are available for comparison.\n\nFINDINGS:\nLung bases: Within the partially imaged lung bases, there is an 8 mm solid pulmonary nodule in the left upper lobe, which would appear, on the basis of its solid attenuation, to represent a discrete parenchymal lesion. No other pulmonary nodules are present.\n\nAbdomen and pelvis: No focal hepatic lesion is identified. There is no lymphadenopathy. Cardiac size is within normal limits, although coronary artery calcifications are present.\n\nIMPRESSION:\n1. No acute abnormality is identified within the abdomen and pelvis on this examination.\n2. An 8 mm solid nodule is described in the right middle lobe, for which non-emergent follow-up with CT of the chest is recommended.\n\nNote: The source report describes the nodule as being in the left upper lobe in the Findings but in the right middle lobe in the Impression. I have preserved both statements as written, and this laterality and location discrepancy should be clarified with the original radiologist before the report is finalized.",
+  "patient": {
+   "ageYears": 55,
+   "smoking": "former",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 8,
+    "attenuation": "solid",
+    "multiplicity": "single",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   }
+  ]
+ },
+ {
+  "id": "par-011",
+  "family": "lung",
+  "report": "CT CHEST WITHOUT CONTRAST\n\nCLINICAL INDICATION: 54-year-old male. Evaluate for pulmonary embolism.\n\nCOMPARISON: None.\n\nFINDINGS:\nLungs: 5 mm subsolid nodule in the left lower lobe. Solid component measures 3 mm. Otherwise clear lungs.\nBones: No suspicious osseous lesion.\nSpleen: Normal in size.\nPancreas: Unremarkable.\n\nIMPRESSION:\n1. No acute abnormality.\n2. 5 mm subsolid right lower lobe nodule. Non-emergent CT chest follow-up recommended.\n\n[Note: The source report lists the nodule in the left lower lobe in the Findings but the right lower lobe in the Impression. Both are preserved as written. Please verify laterality with the original radiologist.]",
+  "patient": {
+   "ageYears": 54,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 5,
+    "attenuation": "part-solid",
+    "multiplicity": "single",
+    "solidComponentMm": 3
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-012",
+  "family": "lung",
+  "report": "CT ABDOMEN WITHOUT CONTRAST\n\nINDICATION: Seventy year old female with shortness of breath.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases, there is a 3 millimeter solid pulmonary nodule in the left lower lobe on series 5 image 82 and no other pulmonary nodules are seen, the pancreas is unremarkable, there is no pleural effusion or pneumothorax, and no suspicious osseous lesion.\n\nIMPRESSION:\n1. Findings as above.\n2. 3 millimeter solid right lower lobe nodule.",
+  "patient": {
+   "ageYears": 70,
+   "smoking": "unknown",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 3,
+    "attenuation": "solid",
+    "multiplicity": "single",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 12
+   }
+  ]
+ },
+ {
+  "id": "par-013",
+  "family": "lung",
+  "report": "CT ABDOMEN W/O CONTRAST\n\nCLINICAL INDICATION: 70 y/o M. Flank pain, r/o stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLUNG BASES: 7 mm solid pulm nodule LLL (series 2, img 31). No consolidation.\nNo hydronephrosis. Spleen normal in size. Adrenals normal.\n\nIMPRESSION:\n1. No acute abnormality.\n2. 7 mm solid LLL nodule.",
+  "patient": {
+   "ageYears": 70,
+   "smoking": "former",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 7,
+    "attenuation": "solid",
+    "multiplicity": "single",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   }
+  ]
+ },
+ {
+  "id": "par-014",
+  "family": "lung",
+  "report": "CT ABDOMEN AND PELVIS WITH CONTRAST\n\nHISTORY: The patient is a 71-year-old male for whom the clinical indication provided is evaluation for pulmonary embolism.\n\nCOMPARISON: No prior examinations were available for comparison at the time of this interpretation.\n\nFINDINGS:\nLung bases: Within the imaged portions of the lung bases, there is a 3 mm part-solid pulmonary nodule in the right lower lobe (series 5, image 76), the solid component of which measures 7 mm. No other pulmonary nodules are identified.\n\nThe pancreas is unremarkable in appearance on the present examination. There is no lymphadenopathy.\n\nIMPRESSION:\n1. No acute abnormality is identified.\n2. A 3 mm part-solid left lower lobe nodule is described, for which follow-up chest CT in 6-12 months is recommended in accordance with the Fleischner Society guidelines.",
+  "patient": {
+   "ageYears": 71,
+   "smoking": "former",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 3,
+    "attenuation": "part-solid",
+    "multiplicity": "single",
+    "solidComponentMm": 7
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-015",
+  "family": "lung",
+  "report": "CT CHEST WITHOUT CONTRAST\n\nINDICATION: 43-year-old female. Flank pain, rule out stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLungs: 1.1 cm subsolid pulmonary nodule in the lingula. The solid component measures 3 mm. No other pulmonary nodules.\nLung bases: Mild dependent atelectasis.\nPancreas: Unremarkable.\nLiver: No focal hepatic lesion.\n\nIMPRESSION:\n1. Findings as above.\n2. 11 mm subsolid left lower lobe nodule. Follow-up CT chest in 3-6 months is suggested.",
+  "patient": {
+   "ageYears": 43,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 11,
+    "attenuation": "part-solid",
+    "multiplicity": "single",
+    "solidComponentMm": 3
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 3
+   }
+  ]
+ },
+ {
+  "id": "par-016",
+  "family": "lung",
+  "report": "CT ABDOMEN AND PELVIS WITH CONTRAST\n\nHISTORY: Thirty-six-year-old female, flank pain, rule out stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases there is a 6 millimeter part-solid nodule in the right middle lobe, that's series 3 image 124, the solid component measures 4 millimeters, no consolidation. Degenerative changes of the lumbar spine, and mild dependent atelectasis at the lung bases, no pleural effusion or pneumothorax.\n\nIMPRESSION:\nNumber one findings as above. Number two 6 millimeter part-solid right lower lobe nodule.",
+  "patient": {
+   "ageYears": 36,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 6,
+    "attenuation": "part-solid",
+    "multiplicity": "single",
+    "solidComponentMm": 4
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 3
+   }
+  ]
+ },
+ {
+  "id": "par-017",
+  "family": "lung",
+  "report": "CT ABDOMEN/PELVIS W/ CONTRAST\n\nHISTORY: 77 yo M. RLQ pain.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLUNG BASES: 7 mm solid pulm nodule RML (series 3, image 37). No other pulm nodules. No pleural effusion or PTX.\nMSK: Degenerative changes lumbar spine.\nPANCREAS: Unremarkable.\n\nIMPRESSION:\n1. Findings as above.\n2. 7 mm solid RML nodule. Non-emergent CT chest f/u recommended.",
+  "patient": {
+   "ageYears": 77,
+   "smoking": "current",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 7,
+    "attenuation": "solid",
+    "multiplicity": "single",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   }
+  ]
+ },
+ {
+  "id": "par-018",
+  "family": "lung",
+  "report": "CT ABDOMEN WITHOUT CONTRAST\n\nCLINICAL INDICATION: The patient is a 50-year-old woman who presents with abdominal pain.\n\nCOMPARISON: No prior examinations were available for comparison.\n\nFINDINGS:\nLung bases: Imaging of the visualized lung bases demonstrates multiple subsolid pulmonary nodules, the largest of which, situated within the lingula (series 2, image 53), measures approximately 8 mm in greatest dimension. The solid component of this dominant nodule measures 7 mm. There is no evidence of consolidation within the visualized lung bases.\n\nAdditional findings: Sigmoid diverticulosis is present, although there is no evidence to suggest superimposed diverticulitis. No lymphadenopathy is identified. The pancreas appears unremarkable.\n\nIMPRESSION:\n1. The findings are as described above.\n2. Multiple subsolid nodules are present in the lingula, with the largest measuring 8 mm.",
+  "patient": {
+   "ageYears": 50,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 8,
+    "attenuation": "part-solid",
+    "multiplicity": "multiple",
+    "solidComponentMm": 7
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 3
+   }
+  ]
+ },
+ {
+  "id": "par-019",
+  "family": "lung",
+  "report": "CT ABDOMEN AND PELVIS WITH CONTRAST\n\nREASON FOR EXAM: 74-year-old female. Flank pain, rule out stone.\n\nCOMPARISON: None.\n\nFINDINGS:\nLung bases: 6 mm pulmonary nodule in the right lower lobe. No other pulmonary nodules. Mild dependent atelectasis at the lung bases.\nGallbladder: Unremarkable.\nBiliary ducts: No biliary ductal dilatation.\n\nIMPRESSION:\n1. No acute abnormality.\n2. 6 mm lingula nodule. Non-emergent CT chest follow-up recommended.",
+  "patient": {
+   "ageYears": 74,
+   "smoking": "unknown",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 6,
+    "attenuation": "solid",
+    "multiplicity": "single",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   }
+  ]
+ },
+ {
+  "id": "par-020",
+  "family": "lung",
+  "report": "CT CHEST WITHOUT CONTRAST\n\nREASON FOR EXAM: 77-year-old male with shortness of breath.\n\nCOMPARISON: None.\n\nFINDINGS:\nLungs, there is a 4 mm subsolid nodule in the right lower lobe series 3 image 77 and the solid component measures 4 mm, no other pulmonary nodules. Spleen is normal in size and heart size is normal, there are coronary artery calcifications, and there are degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. No acute abnormality.\n2. 4 mm subsolid right upper lobe nodule, follow-up CT chest in 3 to 6 months is suggested.",
+  "patient": {
+   "ageYears": 77,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 4,
+    "attenuation": "part-solid",
+    "multiplicity": "single",
+    "solidComponentMm": 4
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-021",
+  "family": "lung",
+  "report": "CT ABDOMEN W/O CONTRAST\n\nCLINICAL INDICATION: 61M. Flank pain, r/o stone.\n\nCOMPARISON: None.\n\nFINDINGS:\nLUNG BASES: 9 mm subsolid pulm nodule RML (series 5, img 110). Solid component 3 mm. No other pulm nodules.\nHeart size nl. Coronary artery calcs. No free fluid or free air. No pleural effusion or PTX.\n\nIMPRESSION:\n1. No acute abnormality.\n2. 9 mm subsolid RUL nodule.",
+  "patient": {
+   "ageYears": 61,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 9,
+    "attenuation": "part-solid",
+    "multiplicity": "single",
+    "solidComponentMm": 3
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 3
+   }
+  ]
+ },
+ {
+  "id": "par-022",
+  "family": "lung",
+  "report": "CT ABDOMEN WITHOUT CONTRAST\n\nHISTORY: The patient is a 43-year-old female who presents with pain localized to the right lower quadrant.\n\nCOMPARISON: No prior examinations are available for comparison.\n\nFINDINGS:\nLung bases: Within the imaged portions of the lung bases, a part-solid nodule measuring 9 mm in greatest dimension is identified in the lingula, the solid component of which measures 7 mm. The remainder of the visualized lungs is clear. Neither a pleural effusion nor a pneumothorax is demonstrated. Turning to the upper abdomen, the gallbladder is unremarkable in appearance, and there is no evidence of biliary ductal dilatation.\n\nIMPRESSION:\n1. The findings are as described in detail above.\n2. A 9 mm part-solid nodule is noted in the right upper lobe. In accordance with the Fleischner Society guidelines, follow-up chest CT in 6 to 12 months is recommended.",
+  "patient": {
+   "ageYears": 43,
+   "smoking": "former",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 9,
+    "attenuation": "part-solid",
+    "multiplicity": "single",
+    "solidComponentMm": 7
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "further-evaluation",
+    "firstStepMonths": 0
+   }
+  ]
+ },
+ {
+  "id": "par-023",
+  "family": "lung",
+  "report": "CT CHEST WITHOUT CONTRAST\n\nREASON FOR EXAM: 50-year-old male. Right lower quadrant pain.\n\nCOMPARISON: None.\n\nFINDINGS:\nLungs: 8 mm pure ground-glass pulmonary nodule in the left lower lobe. No consolidation.\nPleura: No pleural effusion or pneumothorax.\nAdrenal glands: Unremarkable.\nKidneys: No hydronephrosis.\n\nIMPRESSION:\n1. Findings as above.\n2. 8 mm pure ground-glass right lower lobe nodule. Non-emergent CT chest follow-up recommended.",
+  "patient": {
+   "ageYears": 50,
+   "smoking": "current",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 8,
+    "attenuation": "ground-glass",
+    "multiplicity": "single",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   }
+  ]
+ },
+ {
+  "id": "par-024",
+  "family": "lung",
+  "report": "CT ABDOMEN WITHOUT CONTRAST\n\nHISTORY: 55 year old female with right lower quadrant pain.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases, there is a 9 millimeter ground glass pulmonary nodule in the left upper lobe, otherwise the lungs are clear, heart size is normal with coronary artery calcifications noted, no pleural effusion or pneumothorax.\n\nIMPRESSION:\nNumber 1, findings as above. Number 2, 9 millimeter ground glass left lower lobe nodule.",
+  "patient": {
+   "ageYears": 55,
+   "smoking": "former",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 9,
+    "attenuation": "ground-glass",
+    "multiplicity": "single",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   }
+  ]
+ },
+ {
+  "id": "par-025",
+  "family": "lung",
+  "report": "CT ABDOMEN W/O CONTRAST\n\nREASON FOR EXAM: 71 y/o M. RLQ pain.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLUNG BASES: 11 mm pure GGN in RML. No consolidation.\nNo free fluid or free air. No pleural effusion or PTX. No hydronephrosis.\n\nIMPRESSION:\n1. Findings as above.\n2. 1.1 cm pure GGN, RML. F/u CT chest in 3-6 months suggested.",
+  "patient": {
+   "ageYears": 71,
+   "smoking": "former",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 11,
+    "attenuation": "ground-glass",
+    "multiplicity": "single",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   }
+  ]
+ },
+ {
+  "id": "par-026",
+  "family": "lung",
+  "report": "CT ABDOMEN AND PELVIS WITH CONTRAST\n\nHISTORY: The patient is a 53-year-old male who presents with right lower quadrant pain.\n\nPRIOR STUDIES: No prior studies are available for comparison.\n\nFINDINGS:\nLung bases: Within the visualized portions of the lung bases, there is a solid pulmonary nodule in the right lower lobe measuring 7 mm. No other pulmonary nodules are identified in the imaged lung bases.\n\nCardiovascular: The heart is normal in size. Coronary artery calcifications are present.\n\nLymph nodes: No lymphadenopathy is identified.\n\nSpleen: The spleen is normal in size.\n\nIMPRESSION:\n1. No acute abnormality is identified on the present examination.\n2. A solid nodule measuring 7 mm is noted in the right middle lobe.",
+  "patient": {
+   "ageYears": 53,
+   "smoking": "unknown",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 7,
+    "attenuation": "solid",
+    "multiplicity": "single",
+    "solidComponentMm": null
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   }
+  ]
+ },
+ {
+  "id": "par-027",
+  "family": "lung-benign",
+  "report": "CT CHEST WITHOUT CONTRAST\n\nINDICATION: 49-year-old male. Chronic cough.\n\nCOMPARISON: CT chest 2021.\n\nFINDINGS:\nLungs: 3 mm calcified granuloma in the lingula, unchanged. No new or enlarging nodules.\nSigmoid colon: Diverticulosis without evidence of diverticulitis.\nSpleen: Normal in size.\n\nIMPRESSION:\n1. Stable calcified granuloma. No follow-up required.",
+  "patient": {
+   "ageYears": 49,
+   "smoking": "former"
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 3,
+    "calcified": true,
+    "benignCalcification": true,
+    "explicitlyBenign": true,
+    "stability": "stable"
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT"
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-028",
+  "family": "lung-benign",
+  "report": "CT CHEST WITHOUT CONTRAST\n\nHISTORY: Seventy-nine-year-old female, chronic cough.\n\nPRIOR STUDIES: CT chest from 2021.\n\nFINDINGS:\nLungs, there is a 6 millimeter calcified nodule in the lingula which is unchanged from the prior study and is benign in appearance, no new or enlarging nodules are seen, no hydronephrosis, and there are degenerative changes of the lumbar spine.\n\nIMPRESSION:\nStable calcified granuloma, no follow-up required.",
+  "patient": {
+   "ageYears": 79,
+   "smoking": "former"
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 6,
+    "calcified": true,
+    "benignCalcification": true,
+    "explicitlyBenign": true,
+    "stability": "stable"
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT"
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-029",
+  "family": "lung-benign",
+  "report": "CT CHEST W/O CONTRAST\n\nCLINICAL INDICATION: 72M. Chronic cough.\n\nCOMPARISON: CT chest 2022.\n\nFINDINGS:\nLUNGS: 3 mm calcified granuloma LLL, unchanged. No new or enlarging nodules. Spleen normal in size. No hydronephrosis.\n\nIMPRESSION:\nStable calcified granuloma. No f/u required.",
+  "patient": {
+   "ageYears": 72,
+   "smoking": "former"
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 3,
+    "calcified": true,
+    "benignCalcification": true,
+    "explicitlyBenign": true,
+    "stability": "stable"
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT"
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-030",
+  "family": "lung-benign",
+  "report": "CT CHEST WITHOUT CONTRAST\n\nHISTORY: The patient is a 46-year-old woman who presents with a chronic cough.\n\nCOMPARISON: Computed tomography of the chest performed in 2019.\n\nFINDINGS:\n\nLungs: Within the lingula, there is a 3 mm calcified nodule which, when compared with the prior examination, appears essentially unchanged in size and morphology, a constellation of features that is generally regarded as consistent with a benign process. Furthermore, there is no evidence of any new nodule, nor of any nodule demonstrating interval enlargement, on the present study.\n\nGallbladder and biliary tree: The gallbladder appears unremarkable on the images obtained, and there is no evidence of biliary ductal dilatation.\n\nLymph nodes: No lymphadenopathy is identified.\n\nIMPRESSION:\nThe findings are most consistent with a stable calcified granuloma, and, given this stability and the benign appearance described above, no follow-up imaging is required.",
+  "patient": {
+   "ageYears": 46,
+   "smoking": "current"
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 3,
+    "calcified": true,
+    "benignCalcification": true,
+    "explicitlyBenign": true,
+    "stability": "stable"
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT"
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-031",
+  "family": "lung-benign",
+  "report": "CT CHEST WITHOUT CONTRAST\n\nINDICATION: 76-year-old female. Chronic cough.\n\nCOMPARISON: CT chest 2022.\n\nFINDINGS:\nLungs: Stable 5 mm (0.5 cm) densely calcified nodule in the right lower lobe, consistent with a granuloma. No new or enlarging nodules.\nHeart: Size is normal. Coronary artery calcifications present.\nGallbladder: Unremarkable.\nBiliary tree: No biliary ductal dilatation.\n\nIMPRESSION:\n1. Stable calcified granuloma in the right lower lobe. No follow-up required.",
+  "patient": {
+   "ageYears": 76,
+   "smoking": "current"
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 5,
+    "calcified": true,
+    "benignCalcification": true,
+    "explicitlyBenign": true,
+    "stability": "stable"
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT"
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-032",
+  "family": "lung-benign",
+  "report": "CT CHEST WITHOUT CONTRAST\n\nHISTORY: 52 year old male with chronic cough.\n\nPRIOR STUDIES: CT chest from 2021.\n\nFINDINGS:\nLungs: There is a 4 millimeter calcified granuloma in the right middle lobe which is unchanged, no new or enlarging nodules are identified, no hydronephrosis, no lymphadenopathy.\n\nIMPRESSION:\nStable calcified granuloma, no follow up required.",
+  "patient": {
+   "ageYears": 52,
+   "smoking": "current"
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 4,
+    "calcified": true,
+    "benignCalcification": true,
+    "explicitlyBenign": true,
+    "stability": "stable"
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT"
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-033",
+  "family": "lung-screening",
+  "report": "LOW-DOSE CT CHEST, LUNG CANCER SCREENING\n\nINDICATION: Annual lung ca screening. 61 y/o, current smoker, 41 pk-yrs.\n\nCOMPARISON: Prior screening CT.\n\nFINDINGS:\nLUNGS: 9 mm solid nodule LUL, new.\nGB: Unremarkable. No biliary ductal dilatation.\nSPLEEN: Normal size.\n\nIMPRESSION: Lung-RADS 4A. 3-month LDCT recommended.",
+  "patient": {
+   "ageYears": 61,
+   "smoking": "current"
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 9,
+    "attenuation": "solid"
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "screeningExam": true
+  },
+  "expected": [
+   {
+    "status": "out-of-scope",
+    "firstStepMonths": null
+   }
+  ]
+ }
+]
