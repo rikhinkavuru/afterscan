@@ -214,9 +214,9 @@
   "id": "iu-027",
   "report": "FINDINGS: No airspace disease, effusion or noncalcified nodule. Calcified granuloma seen bilaterally. Normal heart size. Elevated right hemidiaphragm, with a nodular soft tissue contour, containing liver. Degenerative changes demonstrated within the visualized thoracic spine. There is neurostimulator, overlying the mid and lower thoracic spine.. IMPRESSION: 1. No acute cardiopulmonary abnormality. 2. Elevation of the right XXXX diaphragm, containing liver.",
   "label": {
-   "positive": false,
-   "benign": false,
-   "note": "nodular contour of hernia/eventration, not a nodule"
+   "positive": true,
+   "benign": true,
+   "note": "bilateral calcified granulomas; the nodular diaphragm contour is a hernia, not a nodule (label corrected after review)"
   }
  },
  {

@@ -3080,5 +3080,466 @@
     "firstStepMonths": null
    }
   ]
+ },
+ {
+  "id": "par-103",
+  "family": "multi",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nREASON FOR EXAM: 67-year-old female. Flank pain, evaluate for stone.\n\nCOMPARISON: None.\n\nFINDINGS:\nLung bases: 9 mm solid nodule in the right upper lobe. No effusion. Mild dependent atelectasis at the lung bases.\nLiver: No focal lesion.\nAdrenals: Unremarkable.\nKidneys: 3.0 x 2.9 cm simple cyst in the left kidney. No calculus. No hydronephrosis.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 9 mm pulmonary nodule.\n3. Simple renal cyst.",
+  "patient": {
+   "ageYears": 67,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 9,
+    "attenuation": "solid"
+   },
+   {
+    "organ": "kidney",
+    "kind": "cyst",
+    "sizeMm": 30,
+    "bosniak": "I",
+    "explicitlyBenign": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "without",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "further-evaluation",
+    "firstStepMonths": 3
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-104",
+  "family": "multi",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nCLINICAL INDICATION: 74-year-old male with flank pain, evaluate for stone.\n\nCOMPARISON: None.\n\nFINDINGS:\nLung bases there is a 4 mm solid nodule in the left upper lobe, no effusion. Liver shows no focal lesion. Adrenals, there is a 12 mm left adrenal nodule measuring 20 HU. Kidneys, a 2.2 by 2.1 cm simple cyst in the left kidney, no calculus and no hydronephrosis. No lymphadenopathy. No hydronephrosis.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 4 mm pulmonary nodule.\n3. Simple renal cyst.\n4. 1.2 cm adrenal nodule.",
+  "patient": {
+   "ageYears": 74,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 4,
+    "attenuation": "solid"
+   },
+   {
+    "organ": "kidney",
+    "kind": "cyst",
+    "sizeMm": 22,
+    "bosniak": "I",
+    "explicitlyBenign": true
+   },
+   {
+    "organ": "adrenal",
+    "kind": "nodule",
+    "sizeMm": 12,
+    "unenhancedHU": 20
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "without",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 12
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   },
+   {
+    "status": "follow-up",
+    "firstStepMonths": 12
+   }
+  ]
+ },
+ {
+  "id": "par-105",
+  "family": "multi",
+  "report": "CT ABD/PELVIS W/O CONTRAST\n\nCLINICAL INDICATION: 55 yo M. Flank pain. Eval for stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLUNG BASES: 9 mm solid nodule LLL. No effusion. Mild dependent atelectasis at bases.\nLIVER: No focal lesion.\nADRENALS: Normal.\nKIDNEYS: 2.2 x 2.1 cm simple cyst L kidney. No calculus or hydronephrosis.\nSPLEEN: Normal size.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 9 mm pulmonary nodule.\n3. Simple renal cyst.",
+  "patient": {
+   "ageYears": 55,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 9,
+    "attenuation": "solid"
+   },
+   {
+    "organ": "kidney",
+    "kind": "cyst",
+    "sizeMm": 22,
+    "bosniak": "I",
+    "explicitlyBenign": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "without",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "further-evaluation",
+    "firstStepMonths": 3
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-106",
+  "family": "multi",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT INTRAVENOUS CONTRAST\n\nCLINICAL INDICATION: The patient is a 64-year-old woman presenting with flank pain, for whom the examination was requested in order to evaluate for the possible presence of a urinary tract calculus.\n\nCOMPARISON: No prior imaging studies were available for comparison at the time of interpretation.\n\nFINDINGS:\nLung bases: Within the visualized portions of the lung bases, there is a solid nodule measuring 6 mm in the right lower lobe. No pleural effusion is identified at the lung bases.\n\nLiver: The hepatic parenchyma demonstrates no focal lesion on this noncontrast examination.\n\nAdrenal glands: The adrenal glands appear normal in morphology and appearance.\n\nKidneys: A simple cyst measuring 1.5 cm is present in the right kidney. There is no evidence of renal calculus, and no hydronephrosis is demonstrated.\n\nAdditional findings: No free intraperitoneal fluid or free air is identified. There is likewise no pleural effusion or pneumothorax.\n\nIMPRESSION:\n1. There is no evidence of urolithiasis.\n2. A 6 mm pulmonary nodule is present, as described above, in the right lower lobe.\n3. A simple renal cyst is noted, as described above, in the right kidney.",
+  "patient": {
+   "ageYears": 64,
+   "smoking": "current",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 6,
+    "attenuation": "solid"
+   },
+   {
+    "organ": "kidney",
+    "kind": "cyst",
+    "sizeMm": 15,
+    "bosniak": "I",
+    "explicitlyBenign": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "without",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-107",
+  "family": "multi",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nREASON FOR EXAM: 73-year-old male. Flank pain, evaluate for stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases: 4 mm solid nodule in the lingula. No effusion. No pleural effusion or pneumothorax.\nLiver: No focal lesion.\nGallbladder: Unremarkable.\nBiliary tree: No biliary ductal dilatation.\nAdrenals: 25 mm left adrenal nodule measuring 20 HU.\nKidneys: 2.2 x 2.1 cm simple cyst in the left kidney. No calculus or hydronephrosis.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 4 mm pulmonary nodule.\n3. Simple renal cyst.\n4. 2.5 cm adrenal nodule.",
+  "patient": {
+   "ageYears": 73,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 4,
+    "attenuation": "solid"
+   },
+   {
+    "organ": "kidney",
+    "kind": "cyst",
+    "sizeMm": 22,
+    "bosniak": "I",
+    "explicitlyBenign": true
+   },
+   {
+    "organ": "adrenal",
+    "kind": "nodule",
+    "sizeMm": 25,
+    "unenhancedHU": 20
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "without",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 12
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   },
+   {
+    "status": "further-evaluation",
+    "firstStepMonths": 0
+   }
+  ]
+ },
+ {
+  "id": "par-108",
+  "family": "multi",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nHISTORY: Seventy-seven-year-old female, flank pain, evaluate for stone.\n\nCOMPARISON: None.\n\nFINDINGS: Starting with the lung bases, there is a 9 mm solid nodule in the left upper lobe, no effusion. The liver shows no focal lesion. Adrenals, there is a 2.5 by 2.4 cm left adrenal nodule measuring 5 HU. Kidneys, there is a 3.0 cm simple cyst in the right kidney, no calculus or hydronephrosis. The spleen is normal in size, and there is no pleural effusion or pneumothorax.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 9 mm pulmonary nodule.\n3. Simple renal cyst.\n4. 2.5 by 2.4 cm adrenal nodule.",
+  "patient": {
+   "ageYears": 77,
+   "smoking": "current",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 9,
+    "attenuation": "solid"
+   },
+   {
+    "organ": "kidney",
+    "kind": "cyst",
+    "sizeMm": 30,
+    "bosniak": "I",
+    "explicitlyBenign": true
+   },
+   {
+    "organ": "adrenal",
+    "kind": "nodule",
+    "sizeMm": 25,
+    "unenhancedHU": 5
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "without",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "further-evaluation",
+    "firstStepMonths": 3
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-109",
+  "family": "multi",
+  "report": "CT ABD/PELVIS W/O CONTRAST\n\nCLINICAL INDICATION: 70 y/o M. Flank pain, r/o stone.\n\nCOMPARISON: None.\n\nFINDINGS:\nLUNG BASES: 9 mm solid nodule LUL. No effusion.\nLIVER: No focal lesion.\nADRENALS: Normal.\nKIDNEYS: 30 mm simple cyst L kidney. No calculus or hydronephrosis.\nSPINE: Degenerative changes lumbar spine.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 9 mm pulm nodule.\n3. Simple renal cyst.",
+  "patient": {
+   "ageYears": 70,
+   "smoking": "current",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 9,
+    "attenuation": "solid"
+   },
+   {
+    "organ": "kidney",
+    "kind": "cyst",
+    "sizeMm": 30,
+    "bosniak": "I",
+    "explicitlyBenign": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "without",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "further-evaluation",
+    "firstStepMonths": 3
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-110",
+  "family": "negative",
+  "report": "CT CHEST WITH CONTRAST\n\nINDICATION: The patient is a 46-year-old female who presents with chest pain, for which cross-sectional imaging has been requested.\n\nCOMPARISON: No prior examinations are available for comparison; accordingly, the present study cannot be assessed for interval change.\n\nFINDINGS:\nLungs: On review of the lung parenchyma, there is no evidence of pulmonary nodules or masses, and no focal consolidation is identified.\n\nAdrenal glands: The adrenal glands are normal in appearance.\n\nLymph nodes: There is no lymphadenopathy.\n\nIMPRESSION: Taken together, the findings indicate no acute cardiopulmonary abnormality.",
+  "patient": {
+   "ageYears": 46
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-111",
+  "family": "negative",
+  "report": "CT ABDOMEN AND PELVIS WITH CONTRAST\n\nCLINICAL INDICATION: 56-year-old male. Abdominal pain.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLiver: No focal hepatic lesion.\nPancreas: Unremarkable. No cystic lesion.\nAdrenals: Normal. Adrenal glands are normal.\nKidneys: No renal mass or cyst.\nPleura: No pleural effusion or pneumothorax.\nLung bases: Mild dependent atelectasis.\n\nIMPRESSION:\n1. Normal examination.",
+  "patient": {
+   "ageYears": 56
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-112",
+  "family": "negative",
+  "report": "CHEST RADIOGRAPH PA AND LATERAL\n\nINDICATION: Forty-five year old with cough.\n\nFINDINGS: The lungs are clear there is no nodule or mass or infiltrate seen and the heart size is normal and there is no effusion.\n\nIMPRESSION: Normal chest.",
+  "patient": {
+   "ageYears": 45
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-113",
+  "family": "negative",
+  "report": "CT ABDOMEN W/O CONTRAST\n\nCLINICAL INDICATION: 40 y/o F. Flank pain.\n\nCOMPARISON: None.\n\nFINDINGS:\nLUNG BASES: Clear. No nodule.\nKIDNEYS: 4 mm nonobstructing stone L lower pole. No mass.\nADRENALS: No nodule.\nGALLBLADDER: Unremarkable. No biliary ductal dilatation.\nSPLEEN: Normal size.\n\nIMPRESSION: Nephrolithiasis w/o obstruction.",
+  "patient": {
+   "ageYears": 40
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-114",
+  "family": "negative",
+  "report": "MRI BRAIN WITH AND WITHOUT CONTRAST\n\nCLINICAL INDICATION: The patient is a 76-year-old male who is being evaluated in the setting of headache.\n\nPRIOR STUDIES: There are no prior studies available for comparison.\n\nFINDINGS: On review of the multiplanar, multisequence images obtained both before and after the administration of intravenous contrast, there is no evidence of an intracranial mass, nor is there any suggestion of intracranial hemorrhage or of an acute or established infarct. The ventricular system appears normal in its overall configuration and size. Incidentally, there is mild mucosal thickening involving the maxillary sinuses, which may reflect a nonspecific inflammatory or related process.\n\nIMPRESSION: Overall, this examination is consistent with a normal MRI of the brain.",
+  "patient": {
+   "ageYears": 76
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-115",
+  "family": "negative",
+  "report": "CT CHEST WITHOUT CONTRAST\n\nINDICATION: 47-year-old male. Shortness of breath.\n\nCOMPARISON: CT 2020.\n\nFINDINGS:\nLungs: Centrilobular emphysema. No nodules, masses, or interstitial lung disease. Previously noted 4 mm right upper lobe nodule has resolved.\nPleura/Free Fluid/Free Air: No free fluid or free air.\nLymph Nodes: No lymphadenopathy.\n\nIMPRESSION:\n1. Emphysema.\n2. No pulmonary nodules.",
+  "patient": {
+   "ageYears": 47
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-116",
+  "family": "negative",
+  "report": "CT CHEST WITH CONTRAST\n\nINDICATION: Forty eight year old female with chest pain.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLungs, there are no pulmonary nodules or masses and no consolidation seen. The heart size is normal, there are coronary artery calcifications noted. The spleen is normal in size. No suspicious osseous lesion.\n\nIMPRESSION: No acute cardiopulmonary abnormality.",
+  "patient": {
+   "ageYears": 48
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-117",
+  "family": "negative",
+  "report": "CT ABD/PELVIS W CONTRAST\n\nCLINICAL INDICATION: 64 y/o M. Abd pain.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLIVER: No focal hepatic lesion.\nPANCREAS: Unremarkable. No cystic lesion.\nADRENALS: Normal.\nKIDNEYS: No renal mass or cyst.\nADRENAL GLANDS: Normal.\nCHEST: No pleural effusion or pneumothorax.\n\nIMPRESSION: Normal exam.",
+  "patient": {
+   "ageYears": 64
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-118",
+  "family": "negative",
+  "report": "CHEST RADIOGRAPH, POSTEROANTERIOR AND LATERAL VIEWS\n\nINDICATION: The patient is a 76-year-old individual who is being evaluated for cough.\n\nFINDINGS: On careful review of the frontal and lateral projections, the lungs appear to be clear, with no evidence of a pulmonary nodule, mass, or infiltrate identified on these images. The cardiac silhouette appears to be within normal limits with respect to size. Furthermore, there is no radiographic evidence of a pleural effusion.\n\nIMPRESSION: Taken together, these findings are most consistent with a normal chest radiograph.",
+  "patient": {
+   "ageYears": 76
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-119",
+  "family": "negative",
+  "report": "CT ABDOMEN WITHOUT CONTRAST\n\nCLINICAL INDICATION: 50-year-old female. Flank pain.\n\nCOMPARISON: None.\n\nFINDINGS:\nLung bases: Clear, without nodule.\nKidneys: 4 mm nonobstructing stone in the left lower pole. No mass.\nAdrenals: No nodule.\nGallbladder: Unremarkable.\nBiliary tree: No biliary ductal dilatation.\nPeritoneum: No free fluid or free air.\nColon: Sigmoid diverticulosis without evidence of diverticulitis.\n\nIMPRESSION:\n1. Nephrolithiasis without obstruction.",
+  "patient": {
+   "ageYears": 50
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-120",
+  "family": "negative",
+  "report": "MRI BRAIN WITH AND WITHOUT CONTRAST\n\nINDICATION: Sixty four year old male, headache.\n\nCOMPARISON: None.\n\nFINDINGS: There is no intracranial mass and no hemorrhage and no infarct is seen, the ventricles are normal, there is mild mucosal thickening of the maxillary sinuses.\n\nIMPRESSION: Normal MRI of the brain.",
+  "patient": {
+   "ageYears": 64
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-121",
+  "family": "negative",
+  "report": "CT CHEST WITHOUT CONTRAST\n\nREASON FOR EXAM: 60 y/o M. SOB.\n\nCOMPARISON: CT 2020.\n\nFINDINGS:\nLUNGS: Centrilobular emphysema. No nodules, masses, or ILD. Previously noted 4 mm RUL nodule resolved. No suspicious osseous lesion. No LAD.\n\nIMPRESSION: Emphysema. No pulmonary nodules.",
+  "patient": {
+   "ageYears": 60
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
  }
 ]

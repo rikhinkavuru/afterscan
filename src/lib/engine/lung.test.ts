@@ -46,6 +46,9 @@ describe("Fleischner 2017: benign endings", () => {
   it("typical perifissural nodule needs no follow-up even when > 6 mm", () => {
     expect(planLung(nodule({ sizeMm: 7, perifissural: true }), ctx, { smoking: "current" }).status).toBe("no-follow-up");
   });
+  it("calcified granuloma on a chest X-ray is benign, not out of scope", () => {
+    expect(planLung(nodule({ sizeMm: 5, calcified: true, benignCalcification: true }), baseCtx({ modality: "XR" }), {}).status).toBe("no-follow-up");
+  });
   it("solid nodule stable >= 24 months is benign", () => {
     expect(planLung(nodule({ sizeMm: 9, stability: "stable", stableMonths: 30 }), ctx, {}).status).toBe("no-follow-up");
     expect(planLung(nodule({ sizeMm: 9, stability: "stable", stableMonths: 12 }), ctx, { smoking: "never" }).status).toBe("further-evaluation");

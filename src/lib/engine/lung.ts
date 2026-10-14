@@ -230,14 +230,6 @@ export function planLung(f: Finding, ctx: ReportContext, p: PatientInputs): Plan
       [],
       rationale,
     );
-  if (ctx.modality === "XR")
-    return outOfScope(
-      f,
-      FLEISCHNER,
-      "This is an X-ray. The Fleischner rules need a CT, which measures nodules precisely. A non-calcified nodule seen on X-ray is usually clarified with a CT.",
-      ["Do I need a CT scan to look at this nodule more closely?"],
-      rationale,
-    );
 
   // ---- benign patterns that end follow-up ----
   if (yes(f.benignCalcification) || (yes(f.calcified) && f.stability === "stable"))
@@ -269,6 +261,16 @@ export function planLung(f: Finding, ctx: ReportContext, p: PatientInputs): Plan
       rationale: [...rationale, `Solid nodule stable ${f.stableMonths} months`],
       questions: ["This nodule has been stable for over two years; does that mean we can stop following it?"],
     });
+
+  // ---- modality gate (after the benign endings: a calcified granuloma is benign on any modality) ----
+  if (ctx.modality === "XR")
+    return outOfScope(
+      f,
+      FLEISCHNER,
+      "This is an X-ray. The Fleischner rules need a CT, which measures nodules precisely. A non-calcified nodule seen on X-ray is usually clarified with a CT.",
+      ["Do I need a CT scan to look at this nodule more closely?"],
+      rationale,
+    );
 
   // ---- size ----
   const sz = averageDiameterMm(f);

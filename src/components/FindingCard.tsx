@@ -21,7 +21,8 @@ export function FindingCard({
   active: boolean;
   onActivate: () => void;
 }) {
-  const [branch, setBranch] = useState(0);
+  // Default to the branch whose steps the summary table uses (the more cautious one).
+  const [branch, setBranch] = useState(() => Math.max(0, plan.branches?.findIndex((b) => b.steps === plan.steps) ?? 0));
   const steps: PlanStep[] = plan.branches ? plan.branches[branch].steps : plan.steps;
   const dated = dateSteps(plan, examDate, steps);
   const tone = STATUS_TONE[plan.status];
