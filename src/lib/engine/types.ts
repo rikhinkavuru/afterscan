@@ -104,6 +104,8 @@ export interface ReportContext {
   screeningExam: Tri;
   immunocompromised: Tri;
   cirrhosisOrHepaticRisk: Tri;
+  /** Emphysema mentioned (a Fleischner high-risk factor). */
+  emphysema: Tri;
   priorComparisonAvailable: Tri;
   reportDate: string | null; // ISO date if present
 }

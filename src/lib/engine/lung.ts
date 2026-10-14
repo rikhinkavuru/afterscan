@@ -50,7 +50,7 @@ export function lungRisk(
   if (p.smoking === "current") highFactors.push("current smoker");
   if (yes(f.spiculated)) highFactors.push("spiculated margin");
   if (p.familyHistoryLungCancer) highFactors.push("family history of lung cancer");
-  if (p.emphysema) highFactors.push("emphysema");
+  if (resolve(p.emphysema, ctx.emphysema) === true) highFactors.push("emphysema");
   if (highFactors.length)
     return { risk: "high", why: `High-risk factors: ${highFactors.join(", ")}.` };
   const age = resolveAge(ctx, p);

@@ -12,6 +12,7 @@ export function baseCtx(over: Partial<ReportContext> = {}): ReportContext {
     screeningExam: null,
     immunocompromised: null,
     cirrhosisOrHepaticRisk: null,
+    emphysema: null,
     priorComparisonAvailable: null,
     reportDate: null,
     ...over,
