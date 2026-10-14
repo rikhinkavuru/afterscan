@@ -1,0 +1,146 @@
+.........................................................................................................................
+{
+ "split": "synthetic-paraphrased",
+ "model": "claude-opus-5-5",
+ "effort": "medium",
+ "n": 121,
+ "errors": 0,
+ "latencyMsMean": 6287,
+ "latencyMsP90": 8758,
+ "outputTokensMean": 778,
+ "findingRecall": 1,
+ "findingPrecision": 1,
+ "quoteVerifiedRate": 1,
+ "size": {
+  "acc": 1,
+  "n": 119
+ },
+ "attenuation": {
+  "acc": 1,
+  "n": 41
+ },
+ "bosniak": {
+  "acc": 1,
+  "n": 19
+ },
+ "explicitlyBenign": {
+  "acc": 1,
+  "n": 31
+ },
+ "multiplicity": {
+  "acc": 1,
+  "n": 26
+ },
+ "planStatusAgreement": {
+  "acc": 0.992,
+  "n": 119
+ },
+ "planFirstStepAgreement": {
+  "acc": 0.992,
+  "n": 119
+ },
+ "negatives": {
+  "n": 12,
+  "falseAlarms": 0,
+  "notReportFlagged": 0
+ },
+ "byFamily": {
+  "lung": {
+   "n": 26,
+   "planOk": 26,
+   "planN": 26
+  },
+  "lung-benign": {
+   "n": 6,
+   "planOk": 6,
+   "planN": 6
+  },
+  "lung-screening": {
+   "n": 4,
+   "planOk": 4,
+   "planN": 4
+  },
+  "lung-cancer-hx": {
+   "n": 3,
+   "planOk": 3,
+   "planN": 3
+  },
+  "adrenal": {
+   "n": 14,
+   "planOk": 14,
+   "planN": 14
+  },
+  "kidney-simple": {
+   "n": 9,
+   "planOk": 9,
+   "planN": 9
+  },
+  "kidney-tstc": {
+   "n": 1,
+   "planOk": 1,
+   "planN": 1
+  },
+  "kidney-solid-small": {
+   "n": 2,
+   "planOk": 2,
+   "planN": 2
+  },
+  "kidney-IIF": {
+   "n": 2,
+   "planOk": 2,
+   "planN": 2
+  },
+  "kidney-solid": {
+   "n": 2,
+   "planOk": 2,
+   "planN": 2
+  },
+  "liver-indeterminate-large": {
+   "n": 2,
+   "planOk": 2,
+   "planN": 2
+  },
+  "liver-tstc": {
+   "n": 3,
+   "planOk": 3,
+   "planN": 3
+  },
+  "liver-indeterminate": {
+   "n": 3,
+   "planOk": 3,
+   "planN": 3
+  },
+  "liver-hemangioma": {
+   "n": 2,
+   "planOk": 2,
+   "planN": 2
+  },
+  "liver-cyst": {
+   "n": 2,
+   "planOk": 2,
+   "planN": 2
+  },
+  "pancreas": {
+   "n": 12,
+   "planOk": 12,
+   "planN": 12
+  },
+  "thyroid": {
+   "n": 8,
+   "planOk": 8,
+   "planN": 8
+  },
+  "multi": {
+   "n": 8,
+   "planOk": 17,
+   "planN": 18
+  }
+ },
+ "disagreements": [
+  {
+   "id": "par-109",
+   "expected": "no-follow-up",
+   "got": "follow-up"
+  }
+ ]
+}

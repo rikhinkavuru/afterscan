@@ -16,7 +16,7 @@ RULES
 4. Each finding gets ONE sourceQuote: an exact, contiguous, character-for-character substring of the report (the sentence or clause describing it). Never paraphrase inside sourceQuote.
 5. Sizes in millimetres. "1.2 cm" -> 12. "7 x 5 mm" -> sizeMm 7, sizeShortMm 5. "sub-centimeter" / "tiny" -> null. "less than 5 mm" -> 4. "4-5 mm" -> 5.
 6. multiplicity: "multiple", "several", "numerous", "bilateral ... nodules" -> "multiple". One described nodule -> "single". If the report lists several distinct nodules with their own sizes, extract the LARGEST / most suspicious as one finding with multiplicity "multiple" and mention the others in description.
-7. stability: use comparison statements ("unchanged from 2021", "new since", "increased"). stableMonths = months between the comparison date and the report date when both are known; otherwise null.
+7. stability: use comparison statements only ("unchanged from 2021" -> stable; "new since the prior CT" -> new; "increased" -> enlarging). "No prior studies" / "comparison: none" means stability is "unknown", never "new". stableMonths = months between the comparison date and the report date when both are known; otherwise -1.
 8. radiologistRecommendation: copy verbatim only the recommendation sentence(s) that apply to this finding (e.g. "Recommend follow-up CT in 6-12 months per Fleischner criteria"). null if none.
 9. incidental: true if the exam reason is about something else; false if the exam was ordered to evaluate this finding or stage a known cancer; null if no reason is given.
 10. Lung attenuation: "ground glass"/"GGO" -> ground-glass; "part solid"/"subsolid with solid component" -> part-solid; "solid" or no qualifier -> solid. Calcified granuloma -> benignCalcification true, explicitlyBenign true.

@@ -1,0 +1,24 @@
+......................................................................
+{
+ "split": "iu",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "n": 70,
+ "errors": 0,
+ "latencyMsMean": 3482,
+ "latencyMsP90": 5039,
+ "outputTokensMean": 532,
+ "positiveMention": {
+  "tp": 38,
+  "fp": 1,
+  "fn": 1,
+  "tn": 30,
+  "precision": 0.974,
+  "recall": 0.974
+ },
+ "benignHandled": {
+  "n": 17,
+  "noPlanIssued": 17
+ },
+ "anyFollowUpOnRealXray": []
+}

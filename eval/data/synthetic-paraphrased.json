@@ -2252,5 +2252,1313 @@
     "firstStepMonths": 0
    }
   ]
+ },
+ {
+  "id": "par-074",
+  "family": "liver-tstc",
+  "report": "CT ABDOMEN AND PELVIS WITH CONTRAST\n\nINDICATION: The patient is a 73-year-old male in whom the clinical question posed is whether appendicitis can be excluded.\n\nCOMPARISON: No prior examinations were available for comparison.\n\nFINDINGS:\nLiver: Within the right hepatic lobe, there is a hypodense lesion measuring 7 mm in greatest dimension, which, owing to its diminutive size, is too small to characterize. There is no evidence of lymphadenopathy. Mild dependent atelectasis is appreciated at the lung bases, a finding that is included here for completeness. It is further stated that no focal hepatic lesion is identified.\n\nIMPRESSION:\nThe hepatic lesion is, on the basis of its imaging appearance, considered to be benign-appearing.",
+  "patient": {
+   "ageYears": 73,
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": false
+  },
+  "truth": [
+   {
+    "organ": "liver",
+    "kind": "lesion",
+    "sizeMm": 7,
+    "tooSmallToCharacterize": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "with",
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": false
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-075",
+  "family": "liver-tstc",
+  "report": "CT ABDOMEN AND PELVIS WITH CONTRAST\n\nHISTORY: 44-year-old male. Rule out appendicitis.\n\nCOMPARISON: None.\n\nFINDINGS:\nLiver: A 5 mm hypodense lesion in segment 7, too small to characterize.\nSpleen: Normal in size.\nOsseous structures: No suspicious osseous lesion.\n\nIMPRESSION:\n1. Benign-appearing hepatic lesion.",
+  "patient": {
+   "ageYears": 44,
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": false
+  },
+  "truth": [
+   {
+    "organ": "liver",
+    "kind": "lesion",
+    "sizeMm": 5,
+    "tooSmallToCharacterize": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "with",
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": false
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-076",
+  "family": "liver-hemangioma",
+  "report": "CT ABDOMEN AND PELVIS WITH CONTRAST\n\nHISTORY: 42 year old female, rule out appendicitis.\n\nCOMPARISON: None.\n\nFINDINGS:\nLiver, the hepatic contour is nodular consistent with cirrhosis, and there is a 1.4 by 1.3 centimeter lesion in the right hepatic lobe which shows peripheral nodular enhancement with progressive fill-in typical of a hemangioma, at the lung bases there is mild dependent atelectasis, no pleural effusion or pneumothorax, and there is sigmoid diverticulosis without evidence of diverticulitis.\n\nIMPRESSION:\nBenign-appearing hepatic lesion.",
+  "patient": {
+   "ageYears": 42,
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": true
+  },
+  "truth": [
+   {
+    "organ": "liver",
+    "kind": "lesion",
+    "sizeMm": 14,
+    "explicitlyBenign": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "with",
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": true
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-077",
+  "family": "liver-indeterminate",
+  "report": "CT ABDOMEN AND PELVIS W/ CONTRAST\n\nREASON FOR EXAM: 51F. Abd pain.\n\nCOMPARISON: None.\n\nFINDINGS:\nLIVER: Nodular hepatic contour c/w cirrhosis. 1.5 cm ill-defined hypodense lesion R hepatic lobe, indeterminate.\nLYMPH NODES: No lymphadenopathy.\nKIDNEYS: No hydronephrosis.\n\nIMPRESSION:\nIndeterminate hepatic lesion. MRI recommended for further characterization.",
+  "patient": {
+   "ageYears": 51,
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": true
+  },
+  "truth": [
+   {
+    "organ": "liver",
+    "kind": "lesion",
+    "sizeMm": 15,
+    "suspiciousFeatures": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "with",
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": true
+  },
+  "expected": [
+   {
+    "status": "further-evaluation",
+    "firstStepMonths": 0
+   }
+  ]
+ },
+ {
+  "id": "par-078",
+  "family": "liver-hemangioma",
+  "report": "CT ABDOMEN AND PELVIS WITH CONTRAST\n\nCLINICAL HISTORY: The patient is a 67-year-old male in whom the clinical question is whether appendicitis can be excluded.\n\nPRIOR STUDIES: No prior studies are available for comparison.\n\nFINDINGS:\n\nLiver: Within hepatic segment 2, there is a 14 mm (1.4 cm) lesion that demonstrates peripheral nodular enhancement with progressive centripetal fill-in on the post-contrast acquisitions, a constellation of features that is typical of, and would be most consistent with, a hemangioma.\n\nBowel: Sigmoid diverticulosis is identified, with no evidence of superimposed diverticulitis.\n\nPeritoneum: No free fluid and no free air is demonstrated within the abdomen or pelvis.\n\nIMPRESSION:\n\nThe hepatic lesion described above is benign in appearance, and its imaging characteristics are in keeping with a hemangioma.",
+  "patient": {
+   "ageYears": 67,
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": false
+  },
+  "truth": [
+   {
+    "organ": "liver",
+    "kind": "lesion",
+    "sizeMm": 14,
+    "explicitlyBenign": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "with",
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": false
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-079",
+  "family": "liver-indeterminate",
+  "report": "CT ABDOMEN AND PELVIS WITH CONTRAST\n\nREASON FOR EXAM: 52-year-old female. Rule out appendicitis.\n\nCOMPARISON: None.\n\nFINDINGS:\nLung bases: Mild dependent atelectasis. No pleural effusion or pneumothorax.\nLiver: A 11 mm ill-defined hypodense lesion in segment 2 is indeterminate.\nPancreas: Unremarkable.\n\nIMPRESSION:\n1. Indeterminate hepatic lesion; MRI recommended for further characterization.",
+  "patient": {
+   "ageYears": 52,
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": false
+  },
+  "truth": [
+   {
+    "organ": "liver",
+    "kind": "lesion",
+    "sizeMm": 11,
+    "suspiciousFeatures": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "with",
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": false
+  },
+  "expected": [
+   {
+    "status": "further-evaluation",
+    "firstStepMonths": 0
+   }
+  ]
+ },
+ {
+  "id": "par-080",
+  "family": "liver-cyst",
+  "report": "CT ABDOMEN AND PELVIS WITH CONTRAST\n\nREASON FOR EXAM: 41 year old male, abdominal pain.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLiver, there is a 1.4 by 1.3 cm simple hepatic cyst in segment 7, and then moving on to the lung bases there is mild dependent atelectasis at the lung bases, no hydronephrosis, and no pleural effusion or pneumothorax.\n\nIMPRESSION:\nBenign appearing hepatic lesion.",
+  "patient": {
+   "ageYears": 41,
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": false
+  },
+  "truth": [
+   {
+    "organ": "liver",
+    "kind": "cyst",
+    "sizeMm": 14,
+    "explicitlyBenign": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "with",
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": false
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-081",
+  "family": "liver-cyst",
+  "report": "CT ABDOMEN AND PELVIS W/ CONTRAST\n\nCLINICAL INDICATION: 66 y/o F. R/O appendicitis.\n\nCOMPARISON: None.\n\nFINDINGS:\nLIVER: 1.4 x 1.3 cm simple hepatic cyst, segment 6. No focal hepatic lesion.\nLUNG BASES: Mild dependent atelectasis.\nPANCREAS: Unremarkable.\n\nIMPRESSION:\nBenign-appearing hepatic lesion.",
+  "patient": {
+   "ageYears": 66,
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": false
+  },
+  "truth": [
+   {
+    "organ": "liver",
+    "kind": "cyst",
+    "sizeMm": 14,
+    "explicitlyBenign": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "with",
+   "knownCancer": false,
+   "cirrhosisOrHepaticRisk": false
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-082",
+  "family": "pancreas",
+  "report": "MRI ABDOMEN WITH AND WITHOUT CONTRAST\n\nREASON FOR EXAM: The patient is a 56-year-old man who is being evaluated in the setting of elevated liver enzymes.\n\nPRIOR STUDIES: No prior studies are available for comparison.\n\nFINDINGS:\nPancreas: Within the pancreatic uncinate process, there is a unilocular cystic lesion measuring approximately 2.8 x 2.7 cm. Notably, there is no evidence of a mural nodule or of wall thickening associated with this lesion. The main pancreatic duct appears to be normal in caliber. Incidentally, mild dependent atelectasis is present at the lung bases. Furthermore, no focal hepatic lesion is identified.\n\nIMPRESSION:\nA 28 mm cyst is present in the pancreatic uncinate process, and, taking into account the imaging features described above, this most likely represents a side-branch intraductal papillary mucinous neoplasm (IPMN).",
+  "patient": {
+   "ageYears": 56,
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "pancreas",
+    "kind": "cyst",
+    "sizeMm": 28,
+    "mainDuctCommunication": "unknown",
+    "worrisomeFeatures": false
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "MRI",
+   "contrast": "both",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "further-evaluation",
+    "firstStepMonths": 0
+   }
+  ]
+ },
+ {
+  "id": "par-083",
+  "family": "pancreas",
+  "report": "MRI ABDOMEN WITH AND WITHOUT CONTRAST\n\nCLINICAL INDICATION: 70-year-old female. Elevated liver enzymes.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nPancreas: 2.1 cm unilocular cystic lesion in the pancreatic head, without communication with the main pancreatic duct. No mural nodule or wall thickening.\nPancreatic duct: Main pancreatic duct is normal in caliber.\nLiver: No focal hepatic lesion.\nPeritoneum: No free fluid or free air.\n\nIMPRESSION:\n1. 2.1 x 2.0 cm pancreatic head cyst, likely side-branch IPMN.",
+  "patient": {
+   "ageYears": 70,
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "pancreas",
+    "kind": "cyst",
+    "sizeMm": 21,
+    "mainDuctCommunication": "no",
+    "worrisomeFeatures": false
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "MRI",
+   "contrast": "both",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   }
+  ]
+ },
+ {
+  "id": "par-084",
+  "family": "pancreas",
+  "report": "MRI ABDOMEN WITH AND WITHOUT CONTRAST\n\nINDICATION: 72 year old male, follow up of renal cyst.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nPancreas, there is a 28 mm unilocular cystic lesion in the pancreatic uncinate process, it does not communicate with the main pancreatic duct, no mural nodule or wall thickening is seen, and the main pancreatic duct is normal in caliber. No free fluid or free air. The gallbladder is unremarkable. No biliary ductal dilatation.\n\nIMPRESSION:\n2.8 cm pancreatic uncinate process cyst, likely side-branch IPMN.",
+  "patient": {
+   "ageYears": 72,
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "pancreas",
+    "kind": "cyst",
+    "sizeMm": 28,
+    "mainDuctCommunication": "no",
+    "worrisomeFeatures": false
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "MRI",
+   "contrast": "both",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "further-evaluation",
+    "firstStepMonths": 0
+   }
+  ]
+ },
+ {
+  "id": "par-085",
+  "family": "pancreas",
+  "report": "MRI ABDOMEN W/ AND W/O CONTRAST\n\nHISTORY: 62 y/o F. F/u renal cyst.\n\nCOMPARISON: None.\n\nFINDINGS:\nPANCREAS: 6 mm unilocular cystic lesion in uncinate process, appears to communicate w/ main pancreatic duct. No mural nodule or wall thickening. Main pancreatic duct normal caliber. No pleural effusion or pneumothorax. Spleen normal in size.\n\nIMPRESSION:\n6 mm pancreatic uncinate process cyst, likely side-branch IPMN.",
+  "patient": {
+   "ageYears": 62,
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "pancreas",
+    "kind": "cyst",
+    "sizeMm": 6,
+    "mainDuctCommunication": "yes",
+    "worrisomeFeatures": false
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "MRI",
+   "contrast": "both",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 12
+   }
+  ]
+ },
+ {
+  "id": "par-086",
+  "family": "pancreas",
+  "report": "MRI ABDOMEN WITH AND WITHOUT CONTRAST\n\nCLINICAL INDICATION: The patient is a 66-year-old man who presents with abdominal pain.\n\nPRIOR STUDIES: No prior studies are available for comparison.\n\nFINDINGS:\nPancreas: Within the pancreatic tail, there is a unilocular cystic lesion measuring 1.7 x 1.6 cm. Careful evaluation demonstrates no associated mural nodule and no appreciable wall thickening. The main pancreatic duct is normal in caliber.\n\nSpleen: The spleen is normal in size.\n\nPleura: No pleural effusion or pneumothorax is identified.\n\nIMPRESSION:\nA 17 mm cystic lesion in the pancreatic tail, which is most likely representative of a side-branch intraductal papillary mucinous neoplasm (IPMN), although this designation is offered with the appropriate degree of diagnostic caution.",
+  "patient": {
+   "ageYears": 66,
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "pancreas",
+    "kind": "cyst",
+    "sizeMm": 17,
+    "mainDuctCommunication": "unknown",
+    "worrisomeFeatures": false
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "MRI",
+   "contrast": "both",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   }
+  ]
+ },
+ {
+  "id": "par-087",
+  "family": "pancreas",
+  "report": "MRI ABDOMEN WITH AND WITHOUT CONTRAST\n\nHISTORY: 42-year-old female. Follow-up of renal cyst.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nPancreas: A 2.8 x 2.7 cm unilocular cystic lesion in the pancreatic head, without communication with the main pancreatic duct. Enhancing mural nodule within the cyst. Main pancreatic duct measures 9 mm.\nLymph nodes: No lymphadenopathy.\nGallbladder: Unremarkable.\nBiliary ducts: No biliary ductal dilatation.\n\nIMPRESSION:\n1. 2.8 x 2.7 cm pancreatic head cyst with worrisome features; EUS recommended.",
+  "patient": {
+   "ageYears": 42,
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "pancreas",
+    "kind": "cyst",
+    "sizeMm": 28,
+    "mainDuctCommunication": "no",
+    "worrisomeFeatures": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "MRI",
+   "contrast": "both",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "refer",
+    "firstStepMonths": 0
+   }
+  ]
+ },
+ {
+  "id": "par-088",
+  "family": "pancreas",
+  "report": "MRI ABDOMEN WITH AND WITHOUT CONTRAST\n\nINDICATION: 58-year-old female, follow-up of renal cyst.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nPancreas, there is a 2.4 by 2.3 centimeter unilocular cystic lesion in the pancreatic body which appears to communicate with the main pancreatic duct, no mural nodule or wall thickening is seen, the main pancreatic duct itself is normal in caliber, and the pancreas is otherwise unremarkable. Spleen is normal in size.\n\nIMPRESSION:\n2.4 by 2.3 centimeter pancreatic body cyst, likely a side-branch IPMN.",
+  "patient": {
+   "ageYears": 58,
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "pancreas",
+    "kind": "cyst",
+    "sizeMm": 24,
+    "mainDuctCommunication": "yes",
+    "worrisomeFeatures": false
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "MRI",
+   "contrast": "both",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   }
+  ]
+ },
+ {
+  "id": "par-089",
+  "family": "pancreas",
+  "report": "MRI ABDOMEN W/ AND W/O CONTRAST\n\nINDICATION: 65M. F/U renal cyst.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nPANCREAS: 2.8 cm unilocular cystic lesion, pancreatic body, appears to communicate w/ main pancreatic duct. No mural nodule or wall thickening. Main pancreatic duct normal caliber. No free fluid or free air. Spleen normal in size.\n\nIMPRESSION:\n2.8 cm pancreatic body cyst, likely side-branch IPMN.",
+  "patient": {
+   "ageYears": 65,
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "pancreas",
+    "kind": "cyst",
+    "sizeMm": 28,
+    "mainDuctCommunication": "yes",
+    "worrisomeFeatures": false
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "MRI",
+   "contrast": "both",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "further-evaluation",
+    "firstStepMonths": 0
+   }
+  ]
+ },
+ {
+  "id": "par-090",
+  "family": "pancreas",
+  "report": "MRI ABDOMEN WITH AND WITHOUT CONTRAST\n\nCLINICAL INDICATION: The patient is a 46-year-old male referred for evaluation in the setting of elevated liver enzymes.\n\nCOMPARISON: No prior examinations are available for comparison.\n\nFINDINGS:\n\nPancreas: Within the pancreatic head, there is a unilocular cystic lesion measuring approximately 1.4 x 1.3 cm (14 x 13 mm), which appears, on the basis of the available imaging, to communicate with the main pancreatic duct. Within the cyst, an enhancing mural nodule is identified, and the main pancreatic duct is itself measured at 8 mm in caliber. Mild dependent atelectasis is also noted at the lung bases. There is no evidence of hydronephrosis.\n\nIMPRESSION:\nA 14 mm cystic lesion in the pancreatic head is demonstrated that exhibits worrisome features, as described above, and endoscopic ultrasound (EUS) is therefore recommended for further characterization.",
+  "patient": {
+   "ageYears": 46,
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "pancreas",
+    "kind": "cyst",
+    "sizeMm": 14,
+    "mainDuctCommunication": "yes",
+    "worrisomeFeatures": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "MRI",
+   "contrast": "both",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "refer",
+    "firstStepMonths": 0
+   }
+  ]
+ },
+ {
+  "id": "par-091",
+  "family": "pancreas",
+  "report": "MRI ABDOMEN WITH AND WITHOUT CONTRAST\n\nINDICATION: 80-year-old female. Elevated liver enzymes.\n\nCOMPARISON: None.\n\nFINDINGS:\nLiver: No focal hepatic lesion.\nPancreas: A 6 mm unilocular cystic lesion in the pancreatic body, without communication with the main pancreatic duct. Enhancing mural nodule within the cyst. Main pancreatic duct measures 9 mm.\nBowel: Sigmoid diverticulosis without evidence of diverticulitis.\n\nIMPRESSION:\n1. 6 mm pancreatic body cyst with worrisome features; EUS recommended.",
+  "patient": {
+   "ageYears": 80,
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "pancreas",
+    "kind": "cyst",
+    "sizeMm": 6,
+    "mainDuctCommunication": "no",
+    "worrisomeFeatures": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "MRI",
+   "contrast": "both",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "refer",
+    "firstStepMonths": 0
+   }
+  ]
+ },
+ {
+  "id": "par-092",
+  "family": "pancreas",
+  "report": "MRI ABDOMEN WITH AND WITHOUT CONTRAST\n\nREASON FOR EXAM: Fifty-nine-year-old female, follow-up of renal cyst.\n\nCOMPARISON: None.\n\nFINDINGS:\n\nPancreas: There is a 28 mm unilocular cystic lesion in the pancreatic head which appears to communicate with the main pancreatic duct, and there is an enhancing mural nodule within the cyst and the main pancreatic duct measures 8 mm. No focal hepatic lesion.\n\nIMPRESSION:\n\n2.8 cm pancreatic head cyst with worrisome features, EUS recommended.",
+  "patient": {
+   "ageYears": 59,
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "pancreas",
+    "kind": "cyst",
+    "sizeMm": 28,
+    "mainDuctCommunication": "yes",
+    "worrisomeFeatures": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "MRI",
+   "contrast": "both",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "refer",
+    "firstStepMonths": 0
+   }
+  ]
+ },
+ {
+  "id": "par-093",
+  "family": "pancreas",
+  "report": "MRI ABDOMEN W/ AND W/O CONTRAST\n\nINDICATION: 59 y/o M. F/u renal cyst.\n\nCOMPARISON: None.\n\nFINDINGS:\nPANCREAS: 6 mm unilocular cystic lesion in pancreatic head, appears to communicate w/ main pancreatic duct. No mural nodule or wall thickening. Main pancreatic duct normal caliber. Pancreas otherwise unremarkable. No hydronephrosis.\n\nIMPRESSION:\n6 mm pancreatic head cyst, likely side-branch IPMN.",
+  "patient": {
+   "ageYears": 59,
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "pancreas",
+    "kind": "cyst",
+    "sizeMm": 6,
+    "mainDuctCommunication": "yes",
+    "worrisomeFeatures": false
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "MRI",
+   "contrast": "both",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 12
+   }
+  ]
+ },
+ {
+  "id": "par-094",
+  "family": "thyroid",
+  "report": "CT NECK WITH CONTRAST\n\nREASON FOR EXAMINATION: The patient is a 29-year-old woman who presents with dysphagia, for which cross-sectional imaging of the neck was requested.\n\nPRIOR STUDIES: No prior studies are available for comparison.\n\nFINDINGS:\nThyroid: Within the left thyroid lobe, there is an incidentally detected hypodense nodule measuring 1.4 cm (14 mm) in greatest dimension, which, in the absence of prior imaging for comparison, cannot be further characterized with respect to its interval stability. No cervical lymphadenopathy is identified. Degenerative changes of the lumbar spine are also noted.\n\nIMPRESSION:\nIncidental left thyroid nodule.",
+  "patient": {
+   "ageYears": 29
+  },
+  "truth": [
+   {
+    "organ": "thyroid",
+    "kind": "nodule",
+    "sizeMm": 14
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT"
+  },
+  "expected": [
+   {
+    "status": "further-evaluation",
+    "firstStepMonths": 0
+   }
+  ]
+ },
+ {
+  "id": "par-095",
+  "family": "thyroid",
+  "report": "CT NECK WITH CONTRAST\n\nHISTORY: 48-year-old female. Chest pain.\n\nCOMPARISON: None.\n\nFINDINGS:\nThyroid: Incidental 1.4 cm hypodense nodule in the right thyroid lobe.\nLymph nodes: No cervical lymphadenopathy.\nSpine: Degenerative changes of the lumbar spine.\nSpleen: Normal in size.\n\nIMPRESSION:\n1. Incidental right thyroid nodule, 1.4 cm and hypodense.",
+  "patient": {
+   "ageYears": 48
+  },
+  "truth": [
+   {
+    "organ": "thyroid",
+    "kind": "nodule",
+    "sizeMm": 14
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT"
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-096",
+  "family": "thyroid",
+  "report": "CT CERVICAL SPINE WITHOUT CONTRAST\n\nCLINICAL INDICATION: Forty-one-year-old female, neck pain after a fall.\n\nPRIOR STUDIES: None.\n\nFINDINGS: Thyroid there is an incidental nine millimeter hypodense nodule in the right thyroid lobe, no cervical lymphadenopathy is seen, there is sigmoid diverticulosis without evidence of diverticulitis, and no suspicious osseous lesion.\n\nIMPRESSION: Incidental right thyroid nodule.",
+  "patient": {
+   "ageYears": 41
+  },
+  "truth": [
+   {
+    "organ": "thyroid",
+    "kind": "nodule",
+    "sizeMm": 9
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT"
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-097",
+  "family": "thyroid",
+  "report": "CT CHEST W/ CONTRAST\n\nINDICATION: 41 y/o F. Chest pain.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nTHYROID: Incidental 2.2 cm hypodense nodule, R thyroid lobe. No cervical LAD. No hydronephrosis. Sigmoid diverticulosis w/o evidence of diverticulitis.\n\nIMPRESSION:\nIncidental R thyroid nodule. Consider thyroid US.",
+  "patient": {
+   "ageYears": 41
+  },
+  "truth": [
+   {
+    "organ": "thyroid",
+    "kind": "nodule",
+    "sizeMm": 22
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT"
+  },
+  "expected": [
+   {
+    "status": "further-evaluation",
+    "firstStepMonths": 0
+   }
+  ]
+ },
+ {
+  "id": "par-098",
+  "family": "thyroid",
+  "report": "CT NECK WITH CONTRAST\n\nHISTORY: The patient is a 45-year-old woman who is reported to have presented with chest pain.\n\nPRIOR STUDIES: No prior studies are available for comparison.\n\nFINDINGS:\nThyroid: Within the right thyroid lobe, there is an incidentally detected hypodense nodule measuring approximately 9 mm (0.9 cm) in size. Of note, there is no cervical lymphadenopathy identified on the present examination. Similarly, no suspicious osseous lesion is evident. Degenerative changes are also noted involving the lumbar spine.\n\nIMPRESSION:\nAn incidental nodule is identified within the right thyroid lobe.",
+  "patient": {
+   "ageYears": 45
+  },
+  "truth": [
+   {
+    "organ": "thyroid",
+    "kind": "nodule",
+    "sizeMm": 9
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT"
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-099",
+  "family": "thyroid",
+  "report": "CT NECK WITH CONTRAST\n\nCLINICAL INDICATION: 55-year-old female. Neck pain after fall.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nThyroid: Incidental 6 mm hypodense nodule in the right thyroid lobe.\nCervical lymph nodes: No cervical lymphadenopathy.\nSpleen: Normal in size.\nKidneys/collecting systems: No hydronephrosis.\n\nIMPRESSION:\n1. Incidental 6 mm hypodense nodule in the right thyroid lobe.",
+  "patient": {
+   "ageYears": 55
+  },
+  "truth": [
+   {
+    "organ": "thyroid",
+    "kind": "nodule",
+    "sizeMm": 6
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT"
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-100",
+  "family": "thyroid",
+  "report": "CT CERVICAL SPINE WITHOUT CONTRAST\n\nREASON FOR EXAM: Twenty-nine-year-old male, neck pain after a fall.\n\nCOMPARISON: None.\n\nFINDINGS:\nThyroid there is an incidental, uh, six millimeter hypodense nodule in the right thyroid lobe, no cervical lymphadenopathy, and there is mild dependent atelectasis at the lung bases, and no focal hepatic lesion.\n\nIMPRESSION:\nIncidental right thyroid nodule.",
+  "patient": {
+   "ageYears": 29
+  },
+  "truth": [
+   {
+    "organ": "thyroid",
+    "kind": "nodule",
+    "sizeMm": 6
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT"
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-101",
+  "family": "thyroid",
+  "report": "CT NECK W/ CONTRAST\n\nINDICATION: 71 y/o M. Chest pain.\n\nCOMPARISON: None.\n\nFINDINGS:\nTHYROID: Incidental 9 mm hypodense nodule R thyroid lobe. No cervical LAD. No free fluid or free air. No focal hepatic lesion.\n\nIMPRESSION:\nIncidental R thyroid nodule.",
+  "patient": {
+   "ageYears": 71
+  },
+  "truth": [
+   {
+    "organ": "thyroid",
+    "kind": "nodule",
+    "sizeMm": 9
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT"
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-102",
+  "family": "multi",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT INTRAVENOUS CONTRAST\n\nCLINICAL INDICATION: The patient is a 65-year-old woman who presents with flank pain, for whom the examination has been requested in order to evaluate for the possible presence of a urinary tract stone.\n\nPRIOR STUDIES: No prior studies are available for comparison.\n\nFINDINGS:\nLung bases: Within the visualized lung bases, there is a solid nodule in the lingula measuring 9 mm in greatest dimension. No pleural effusion is identified.\n\nLiver: No focal hepatic lesion is demonstrated on this noncontrast examination.\n\nAdrenals: A left adrenal nodule is present, measuring approximately 1.8 x 1.7 cm and demonstrating an attenuation of 20 HU. It should be noted, however, that the report also contains a statement later in the findings that the adrenal glands are normal; this statement is discordant with the description of the left adrenal nodule above and is reproduced here as it appeared in the original report.\n\nKidneys: A simple cyst is seen in the right kidney, measuring 22 mm. There is no evidence of renal calculus, and no hydronephrosis is identified.\n\nAdditional findings: The adrenal glands are normal. The heart size is within normal limits. Coronary artery calcifications are present.\n\nIMPRESSION:\n1. There is no evidence of urolithiasis.\n2. A 9 mm pulmonary nodule is present, as described above.\n3. A simple renal cyst is present.\n4. A 1.8 cm adrenal nodule is present.",
+  "patient": {
+   "ageYears": 65,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 9,
+    "attenuation": "solid",
+    "upperLobe": true
+   },
+   {
+    "organ": "kidney",
+    "kind": "cyst",
+    "sizeMm": 22,
+    "bosniak": "I",
+    "explicitlyBenign": true
+   },
+   {
+    "organ": "adrenal",
+    "kind": "nodule",
+    "sizeMm": 18,
+    "unenhancedHU": 20
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "without",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "further-evaluation",
+    "firstStepMonths": 3
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   },
+   {
+    "status": "follow-up",
+    "firstStepMonths": 12
+   }
+  ]
+ },
+ {
+  "id": "par-103",
+  "family": "multi",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nINDICATION: 69-year-old male. Flank pain, evaluate for stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases: 6 mm solid nodule in the lingula. No effusion.\nLiver: No focal lesion. No focal hepatic lesion.\nAdrenals: Unremarkable.\nKidneys: 1.5 x 1.4 cm simple cyst in the right kidney. No calculus or hydronephrosis.\nColon: Sigmoid diverticulosis without evidence of diverticulitis.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 6 mm pulmonary nodule.\n3. Simple renal cyst.",
+  "patient": {
+   "ageYears": 69,
+   "smoking": "current",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 6,
+    "attenuation": "solid",
+    "upperLobe": null
+   },
+   {
+    "organ": "kidney",
+    "kind": "cyst",
+    "sizeMm": 15,
+    "bosniak": "I",
+    "explicitlyBenign": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "without",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-104",
+  "family": "multi",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nCLINICAL INDICATION: 75 year old female with flank pain, evaluate for stone.\n\nCOMPARISON: None.\n\nFINDINGS:\nLung bases there is a 7 mm solid nodule in the lingula, no effusion. Liver shows no focal lesion. Adrenals are normal. Kidneys, there is a 2.2 cm simple cyst in the left kidney, no calculus or hydronephrosis, and again no hydronephrosis is seen. No pleural effusion or pneumothorax.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 7 mm pulmonary nodule.\n3. Simple renal cyst.",
+  "patient": {
+   "ageYears": 75,
+   "smoking": "current",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 7,
+    "attenuation": "solid",
+    "upperLobe": null
+   },
+   {
+    "organ": "kidney",
+    "kind": "cyst",
+    "sizeMm": 22,
+    "bosniak": "I",
+    "explicitlyBenign": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "without",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-105",
+  "family": "multi",
+  "report": "CT ABD/PELVIS W/O CONTRAST\n\nCLINICAL INDICATION: 47M. Flank pain, r/o stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLUNG BASES: 7 mm solid nodule RML. No effusion.\nLIVER: No focal lesion.\nADRENALS: 1.8 x 1.7 cm L adrenal nodule, 20 HU.\nKIDNEYS: 22 mm simple cyst R kidney. No calculus or hydronephrosis.\nNo hydronephrosis. Sigmoid diverticulosis w/o diverticulitis.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 7 mm pulmonary nodule.\n3. Simple renal cyst.\n4. 18 mm adrenal nodule.",
+  "patient": {
+   "ageYears": 47,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 7,
+    "attenuation": "solid",
+    "upperLobe": true
+   },
+   {
+    "organ": "kidney",
+    "kind": "cyst",
+    "sizeMm": 22,
+    "bosniak": "I",
+    "explicitlyBenign": true
+   },
+   {
+    "organ": "adrenal",
+    "kind": "nodule",
+    "sizeMm": 18,
+    "unenhancedHU": 20
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "without",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   },
+   {
+    "status": "follow-up",
+    "firstStepMonths": 12
+   }
+  ]
+ },
+ {
+  "id": "par-106",
+  "family": "multi",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nREASON FOR EXAM: The patient is a 77-year-old male who presents with flank pain, for which evaluation for a possible urinary tract stone is requested.\n\nPRIOR STUDIES: None are available for comparison.\n\nFINDINGS:\nLung bases: Within the visualized portions of the lung bases, there is a solid nodule in the left lower lobe measuring 7 mm in size. No pleural effusion is identified. Mild dependent atelectasis is also noted at the lung bases, a finding that is most likely positional or related to reduced inspiratory effort.\n\nLiver: No focal hepatic lesion is demonstrated on this noncontrast examination.\n\nGallbladder and biliary tree: The gallbladder appears unremarkable, and there is no evidence of biliary ductal dilatation.\n\nAdrenals: The adrenal glands appear normal in appearance.\n\nKidneys: A simple cyst measuring 2.2 cm is present in the right kidney. No renal calculus is identified, and there is no evidence of hydronephrosis.\n\nIMPRESSION:\n1. No evidence of urolithiasis is demonstrated.\n2. A 7 mm pulmonary nodule is present, as described above.\n3. A simple renal cyst is present, as described above.",
+  "patient": {
+   "ageYears": 77,
+   "smoking": "current",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 7,
+    "attenuation": "solid",
+    "upperLobe": null
+   },
+   {
+    "organ": "kidney",
+    "kind": "cyst",
+    "sizeMm": 22,
+    "bosniak": "I",
+    "explicitlyBenign": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "without",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-107",
+  "family": "multi",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nINDICATION: 59-year-old male. Flank pain, evaluate for stone.\n\nCOMPARISON: None.\n\nFINDINGS:\nLung bases: 6 mm solid nodule in the right lower lobe. No effusion.\nPleura: No pleural effusion or pneumothorax.\nHeart: Heart size is normal. Coronary artery calcifications.\nLiver: No focal lesion.\nAdrenals: Unremarkable.\nKidneys: 3.0 cm simple cyst in the right kidney. No calculus or hydronephrosis.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 6 mm pulmonary nodule.\n3. Simple renal cyst.",
+  "patient": {
+   "ageYears": 59,
+   "smoking": "current",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 6,
+    "attenuation": "solid",
+    "upperLobe": null
+   },
+   {
+    "organ": "kidney",
+    "kind": "cyst",
+    "sizeMm": 30,
+    "bosniak": "I",
+    "explicitlyBenign": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "without",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-108",
+  "family": "multi",
+  "report": "CT ABDOMEN AND PELVIS WITHOUT CONTRAST\n\nHISTORY: 48 year old female with flank pain, evaluate for stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLung bases, there is a 7 mm solid nodule in the right middle lobe, no effusion. Liver shows no focal lesion. The adrenals are normal. Kidneys, there is a 1.5 cm simple cyst in the right kidney, no calculus and no hydronephrosis, again no hydronephrosis, and no pleural effusion or pneumothorax.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 7 mm pulmonary nodule.\n3. Simple renal cyst.",
+  "patient": {
+   "ageYears": 48,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 7,
+    "attenuation": "solid",
+    "upperLobe": null
+   },
+   {
+    "organ": "kidney",
+    "kind": "cyst",
+    "sizeMm": 15,
+    "bosniak": "I",
+    "explicitlyBenign": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "without",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "follow-up",
+    "firstStepMonths": 6
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-109",
+  "family": "multi",
+  "report": "CT ABD/PELVIS W/O CONTRAST\n\nREASON FOR EXAM: 57 y/o M. Flank pain, r/o stone.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLUNG BASES: 4 mm solid nodule LUL. No effusion.\nLIVER: No focal lesion.\nADRENALS: Normal.\nKIDNEYS: 3.0 cm simple cyst R kidney. No calculus or hydronephrosis.\nSPLEEN: Normal size.\nGALLBLADDER: Unremarkable. No biliary ductal dilatation.\n\nIMPRESSION:\n1. No urolithiasis.\n2. 4 mm pulm nodule.\n3. Simple renal cyst.",
+  "patient": {
+   "ageYears": 57,
+   "smoking": "never",
+   "knownCancer": false
+  },
+  "truth": [
+   {
+    "organ": "lung",
+    "kind": "nodule",
+    "sizeMm": 4,
+    "attenuation": "solid",
+    "upperLobe": null
+   },
+   {
+    "organ": "kidney",
+    "kind": "cyst",
+    "sizeMm": 30,
+    "bosniak": "I",
+    "explicitlyBenign": true
+   }
+  ],
+  "negative": false,
+  "ctxHints": {
+   "modality": "CT",
+   "contrast": "without",
+   "knownCancer": false
+  },
+  "expected": [
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   },
+   {
+    "status": "no-follow-up",
+    "firstStepMonths": null
+   }
+  ]
+ },
+ {
+  "id": "par-110",
+  "family": "negative",
+  "report": "CT CHEST WITH CONTRAST\n\nREASON FOR EXAMINATION: The patient is a 62-year-old woman who presented with chest pain, for which cross-sectional imaging was requested.\n\nCOMPARISON: No prior imaging studies were available for comparison at the time of interpretation.\n\nFINDINGS:\nLungs: Review of the pulmonary parenchyma demonstrates no evidence of pulmonary nodules or masses, and there is likewise no consolidation identified within the aerated lung.\n\nUpper abdomen: In the portions of the upper abdomen included within the field of view, the spleen appears normal in size, and the pancreas appears unremarkable.\n\nIMPRESSION: Taken together, these findings indicate that there is no acute cardiopulmonary abnormality identified on this examination.",
+  "patient": {
+   "ageYears": 62
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-111",
+  "family": "negative",
+  "report": "CT ABDOMEN AND PELVIS WITH CONTRAST\n\nREASON FOR EXAM: 70-year-old male. Abdominal pain.\n\nPRIOR STUDIES: None.\n\nFINDINGS:\nLiver: No focal hepatic lesion.\nGallbladder: Unremarkable.\nBiliary tree: No biliary ductal dilatation.\nPancreas: Unremarkable. No cystic lesion.\nAdrenals: Normal.\nKidneys: No renal mass or cyst.\nCollecting systems: No hydronephrosis.\nLung bases: Mild dependent atelectasis.\n\nIMPRESSION:\n1. Normal examination.",
+  "patient": {
+   "ageYears": 70
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-112",
+  "family": "negative",
+  "report": "CHEST RADIOGRAPH PA AND LATERAL\n\nINDICATION: Thirty one year old with cough.\n\nFINDINGS: The lungs are clear there is no nodule or mass or infiltrate seen and the heart size is normal and there is no effusion.\n\nIMPRESSION: Normal chest.",
+  "patient": {
+   "ageYears": 31
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-113",
+  "family": "negative",
+  "report": "CT ABDOMEN W/O CONTRAST\n\nCLINICAL INDICATION: 61 y/o F. Flank pain.\n\nCOMPARISON: None.\n\nFINDINGS:\nLUNG BASES: Clear. No nodule.\nKIDNEYS: 4 mm nonobstructing stone L lower pole. No mass.\nADRENALS: No nodule.\nBONES: Degenerative changes lumbar spine. No suspicious osseous lesion.\n\nIMPRESSION:\nNephrolithiasis w/o obstruction.",
+  "patient": {
+   "ageYears": 61
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-114",
+  "family": "negative",
+  "report": "MRI BRAIN WITH AND WITHOUT CONTRAST\n\nINDICATION: The patient is a 46-year-old male who presents with headache.\n\nCOMPARISON: No prior imaging studies are available for comparison.\n\nFINDINGS:\nOn review of the multisequence examination performed both before and after the administration of intravenous contrast, there is no evidence of an intracranial mass, intracranial hemorrhage, or infarct. The ventricular system appears normal. Incidentally, mild mucosal thickening is noted involving the maxillary sinuses.\n\nIMPRESSION: Overall, this is a normal MRI of the brain.",
+  "patient": {
+   "ageYears": 46
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-115",
+  "family": "negative",
+  "report": "CT CHEST WITHOUT CONTRAST\n\nINDICATION: 44-year-old male. Shortness of breath.\n\nCOMPARISON: CT 2020.\n\nFINDINGS:\nLungs: Centrilobular emphysema. No nodules, masses, or interstitial lung disease. Previously noted 4 mm right upper lobe nodule has resolved. Mild dependent atelectasis at the lung bases.\nMusculoskeletal: Degenerative changes of the lumbar spine.\nPleura: Not described.\nMediastinum: Not described.\nHeart and Vessels: Not described.\nLymph Nodes: Not described.\nUpper Abdomen: Not described.\n\nIMPRESSION:\n1. Emphysema.\n2. No pulmonary nodules.",
+  "patient": {
+   "ageYears": 44
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-116",
+  "family": "negative",
+  "report": "CT CHEST WITH CONTRAST\n\nINDICATION: Sixty-three year old female, chest pain.\n\nCOMPARISON: None.\n\nFINDINGS:\nLungs, there are no pulmonary nodules or masses, no consolidation is seen, there is mild dependent atelectasis at the lung bases. The adrenal glands are normal and there is no focal hepatic lesion.\n\nIMPRESSION: No acute cardiopulmonary abnormality.",
+  "patient": {
+   "ageYears": 63
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-117",
+  "family": "negative",
+  "report": "CT ABDOMEN/PELVIS W CONTRAST\n\nCLINICAL INDICATION: 37 y/o M. Abd pain.\n\nCOMPARISON: None.\n\nFINDINGS:\nLIVER: No focal hepatic lesion.\nPANCREAS: Unremarkable. No cystic lesion.\nADRENALS: Normal.\nKIDNEYS: No renal mass or cyst.\nSPLEEN: Normal in size.\n\nIMPRESSION: Normal exam.",
+  "patient": {
+   "ageYears": 37
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-118",
+  "family": "negative",
+  "report": "CHEST RADIOGRAPH, POSTEROANTERIOR AND LATERAL PROJECTIONS\n\nINDICATION: The patient is a 30-year-old individual presenting with cough.\n\nFINDINGS: On careful review of the frontal and lateral projections, the pulmonary parenchyma appears clear bilaterally, and there is no evidence of a discrete pulmonary nodule, mass, or infiltrate. The cardiac silhouette appears to be within normal limits with respect to size. Additionally, there is no radiographic evidence of a pleural effusion.\n\nIMPRESSION: Overall, the radiographic appearance of the chest is within normal limits, and no abnormality is identified on this examination.",
+  "patient": {
+   "ageYears": 30
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-119",
+  "family": "negative",
+  "report": "CT ABDOMEN WITHOUT CONTRAST\n\nINDICATION: 73-year-old female. Flank pain.\n\nCOMPARISON: None.\n\nFINDINGS:\nLung bases: Clear, without nodule.\nKidneys: 4 mm nonobstructing stone in the left lower pole. No mass.\nAdrenals: No nodule.\nLiver: No focal hepatic lesion.\nPeritoneum: No free fluid or free air.\nLymph nodes: No lymphadenopathy.\n\nIMPRESSION:\n1. Nephrolithiasis without obstruction.",
+  "patient": {
+   "ageYears": 73
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-120",
+  "family": "negative",
+  "report": "MRI BRAIN WITH AND WITHOUT CONTRAST\n\nINDICATION: Forty-eight year old male with headache.\n\nPRIOR STUDIES: None.\n\nFINDINGS: There is no intracranial mass no hemorrhage and no infarct, the ventricles are normal, and there is mild mucosal thickening of the maxillary sinuses.\n\nIMPRESSION: Normal MRI of the brain.",
+  "patient": {
+   "ageYears": 48
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
+ },
+ {
+  "id": "par-121",
+  "family": "negative",
+  "report": "CT CHEST W/O CONTRAST\n\nREASON FOR EXAM: 65 y/o M. SOB.\n\nPRIOR STUDIES: CT 2020.\n\nFINDINGS:\nLUNGS: Centrilobular emphysema. No nodules, masses, or ILD. Previously noted 4 mm RUL nodule resolved.\nHEART: Size normal. Coronary artery calcifications.\nLIVER: No focal hepatic lesion.\n\nIMPRESSION: Emphysema. No pulmonary nodules.",
+  "patient": {
+   "ageYears": 65
+  },
+  "truth": [],
+  "negative": true,
+  "ctxHints": {},
+  "expected": []
  }
 ]
