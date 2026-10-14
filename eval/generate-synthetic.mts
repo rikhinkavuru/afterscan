@@ -98,21 +98,22 @@ for (let i = 0; i < 26; i++) {
   const solidComp = att === "part-solid" ? pick([3, 4, 7]) : null;
   const attWord = att === "solid" ? pick(["solid", ""]) : att === "ground-glass" ? pick(["ground-glass", "ground glass", "pure ground-glass"]) : pick(["part-solid", "subsolid"]);
   const rec = chance(0.5);
+  const where = lobe();
   const noduleSentence = multiple
-    ? `There are multiple ${attWord} pulmonary nodules, the largest measuring ${fmtSize(size)} in the ${lobe()}${series()}.`
-    : `There is a ${fmtSize(size)} ${attWord} ${pick(["pulmonary nodule", "nodule"])} in the ${lobe()}${series()}.`;
+    ? `There are multiple ${attWord} pulmonary nodules, the largest measuring ${fmtSize(size)} in the ${where}${series()}.`
+    : `There is a ${fmtSize(size)} ${attWord} ${pick(["pulmonary nodule", "nodule"])} in the ${where}${series()}.`;
   const compSentence = att === "part-solid" ? ` The solid component measures ${solidComp} mm.` : "";
   const exam = pick(["CT ABDOMEN AND PELVIS WITH CONTRAST", "CT CHEST WITHOUT CONTRAST", "CT ABDOMEN WITHOUT CONTRAST"]);
   const indication = pick(["Right lower quadrant pain.", "Evaluate for pulmonary embolism.", "Flank pain, rule out stone.", "Abdominal pain.", "Shortness of breath."]);
   const report =
     header(exam, indication, age, sex) +
     `${exam.includes("CHEST") ? "Lungs" : "Lung bases"}: ${noduleSentence}${compSentence} ${pick(["No other pulmonary nodules.", "Otherwise clear lungs.", "No consolidation."])}\n` +
-    `${filler(3)}\n\nIMPRESSION:\n1. ${pick(["No acute abnormality.", "Findings as above."])}\n2. ${multiple ? "Multiple" : ""} ${fmtSize(size)} ${attWord} ${lobe()} ${multiple ? "nodules" : "nodule"}.${rec ? ` ${pick(["Recommend follow-up chest CT in 6-12 months per Fleischner Society guidelines.", "Follow-up CT chest in 3-6 months is suggested.", "Non-emergent CT chest follow-up recommended."])}` : ""}`;
+    `${filler(3)}\n\nIMPRESSION:\n1. ${pick(["No acute abnormality.", "Findings as above."])}\n2. ${multiple ? "Multiple" : ""} ${fmtSize(size)} ${attWord} ${where} ${multiple ? "nodules" : "nodule"}.${rec ? ` ${pick(["Recommend follow-up chest CT in 6-12 months per Fleischner Society guidelines.", "Follow-up CT chest in 3-6 months is suggested.", "Non-emergent CT chest follow-up recommended."])}` : ""}`;
   push({
     family: "lung",
     report,
     patient: { ageYears: age, smoking, knownCancer: false },
-    truth: [{ organ: "lung", kind: "nodule", sizeMm: size, attenuation: att, multiplicity: multiple ? "multiple" : "single", solidComponentMm: solidComp }],
+    truth: [{ organ: "lung", kind: "nodule", sizeMm: size, attenuation: att, multiplicity: multiple ? "multiple" : "single", solidComponentMm: solidComp, upperLobe: where.includes("upper") ? true : null }],
     negative: false,
     ctxHints: { modality: "CT", knownCancer: false },
   });

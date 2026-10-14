@@ -8,9 +8,18 @@ const geist = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://afterscan.vercel.app"),
   title: "Afterscan — the follow-up your scan report asked for",
   description:
     "Paste a radiology report. Get a plain-English explanation and the follow-up that published guidelines call for, with dates, so an incidental finding never slips through.",
+  openGraph: {
+    title: "Afterscan",
+    description: "The scan found something else. Here is what the guidelines say to do about it.",
+    url: "https://afterscan.vercel.app",
+    siteName: "Afterscan",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
